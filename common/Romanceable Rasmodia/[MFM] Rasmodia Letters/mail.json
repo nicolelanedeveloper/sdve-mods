@@ -1,0 +1,35 @@
+[
+	{
+		"Id": "trapped",
+		"ExpandedPrecondition": "HasMod MoreFish",
+		"Repeatable": false,
+		"AutoOpen": true
+	},
+	{
+		"Id": "trapped_Rasmodia",
+		"GroupID": "MNF.Letters",
+		"Title": "MNF.trapped.title",
+		"Text": "MNF.trapped.text",
+		"WhichBG": 2,
+		"Date": "2 fall Y3",
+		"ExpandedPrecondition": "HasMod MoreFish",
+		"Repeatable": false,
+		"MailReceived": ["trapped"]
+	},
+	{
+		"Id": "MailServiceMod.GiftShipmentInfo",
+		"ExpandedPrecondition": "HasMod Digus.MailServicesMod",
+		"Repeatable": false,
+		"AutoOpen": true
+	},
+	{
+		"Id": "MailServiceMod.GiftShipmentInfo.Rasmodia",
+		"Title": "MailService.title",
+		"Text": "MailService.text",
+		"WhichBG": 2,
+		"EventsSeen": [112],
+		"ExpandedPrecondition": "HasMod Digus.MailServicesMod",
+		"Repeatable": false,
+		"MailReceived": ["MailServiceMod.GiftShipmentInfo"]
+	}
+]

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Furniture Redone",
+  "Author": "peachitto",
+  "Version": "1.1",
+  "Description": "Furniture Redone... Redone!",
+  "UniqueID": "peachitto.FurnitureRedone",
+  "UpdateKeys": ["12940"],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "3.6.0"
+  }
+}

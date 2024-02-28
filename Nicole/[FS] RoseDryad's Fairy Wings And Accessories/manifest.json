@@ -1,0 +1,12 @@
+{
+  "Name": "RoseDryad's Fairy Wings & Accessories",
+  "Author": "RoseDryad",
+  "Version": "1.2.0",
+  "Description": "Adds fairy wings & accessories for the player using Fashion Sense.",
+  "UniqueID": "rosedryad.fairywings",
+  "UpdateKeys": ["Nexus:10236"],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.FashionSense",
+    "MinimumVersion": "2.6.1"
+}
+}

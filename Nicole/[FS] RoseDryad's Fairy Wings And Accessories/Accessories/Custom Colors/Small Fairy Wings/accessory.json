@@ -1,0 +1,143 @@
+{
+  "Name": "Small Fairy Wings",
+    "FrontAccessory": {
+	"Flipped": false,
+	"DrawBeforeHair": true,
+	"DrawBeforePlayer": false,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "HeadPosition": {
+      "X": 8,
+      "Y": -4
+    },
+    "AccessorySize": {
+      "Width": 32,
+      "Length": 16
+    },
+    "IdleAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 1200
+      },
+      {
+        "Frame": 1,
+        "Duration": 100
+      },
+      {
+        "Frame": 0,
+        "Duration": 100
+      },
+      {
+        "Frame": 1,
+        "Duration": 100
+      }
+	  ]
+},
+  "BackAccessory": {
+	"Flipped": false,
+	"DrawBeforeHair": true,
+	"DrawBeforePlayer": true,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 16
+    },
+    "HeadPosition": {
+      "X": 8,
+      "Y": -8
+    },
+    "AccessorySize": {
+      "Width": 32,
+      "Length": 16
+    },
+    "IdleAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 1200
+      },
+      {
+        "Frame": 1,
+        "Duration": 100
+      },
+      {
+        "Frame": 0,
+        "Duration": 100
+      },
+      {
+        "Frame": 1,
+        "Duration": 100
+      }
+	  ]
+},
+  "RightAccessory": {
+	"Flipped": false,
+	"DrawBeforeHair": true,
+	"DrawBeforePlayer": false,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 32
+    },
+    "HeadPosition": {
+      "X": 10,
+      "Y": -6
+    },
+    "AccessorySize": {
+      "Width": 16,
+      "Length": 16
+    },
+    "IdleAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 1200
+      },
+      {
+        "Frame": 1,
+        "Duration": 100
+      },
+      {
+        "Frame": 0,
+        "Duration": 100
+      },
+      {
+        "Frame": 1,
+        "Duration": 100
+      }
+	  ]
+},
+  "LeftAccessory": {
+	"Flipped": true,
+	"DrawBeforeHair": true,
+	"DrawBeforePlayer": false,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 32
+    },
+    "HeadPosition": {
+      "X": -10,
+      "Y": -6
+    },
+    "AccessorySize": {
+      "Width": 16,
+      "Length": 16
+    },
+    "IdleAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 1200
+      },
+      {
+        "Frame": 1,
+        "Duration": 100
+      },
+      {
+        "Frame": 0,
+        "Duration": 100
+      },
+      {
+        "Frame": 1,
+        "Duration": 100
+      }
+	  ]
+}
+}

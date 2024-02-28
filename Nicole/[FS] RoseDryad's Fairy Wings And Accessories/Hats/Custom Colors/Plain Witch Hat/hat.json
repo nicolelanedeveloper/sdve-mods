@@ -1,0 +1,68 @@
+{
+  "Name": "Plain Witch Hat",
+  "FrontHat": {
+    "DisableGrayscale": false,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "HeadPosition": {
+      "X": -2,
+      "Y": 2
+    },
+    "HatSize": {
+      "Width": 16,
+      "Length": 16
+    }
+  },
+  "RightHat": {
+    "HideHair": false,
+    "Flipped": true,
+    "DisableGrayscale": false,
+    "StartingPosition": {
+      "X": 32,
+      "Y": 0
+    },
+    "HeadPosition": {
+      "X": -1,
+      "Y": 2
+    },
+    "HatSize": {
+      "Width": 16,
+      "Length": 16
+    }
+  },
+   "LeftHat": {
+    "HideHair": false,
+    "Flipped": false,
+    "DisableGrayscale": false,
+    "StartingPosition": {
+      "X": 32,
+      "Y": 0
+    },
+    "HeadPosition": {
+      "X": -3,
+      "Y": 2
+    },
+    "HatSize": {
+      "Width": 16,
+      "Length": 16
+    }
+  },
+  "BackHat": {
+    "HideHair": false,
+    "DisableGrayscale": false,
+    "StartingPosition": {
+      "X": 48,
+      "Y": 0
+    },
+    "HeadPosition": {
+      "X": -2,
+      "Y": 2
+    },
+    "HatSize": {
+      "Width": 16,
+      "Length": 16
+    }
+  }
+}

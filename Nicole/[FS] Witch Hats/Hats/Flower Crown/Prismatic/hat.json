@@ -1,0 +1,94 @@
+{
+  "Name": "Witch Hat (Prismatic Flower Crown)",
+  "FrontHat": {
+    "DisableGrayscale": false,
+	"IsPrismatic": true,
+    "ColorMasks": [
+      [ 141, 143, 147],
+	  [ 209, 210, 211], 
+	  [ 116, 117, 118],
+	  [ 189, 191, 195]
+    ],
+    "StartingPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "HeadPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "HatSize": {
+      "Width": 20,
+      "Length": 20
+    }
+  },
+  "RightHat": {
+    "HideHair": false,
+    "DisableGrayscale": false,
+	"IsPrismatic": true,
+    "ColorMasks": [
+      [ 141, 143, 147],
+	  [ 209, 210, 211], 
+	  [ 116, 117, 118],
+	  [ 189, 191, 195]
+    ],
+    "StartingPosition": {
+      "X": 0,
+      "Y": 20
+    },
+    "HeadPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "HatSize": {
+      "Width": 20,
+      "Length": 20
+    }
+  },
+   "LeftHat": {
+    "HideHair": false,
+    "DisableGrayscale": false,
+	"IsPrismatic": true,
+    "ColorMasks": [
+      [ 141, 143, 147],
+	  [ 209, 210, 211], 
+	  [ 116, 117, 118],
+	  [ 189, 191, 195]
+    ],
+    "StartingPosition": {
+      "X": 0,
+      "Y": 40
+    },
+    "HeadPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "HatSize": {
+      "Width": 20,
+      "Length": 20
+    }
+  },
+  "BackHat": {
+    "HideHair": false,
+    "DisableGrayscale": false,
+	"IsPrismatic": true,
+    "ColorMasks": [
+      [ 141, 143, 147],
+	  [ 209, 210, 211], 
+	  [ 116, 117, 118],
+	  [ 189, 191, 195]
+    ],
+    "StartingPosition": {
+      "X": 0,
+      "Y": 60
+    },
+    "HeadPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "HatSize": {
+      "Width": 20,
+      "Length": 20
+    }
+  }
+}

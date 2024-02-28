@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Barfyscorpion Furniture for AT",
+  "Author": "peachitto",
+  "Version": "1.0",
+  "Description": "Barfscorpion's furniture, walls and floors for AT, with some additions",
+  "UniqueID": "peachitto.BarfyscorpionFurniture",
+  "UpdateKeys": ["13276"],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "3.6.0"
+  }
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "[FS] Witch Hats",
+  "Author": "Kailey",
+  "Version": "1.0.0",
+  "Description": "Adds witch hats (Originally by 7yrsofbadluck) for FS.",
+  "UniqueID": "kailey.witchhats",
+  "UpdateKeys": [ "Nexus:13735" ],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.FashionSense",
+    "MinimumVersion": "2.5.0"
+  }
+}
