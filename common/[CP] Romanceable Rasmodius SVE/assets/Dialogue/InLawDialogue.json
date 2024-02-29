@@ -1,0 +1,18 @@
+{
+	"Changes": [
+			{ //Linus
+	        "Action": "EditData",
+	        "Target": "Characters/Dialogue/Linus",
+	        "Entries": {
+	            "Mon4_inlaw_Wizard": "{{i18n:Linus.Mon4_inlaw_Wizard}}",
+		            },
+		        },
+	        { //Marlon
+	        "Action": "EditData",
+	        "Target": "Characters/Dialogue/Marlon",
+	        "Entries": {
+	            "Sat4_inlaw_Wizard": "{{i18n:Marlon.Sat4_inlaw_Wizard}}",
+		        	},
+		    	},
+	]
+}

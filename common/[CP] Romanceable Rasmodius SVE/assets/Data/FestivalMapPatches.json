@@ -1,0 +1,201 @@
+{
+	"Changes": [
+        { //Egg Festival
+        "Action": "EditMap",
+        "Target": "Maps/Town-EggFestival",
+        "When": { "Relationship:Wizard |contains=Married": false },
+        "MapTiles": [ //Set Up
+                {
+                "Position": {"X": 27, "Y": 97},
+                "Layer": "Set-Up",
+                "SetTileSheet": "characters",
+                "SetIndex": 122
+                }
+            ]
+        },
+        { 
+        "Action": "EditMap",
+        "Target": "Maps/Town-EggFestival",
+        "When": { "Relationship:Wizard": "Married" },
+        "MapTiles": [ //Set Up Marriage
+                {
+                "Position": {"X": 8, "Y": 64},
+                "Layer": "Set-Up",
+                "SetTileSheet": "characters",
+                "SetIndex": 122
+                }
+            ]
+        },
+        { 
+        "Action": "EditMap",
+        "Target": "Maps/Town-EggFestival",
+        "When": { "Relationship:Wizard": "Married" },
+        "MapTiles": [ //Main Event Marriage
+                {
+                "Position": {"X": 37, "Y": 58},
+                "Layer": "MainEvent",
+                "SetTileSheet": "characters",
+                "SetIndex": 122
+                }
+            ]
+        },
+        { //Flower Dance
+        "Action": "EditMap",
+        "Target": "Maps/Forest-FlowerFestival",
+        "When": { "Relationship:Wizard |contains=Married": false },
+        "MapTiles": [ //Set Up
+                {
+                "Position": {"X": 68, "Y": 30},
+                "Layer": "Set-Up",
+                "SetTileSheet": "Characters",
+                "SetIndex": 123
+                }
+            ]
+        },
+        {
+        "Action": "EditMap",
+        "Target": "Maps/Forest-FlowerFestival",
+        "When": { "Relationship:Wizard": "Married" },
+        "MapTiles": [ //Set Up Marriage
+                {
+                "Position": {"X": 49, "Y": 18},
+                "Layer": "Set-Up",
+                "SetTileSheet": "Characters",
+                "SetIndex": 122
+                }
+            ]
+        },
+        {
+        "Action": "EditMap",
+        "Target": "Maps/Forest-FlowerFestival",
+        "When": { "Relationship:Wizard": "Married", "HasMod |contains=Rafseazz.RSVCP": false },
+        "MapTiles": [ //MainEvent Marriage (you really didnt dance with him? damn...)
+                {
+                "Position": {"X": 4, "Y": 21},
+                "Layer": "MainEvent",
+                "SetTileSheet": "Characters",
+                "SetIndex": 122
+                }
+            ]
+        },
+        {
+        "Action": "EditMap",
+        "Target": "Maps/FlowerFestival-Patch",
+        "When": { "Relationship:Wizard": "Married", "HasMod": "Rafseazz.RSVCP" },
+        "MapTiles": [ //MainEvent Marriage RidgeSide Patch that im not sure is necessary but my game didnt like it so failsafe
+                {
+                "Position": {"X": 4, "Y": 21},
+                "Layer": "MainEvent",
+                "SetTileSheet": "Characters",
+                "SetIndex": 122
+                }
+            ]
+        },
+        { //Luau
+        "Action": "EditMap",
+        "Target": "Maps/Beach-Luau",
+        "When": {"Relationship:Wizard": "Married",},
+        "MapTiles": [ //Set Up Marriage - Non Marriage is Vanilla/SVE
+                {
+                "Position": {"X": 49, "Y": 19},
+                "Layer": "Set-Up",
+                "SetTileSheet": "characters",
+                "SetIndex": 122
+                }
+            ]
+        },
+        { //Luau
+        "Action": "EditMap",
+        "Target": "Maps/Beach-Luau",
+        "When": {"Relationship:Wizard": "Married",},
+        "MapTiles": [ //MainEvent Marriage
+                {
+                "Position": {"X": 48, "Y": 13},
+                "Layer": "MainEvent",
+                "SetTileSheet": "characters",
+                "SetIndex": 123
+                }
+            ]
+        },
+        { //Ice Festival
+        "Action": "EditMap",
+        "Target": "Maps/Forest-IceFestival",
+        "When": {"Relationship:Wizard": "Married",},
+        "MapTiles": [ //MainEvent
+                {
+                "Position": {"X": 54, "Y": 32},
+                "Layer": "Main-Event",
+                "SetTileSheet": "characters",
+                "SetIndex": 121
+                }
+            ]
+        },
+        { //Winter Star
+        "Action": "EditMap",
+        "Target": "Maps/Town-Christmas",
+        "When": {"Relationship:Wizard": "Married",},
+        "MapTiles": [
+                {
+                "Position": {"X": 11, "Y": 69},
+                "Layer": "Set-Up",
+                "SetTileSheet": "characters",
+                "SetIndex": 122
+                }
+            ]
+        },
+        { //Winter Star Table Patch 
+            "Action": "EditMap",
+            "Target": "Maps/Town-Christmas",
+            "FromFile": "assets/Maps/Festivals/Winter_Star_Table4.tmx",
+            "ToArea": { "X": 9, "y": 67, "Width": 4, "Height": 2},
+            "PatchMode": "Overlay",
+            "When": { "Spouse": "wizard" }
+        },
+
+        //RidgeSide Festivals
+        { //Ember of Resolutions
+        "Action": "EditMap",
+        "Target": "Maps/Custom_Ridgeside_EmberNight",
+        "When": {"Relationship:Wizard": "Dating, Engaged, Married", "HasMod": "Rafseazz.RSVCP"},
+        "MapTiles": [ //Set Up
+                {
+                "Position": {"X": 26, "Y": 29},
+                "Layer": "Set-Up",
+                "SetTileSheet": "Characters",
+                "SetIndex": 122
+                }
+            ]
+        },
+        {
+        "Action": "EditMap",
+        "Target": "Maps/Custom_Ridgeside_EmberNight",
+        "When": {"Relationship:Wizard": "Dating, Engaged, Married", "HasMod": "Rafseazz.RSVCP"},
+        "MapTiles": [ //MainEvent
+                {
+                "Position": {"X": 39, "Y": 50},
+                "Layer": "MainEvent",
+                "SetTileSheet": "Characters",
+                "SetIndex": 120
+                }
+            ]
+        },
+        { //Removes OG Wizard location when RomRas patch applies
+        "Action": "EditMap",
+        "Target": "Maps/Custom_Ridgeside_EmberNight",
+        "When": {"Relationship:Wizard": "Dating, Engaged, Married", "HasMod": "Rafseazz.RSVCP"},
+        "MapTiles": [    
+                {   
+                "Position": { "X": 9, "Y": 36 },
+                "Layer": "Set-Up",
+                "Remove": true 
+                },
+                {
+                "Position": { "X": 9, "Y": 36 },
+                "Layer": "MainEvent",
+                "Remove": true
+                }
+            ], 
+        },
+
+	]
+}

@@ -1,0 +1,205 @@
+{
+	"Changes": [
+
+		{ //Rainy Dialogue
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/rainy",
+        "Entries": {
+            "Wizard": "{{Random: {{i18n:Rainy.Wizard.0 {{expressionList}} }} @@ {{i18n:Rainy.Wizard.1 {{expressionList}} }} @@ {{i18n:Rainy.Wizard.2 {{expressionList}} }} |inputSeparator=@@}}",
+            },
+        },
+        {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/rainy",
+        "When": {"Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {
+            "Wizard": "{{Random: {{i18n:Rainy.Dating.Wizard.0 {{expressionList}} }} @@ {{i18n:Rainy.Dating.Wizard.1 {{expressionList}} }} @@ {{i18n:Rainy.Dating.Wizard.2 {{expressionList}} }} |inputSeparator=@@}}",
+            },
+        },
+		//Pre Festival Dialogues
+		{ //Egg Festival
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "Entries": {
+        	"spring_12": "{{i18n:Wizard.spring_12 {{expressionList}} }}",
+        	},
+    	},
+    	{ 
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "When": {"Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {
+        	"spring_12": "{{i18n:Wizard.Dating.spring_12 {{expressionList}} }}",
+        	},
+    	},
+    	{ //Flower Dance
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "Entries": {
+        	"spring_23": "{{i18n:Wizard.spring_23 {{expressionList}} }}",
+        	},
+    	},
+    	{ 
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "When": {"Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {
+        	"spring_23": "{{i18n:Wizard.Dating.spring_23 {{expressionList}} }}",
+        	},
+    	},
+    	{ //Luau
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "Entries": {
+        	"summer_10": "{{i18n:Wizard.summer_10 {{expressionList}} }}",
+        	},
+    	},
+    	{ 
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "When": {"Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {
+        	"summer_10": "{{i18n:Wizard.Dating.summer_10 {{expressionList}} }}",
+        	},
+    	},
+    	{ //Dance of the Moonlight Jellies
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "Entries": {
+        	"summer_28": "{{i18n:Wizard.summer_28 {{expressionList}} }}",
+        	},
+    	},
+    	{
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "When": {"Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {
+        	"summer_28": "{{i18n:Wizard.Dating.summer_28 {{expressionList}} }}",
+        	},
+    	},
+    	{ //Stardew Valley Fair
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "Entries": {
+        	"fall_15": "{{i18n:Wizard.fall_15 {{expressionList}} }}",
+        	},
+    	},
+    	{
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "When": {"Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {
+        	"fall_15": "{{i18n:Wizard.Dating.fall_15 {{expressionList}} }}",
+        	},
+    	},
+    	{ //Spirit's Eve
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "Entries": {
+        	"fall_26": "{{i18n:Wizard.fall_26 {{expressionList}} }}",
+        	},
+    	},
+    	{ 
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "When": {"Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {
+        	"fall_26": "{{i18n:Wizard.Dating.fall_26 {{expressionList}} }}",
+        	},
+    	},
+        { //Festival of Ice
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "Entries": {
+            "winter_7": "{{i18n:Wizard.winter_7 {{expressionList}} }}",
+            },
+        },
+        { 
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "When": {"Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {
+            "winter_7": "{{i18n:Wizard.Dating.winter_7 {{expressionList}} }}",
+            },
+        },
+        { //Night Market/Birthday
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "Entries": {
+            "winter_17": "{{i18n:Wizard.winter_17 {{expressionList}} }}",
+            },
+        },
+        {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "When": {"Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {
+            "winter_17": "{{i18n:Wizard.Dating.winter_17 {{expressionList}} }}",
+            },
+        },
+        { //Feast of the Winter Star
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "Entries": {
+            "winter_24": "{{i18n:Wizard.winter_24 {{expressionList}} }}",
+            },
+        },
+        { 
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "When": {"Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {
+            "winter_24": "{{i18n:Wizard.Dating.winter_24 {{expressionList}} }}",
+            },
+        },
+        { //New Year (not a festival but I wanted to add dialogue anyway)
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "Entries": {
+            "winter_28": "{{i18n:Wizard.winter_28 {{expressionList}} }}",
+            },
+        },
+        { 
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "When": {"Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {
+            "winter_28": "{{i18n:Wizard.Dating.winter_28 {{expressionList}} }}",
+            },
+        },
+		//Ridgeside Compat
+        { //Ridgeside Gathering
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "When": {"HasMod": "Rafseazz.RSVCP"},
+        "Entries": {
+        	"fall_19": "{{i18n:Wizard.fall_19 {{expressionList}} }}",
+        	},
+    	},
+    	{
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "When": {"HasMod": "Rafseazz.RSVCP", "Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {
+        	"fall_19": "{{i18n:Wizard.Dating.fall_19 {{expressionList}} }}",
+        	},
+    	},
+    	{ //Ember of Resolutions
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "When": {"HasMod": "Rafseazz.RSVCP"},
+        "Entries": {
+        	"winter_27": "{{i18n:Wizard.winter_27 {{expressionList}} }}",
+        	},
+    	},
+    	{
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "When": {"HasMod": "Rafseazz.RSVCP", "Relationship:Wizard": "Dating, Engaged"},
+        "Entries": {
+        	"winter_27": "{{i18n:Wizard.Dating.winter_27 {{expressionList}} }}",
+
+        	},
+    	},
+	]
+}
