@@ -1,0 +1,77 @@
+{
+  "ItemName": "Tub o' Flowers",
+  "Type": "Craftable",
+  "Keywords": [ "Lumi"],
+  "TextureWidth": 16,
+  "TextureHeight": 32,
+  "ManualVariations": [
+    {
+      "Id": 0,
+      "Keywords": [ "Walnut" ]
+    },
+    {
+      "Id": 1,
+      "Keywords": [ "Walnut" ]
+    },
+    {
+      "Id": 2,
+      "Keywords": [ "Walnut" ]
+    },
+    {
+      "Id": 3,
+      "Keywords": [ "Walnut" ]
+    },
+    {
+      "Id": 4,
+      "Keywords": [ "Walnut" ]
+    },
+    {
+      "Id": 5,
+      "Keywords": [ "Walnut" ]
+    },
+    {
+      "Id": 6,
+      "Keywords": [ "Mahogany" ]
+    },
+    {
+      "Id": 7,
+      "Keywords": [ "Mahogany" ]
+    },
+    {
+      "Id": 8,
+      "Keywords": [ "Mahogany" ]
+    },
+    {
+      "Id": 9,
+      "Keywords": [ "Mahogany" ]
+    },
+    {
+      "Id": 10,
+      "Keywords": [ "Mahogany" ]
+    },
+    {
+      "Id": 11,
+      "Keywords": [ "Mahogany" ]
+    },
+    {
+      "Id": 12,
+      "Keywords": [ "Natural" ]
+    },
+    {
+      "Id": 13,
+      "Keywords": [ "Natural" ]
+    },
+    {
+      "Id": 14,
+      "Keywords": [ "Natural" ]
+    },
+    {
+      "Id": 15,
+      "Keywords": [ "Natural" ]
+    },
+    {
+      "Id": 16,
+      "Keywords": [ "Natural" ]
+    }
+  ]
+}

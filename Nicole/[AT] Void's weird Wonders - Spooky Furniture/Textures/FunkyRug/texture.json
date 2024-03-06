@@ -1,0 +1,8 @@
+{
+  "ItemName": "Funky Rug",
+  "Type": "Furniture",
+  "TextureWidth": 80,
+  "TextureHeight": 64,
+  "Keywords": [ "Spooky", "Void" ],
+  "Variations": 13
+}

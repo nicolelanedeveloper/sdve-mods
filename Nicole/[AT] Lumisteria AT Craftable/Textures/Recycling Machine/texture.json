@@ -1,0 +1,17 @@
+{
+  "ItemName": "Recycling Machine",
+  "Type": "Craftable",
+  "Keywords": [ "Lumi", "Wood" ],
+  "TextureWidth": 16,
+  "TextureHeight": 32,
+  "ManualVariations": [
+    {
+      "Id": 0,
+      "Keywords": [ "Walnut" ]
+    },
+    {
+      "Id": 1,
+      "Keywords": [ "Mahogany" ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "ItemName": "Garden Pot",
+  "Type": "Craftable",
+  "Keywords": [ "Lumi"],
+  "TextureWidth": 16,
+  "TextureHeight": 32,
+  "ManualVariations": [
+    {
+      "Id": 0,
+      "Keywords": [ "Wood", "Dark" ]
+    },
+    {
+      "Id": 1,
+      "Keywords": [ "Blue", "Ceramic" ]
+    },
+    {
+      "Id": 2,
+      "Keywords": [ "Red" ]
+    },
+    {
+      "Id": 3,
+      "Keywords": [ "Clay" ]
+    },
+    {
+      "Id": 4,
+      "Keywords": [ "Wood", "Walnut" ]
+    },
+    {
+      "Id": 5,
+      "Keywords": [ "Wood", "Mahogany" ]
+    },
+  ]
+}

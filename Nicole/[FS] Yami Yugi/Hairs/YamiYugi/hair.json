@@ -1,0 +1,60 @@
+{
+  "Name": "Yami Yugi",
+  "FrontHair": {
+    "StartingPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "HeadPosition": {
+      "X": 3,
+      "Y": 2
+    },
+    "HairSize": {
+      "Width": 20,
+      "Length": 17
+    }
+  },
+  "BackHair": {
+    "StartingPosition": {
+      "X": 20,
+      "Y": 0
+    },
+    "HeadPosition": {
+      "X": 3,
+      "Y": 2
+    },
+    "HairSize": {
+      "Width": 20,
+      "Length": 17
+    }
+  },
+  "RightHair": {
+    "StartingPosition": {
+      "X": 40,
+      "Y": 0
+    },
+    "HeadPosition": {
+      "X": 5,
+      "Y": 4
+    },
+    "HairSize": {
+      "Width": 20,
+      "Length": 17
+    }
+  },
+  "LeftHair": {
+    "Flipped": true,
+    "StartingPosition": {
+      "X": 40,
+      "Y": 0
+    },
+    "HeadPosition": {
+      "X": -1,
+      "Y": 4
+    },
+    "HairSize": {
+      "Width": 20,
+      "Length": 17
+    }
+  }
+}

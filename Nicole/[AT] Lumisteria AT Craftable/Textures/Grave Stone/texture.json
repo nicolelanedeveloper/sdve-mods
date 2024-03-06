@@ -1,0 +1,17 @@
+{
+  "ItemName": "Grave Stone",
+  "Type": "Craftable",
+  "Keywords": [ "Lumi" ],
+  "TextureWidth": 16,
+  "TextureHeight": 32,
+  "ManualVariations": [
+    {
+      "Id": 0,
+      "Keywords": [ "Lantern" ]
+    },
+    {
+      "Id": 1,
+      "Keywords": [ "Grave" ]
+    }
+  ]
+}

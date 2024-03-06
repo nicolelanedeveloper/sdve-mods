@@ -1,0 +1,13 @@
+﻿{
+  "Name": "[AT] Natural Tone House and Multiplayer Cabins",
+  "Author": "MythicalWizardSorc/SubtlyLiminal",
+  "Version": "1.0.0",
+  "Description": "Conversion of XNB House and Cabins to Alternative Textures",
+  "UniqueID": "MythicalWizardSorc.SubtlyLiminal.NaturalToneHouse.AT",
+  "UpdateKeys": [],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "5.0.0"
+  }
+}

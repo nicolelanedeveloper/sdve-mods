@@ -1,0 +1,49 @@
+{
+  "ItemName": "Mini-Fridge",
+  "Type": "Craftable",
+  "Keywords": [ "Lumi"],
+  "TextureWidth": 16,
+  "TextureHeight": 32,
+  "ManualVariations": [
+    {
+      "Id": 0,
+      "Keywords": [ "Metal", "Grey" ]
+    },
+    {
+      "Id": 1,
+      "Keywords": [ "Metal", "Grey", "Plain" ]
+    },
+    {
+      "Id": 2,
+      "Keywords": [ "Metal", "Grey", "Ice-cream", "Salt and Pepper" ]
+    },
+    {
+      "Id": 3,
+      "Keywords": [ "Metal", "Grey", "Veggies" ]
+    },
+    {
+      "Id": 4,
+      "Keywords": [ "Metal", "Grey", "Fruits" ]
+    },
+    {
+      "Id": 5,
+      "Keywords": [ "Metal", "Grey", "Fishes" ]
+    },
+    {
+      "Id": 6,
+      "Keywords": [ "Metal", "Black" ]
+    },
+    {
+      "Id": 7,
+      "Keywords": [ "Wood", "Walnut" ]
+    },
+    {
+      "Id": 8,
+      "Keywords": [ "Wood", "Mahogany" ]
+    },
+    {
+      "Id": 9,
+      "Keywords": [ "Wood", "Beechwhite" ]
+    },
+  ]
+}

@@ -1,0 +1,8 @@
+{
+	"ItemName": "Mystic Rug",
+	"Type": "Furniture",
+	"EnableContentPatcherCheck": false,
+	"TextureWidth": 80,
+	"TextureHeight": 48,
+	"Variations": 13
+	}

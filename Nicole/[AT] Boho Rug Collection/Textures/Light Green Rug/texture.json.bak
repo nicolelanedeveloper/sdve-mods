@@ -1,0 +1,8 @@
+{
+	"ItemName": "Light Green Rug",
+	"Type": "Furniture",
+	"EnableContentPatcherCheck": false,
+	"TextureWidth": 80,
+	"TextureHeight": 48,
+	"Variations": 11
+	}

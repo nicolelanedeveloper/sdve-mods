@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Yami Yugi Hair",
+  "Author": "Fippsie",
+  "Version": "1.0.0",
+  "Description": "Turn yourself into Yami Yugi from Yu-Gi-Oh!",
+  "UniqueID": "Fippsie.YamiYugi",
+  "UpdateKeys": ["Nexus:10847"],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.FashionSense",
+    "MinimumVersion": "4.1.0"
+  }
+}

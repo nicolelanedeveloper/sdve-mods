@@ -1,0 +1,12 @@
+{
+   "Name": "[FS] Churpy's Vivid Hair - Flower Garden v2",
+   "Author": "Churpix",
+   "Version": "2.0.0",
+   "Description": "5 variants of 20 hairstyles for a total of 100. FS version.",
+   "UniqueID": "churpysflowergarden.FS",
+	"ContentPackFor":
+	{
+		"UniqueID": "PeacefulEnd.FashionSense",
+		"MinimumVersion": "5.0.0"
+	}
+}

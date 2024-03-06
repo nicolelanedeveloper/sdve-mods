@@ -1,0 +1,13 @@
+{
+  "Name": "Lacey Rugs 2",
+  "Author": "Doxepins",
+  "Version": "1.0.0",
+  "Description": "Alternative Textures pack for rugs",
+  "UniqueID": "Doxepins.LaceRugs2",
+  "UpdateKeys": [ "Nexus: 14390" ],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "3.14.0"
+	}
+}

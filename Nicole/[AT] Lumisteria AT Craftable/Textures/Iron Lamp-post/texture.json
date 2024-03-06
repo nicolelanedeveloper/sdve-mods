@@ -1,0 +1,20 @@
+{
+  "ItemName": "Iron Lamp-post",
+  "Type": "Craftable",
+  "Keywords": [ "Lumi" ],
+  "TextureWidth": 16,
+  "TextureHeight": 32,
+  "ManualVariations": [
+    {
+      "Id": 0,
+    },
+    {
+      "Id": 1,
+      "Keywords": [ "Fancy" ]
+    },
+    {
+      "Id": 2,
+      "Keywords": [ "Stone", "Lantern" ]
+    },
+  ]
+}
