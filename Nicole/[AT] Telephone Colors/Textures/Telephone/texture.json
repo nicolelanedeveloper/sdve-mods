@@ -1,0 +1,84 @@
+{
+  "ItemName": "Telephone",
+  "Type": "Craftable",
+  "Keywords": [ "catboyteeth", "Telephone" ],
+  "TextureWidth": 16,
+  "TextureHeight": 32,
+  "ManualVariations": [
+    {
+      "Id": 0,
+      "Name": "Blue Oak",
+      "Keywords": [ "Blue", "Oak" ]
+    },
+    {
+      "Id": 1,
+      "Name": "Light Blue Oak",
+      "Keywords": [ "Blue", "Oak" ]
+    },
+{
+      "Id": 2,
+      "Name": "Light Green Oak",
+      "Keywords": [ "Green", "Oak" ]
+    },
+{
+      "Id": 3,
+      "Name": "Oak Phone",
+      "Keywords": [ "Red", "Oak" ]
+    },
+{
+      "Id": 4,
+      "Name": "Green Oak",
+      "Keywords": [ "Green", "Oak" ]
+    },
+{
+      "Id": 5,
+      "Name": "Blue and White",
+      "Keywords": [ "Blue", "White" ]
+    },
+{
+      "Id": 6,
+      "Name": "Iridium",
+      "Keywords": [ "Iridium", "Purple", "Gold", "Pink" ]
+    },
+{
+      "Id": 7,
+      "Name": "Pink and White",
+      "Keywords": [ "Pink", "White", "Gold" ]
+    },
+    {
+      "Id": 8,
+      "Name": "Red and Gold",
+      "Keywords": [ "Red", "Gold", "Walnut" ]
+    },
+{
+      "Id": 9,
+      "Name": "Red Walnut",
+      "Keywords": [ "Red", "Walnut" ]
+    },
+{
+      "Id": 10,
+      "Name": "Gold Walnut",
+      "Keywords": [ "Gold", "Walnut", "Yellow" ]
+    },
+{
+      "Id": 11,
+      "Name": "Gold and White",
+      "Keywords": [ "Gold", "White", "Yellow" ]
+    },
+{
+      "Id": 12,
+      "Name": "Monochrome",
+      "Keywords": [ "Black", "White", "Monochrome" ]
+    },
+{
+      "Id": 13,
+      "Name": "Black Walnut",
+      "Keywords": [ "Black", "Walnut" ]
+    },
+{
+      "Id": 14,
+      "Name": "Black and Gold",
+      "Keywords": [ "Black", "Gold", "Walnut" ]
+    },
+  ]
+}

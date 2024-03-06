@@ -1,0 +1,13 @@
+{
+  "Name": "[AT] Telephone",
+  "Author": "catboyteeth",
+  "Version": "1.2.0",
+  "Description": "Telephone recolors",
+  "UniqueID": "catboyteeth.ATtelephone",
+  "UpdateKeys": [ "Nexus: 11688" ],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "5.0.6"
+  }
+}

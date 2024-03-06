@@ -1,0 +1,13 @@
+{
+  "Name": "Too Many Swatches - a Furniture Recolor (lite)",
+  "Author": "orangeblossom",
+  "Version": "1.3",
+  "Description": "...there's lesser swatches...",
+  "UniqueID": "TMSlite.OB7",
+  "UpdateKeys": ["Nexus:17031"],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "6.10.0"
+  }
+}
