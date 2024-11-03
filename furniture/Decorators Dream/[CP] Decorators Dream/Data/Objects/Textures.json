@@ -1,0 +1,165 @@
+{
+    "Changes": [
+        {
+        "Action": "Load",
+        "Target": "Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\CustomBanner",
+        "FromFile": "assets/CustomBanner.png"
+        },
+        {
+        "Action": "Load",
+        "Target": "Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\CustomFlag",
+        "FromFile": "assets/CustomFlag.png"
+        },
+        {
+        "Action": "Load",
+        "Target": "Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\LargePictureFrame",
+        "FromFile": "assets/LargePictureFrame.png"
+        },
+        {
+        "Action": "Load",
+        "Target": "Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\CustomPoster",
+        "FromFile": "assets/CustomPoster.png"
+        },
+        {
+        "Action": "Load",
+        "Target": "Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\LargeBoard",
+        "FromFile": "assets/LargeBoard.png"
+        },
+        {
+        "Action": "Load",
+        "Target": "Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\ResearchPoster",
+        "FromFile": "assets/ResearchPoster.png"
+        },
+        {
+        "Action": "Load",
+        "Target": "Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\FieldFernBoard",
+        "FromFile": "assets/FieldFernBoard.png"
+        },
+        {
+        "Action": "Load",
+        "Target": "Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\FieldPoster",
+        "FromFile": "assets/FieldPoster.png"
+        },
+        {
+        "Action": "Load",
+        "Target": "Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\FieldBulletinBoard",
+        "FromFile": "assets/FieldBulletinBoard.png"
+        },
+        {
+        "Action": "Load",
+        "Target": "Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\TrophyPlaque",
+        "FromFile": "assets/TrophyPlaque.png"
+        },
+        {
+        "Action": "Load",
+        "Target": "Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\KitchenShelf",
+        "FromFile": "assets/KitchenShelf.png"
+        },
+        {
+        "Action": "Load",
+        "Target": "Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\BigKitchenDoubleShelf",
+        "FromFile": "assets/BigKitchenDoubleShelf.png"
+        },
+        {
+        "Action": "Load",
+        "Target": "Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\BigKitchenSingleShelf",
+        "FromFile": "assets/BigKitchenSingleShelf.png"
+        },
+        {
+        "Action": "Load",
+        "Target": "Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\OffsetDoubleShelf",
+        "FromFile": "assets/OffsetDoubleShelf.png"
+        },
+        {
+        "Action": "Load",
+        "Target": "Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\BigSingleShelf",
+        "FromFile": "assets/BigSingleShelf.png"
+        },
+        {
+        "Action": "Load",
+        "Target": "Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\BigDoubleShelf",
+        "FromFile": "assets/BigDoubleShelf.png"
+        },
+        {
+        "Action": "Load",
+        "Target": "Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\BigTripleShelf",
+        "FromFile": "assets/BigTripleShelf.png"
+        },
+        {
+        "Action": "Load",
+        "Target": "Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\LeftShelfSection",
+        "FromFile": "assets/LeftShelfSection.png"
+        },
+        {
+        "Action": "Load",
+        "Target": "Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\CenterShelfSection",
+        "FromFile": "assets/CenterShelfSection.png"
+        },
+        {
+        "Action": "Load",
+        "Target": "Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\RightShelfSection",
+        "FromFile": "assets/RightShelfSection.png"
+        },
+        {
+        "Action": "Load",
+        "Target": "Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\HighSingleShelf",
+        "FromFile": "assets/HighSingleShelf.png"
+        },
+        {
+        "Action": "Load",
+        "Target": "Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\HighBigDoubleShelf",
+        "FromFile": "assets/HighBigDoubleShelf.png"
+        },
+        {
+        "Action": "Load",
+        "Target": "Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\HighBigSingleShelf",
+        "FromFile": "assets/HighBigSingleShelf.png"
+        },
+        {
+        "Action": "Load",
+        "Target": "Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\HighLeftShelfSection",
+        "FromFile": "assets/HighLeftShelfSection.png"
+        },
+        {
+        "Action": "Load",
+        "Target": "Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\HighCenterShelfSection",
+        "FromFile": "assets/HighCenterShelfSection.png"
+        },
+        {
+        "Action": "Load",
+        "Target": "Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\HighRightShelfSection",
+        "FromFile": "assets/HighRightShelfSection.png"
+        },
+        {
+        "Action": "Load",
+        "Target": "Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\MultiLayerShelf",
+        "FromFile": "assets/MultiLayerShelf.png"
+        },
+        {
+        "Action": "Load",
+        "Target": "Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\MultiLayerShelfLeftSection",
+        "FromFile": "assets/MultiLayerShelfLeftSection.png"
+        },
+        {
+        "Action": "Load",
+        "Target": "Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\MultiLayerShelfCenterSection",
+        "FromFile": "assets/MultiLayerShelfCenterSection.png"
+        },
+        {
+        "Action": "Load",
+        "Target": "Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\MultiLayerShelfRightSection",
+        "FromFile": "assets/MultiLayerShelfRightSection.png"
+        },
+        {
+        "Action": "Load",
+        "Target": "Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\StringHanger",
+        "FromFile": "assets/StringHanger.png"
+        },
+        {
+        "Action": "Load",
+        "Target": "Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\ChainHanger",
+        "FromFile": "assets/ChainHanger.png"
+        }
+    ]
+}
+        

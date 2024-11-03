@@ -1,0 +1,54 @@
+{
+    "Format": "2.0.0",
+    "Changes": [
+        {
+            "Action": "EditData",    
+            "Target": "Data/Furniture",   
+            "Entries": {
+
+		"{{ModID}}_Rug_0": "{{ModID}}_Rug_0/rug/5 4/5 4/1/2500/-1/{{i18n:Rug_0}}/0/Mods\\{{ModID}}\\Rug_0/true/collection_prophFurniture",
+		"{{ModID}}_Rug_1": "{{ModID}}_Rug_1/rug/5 4/5 4/1/2500/-1/{{i18n:Rug_1}}/0/Mods\\{{ModID}}\\Rug_1/true/collection_prophFurniture",
+		"{{ModID}}_Rug_2": "{{ModID}}_Rug_2/rug/5 4/5 4/1/2500/-1/{{i18n:Rug_2}}/0/Mods\\{{ModID}}\\Rug_2/true/collection_prophFurniture",
+		"{{ModID}}_Rug_3": "{{ModID}}_Rug_3/rug/3 3/3 3/1/1250/-1/{{i18n:Rug_3}}/0/Mods\\{{ModID}}\\Rug_3/true/collection_prophFurniture",
+		"{{ModID}}_Rug_4": "{{ModID}}_Rug_4/rug/2 1/2 1/2/400/-1/{{i18n:Rug_4}}/0/Mods\\{{ModID}}\\Rug_4/true/collection_prophFurniture",
+       
+                       }
+        },
+        
+ 
+{
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/Rug_0",
+            "FromFile": "assets/rug1.png"
+         },
+
+{
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/Rug_1",
+            "FromFile": "assets/rug2.png"
+         },
+
+{
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/Rug_2",
+            "FromFile": "assets/rug3.png"
+         },
+{
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/Rug_3",
+            "FromFile": "assets/rug4.png"
+         },
+    
+    {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/Rug_4",
+            "FromFile": "assets/rug5.png"
+         },
+    
+    
+    
+       
+    ]
+}
+
+

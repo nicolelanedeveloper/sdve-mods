@@ -1,0 +1,13 @@
+{
+    "Name": "Smallcopper's Maximalism for AT",
+    "Author": "smallcopper",
+    "Version": "1.1",
+    "Description": "Adds a collection of decorative clutter via Alternative Textures.",
+    "UniqueID": "smallcopper.maximalism",
+    "MinimumApiVersion": "3.8.1",
+    "ContentPackFor": {
+        "UniqueID": "PeacefulEnd.AlternativeTextures",
+        "MinimumVersion": "7.3.0"
+    }
+
+}

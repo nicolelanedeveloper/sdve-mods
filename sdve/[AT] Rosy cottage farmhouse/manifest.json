@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Rosy cottage farmhouse",
+  "Author": "Wabi",
+  "Version": "2.0.0",
+  "Description": "Replaces the farmhouse with a brick cottage.",
+  "UniqueID": "wabi.rosyrosycottage",
+  "UpdateKeys": ["Nexus:10656"],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "7.2.5"
+  }
+}

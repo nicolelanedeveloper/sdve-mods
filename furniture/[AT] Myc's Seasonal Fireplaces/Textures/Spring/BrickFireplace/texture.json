@@ -1,0 +1,8 @@
+{
+  "ItemName": "Brick Fireplace",
+  "Type": "Furniture",
+  "Seasons": ["Spring"],
+  "TextureWidth": 32,
+  "TextureHeight": 80,
+  "Variations": 2,
+}

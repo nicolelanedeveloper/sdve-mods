@@ -1,0 +1,12 @@
+{
+   "Name": "[AT] Witchy-Gothic Buildings",
+   "Author": "BeneathThePlass",
+   "Version": "1.1.0",
+   "Description": "[AT] Witchy-Gothic Buildings",
+   "UniqueID": "BeneathThePlass.WitchyGothicBuildingsforAT",
+   "MinimumApiVersion": "2.0",
+   "UpdateKeys": [ "Nexus:15913" ],
+   "ContentPackFor": {
+      "UniqueID": "PeacefulEnd.AlternativeTextures",
+   }
+}

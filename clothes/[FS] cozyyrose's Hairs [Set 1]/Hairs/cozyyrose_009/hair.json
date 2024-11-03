@@ -1,0 +1,65 @@
+{
+  // See the wiki for all haor properties: https://github.com/Floogen/FashionSense/wiki/Hair-Model-Properties
+  "Name": "cozyyrose_009",
+  "FrontHair": {
+    "DisableGrayscale": false,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "HeadPosition": {
+      "X": 0,
+      "Y": -1
+    },
+    "HairSize": {
+      "Width": 16,
+      "Length": 32
+    }
+  },
+  "RightHair": {
+    "DisableGrayscale": false,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 34
+    },
+    "HeadPosition": {
+      "X": 0,
+      "Y": -2
+    },
+    "HairSize": {
+      "Width": 16,
+      "Length": 32
+    }
+  },
+  "LeftHair": {
+    "DisableGrayscale": false,
+    "Flipped": true,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 34
+    },
+    "HeadPosition": {
+      "X": 0,
+      "Y": -2
+    },
+    "HairSize": {
+      "Width": 16,
+      "Length": 32
+    }
+  },
+  "BackHair": {
+    "DisableGrayscale": false,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 66
+    },
+    "HeadPosition": {
+      "X": 0,
+      "Y": -4
+    },
+    "HairSize": {
+      "Width": 16,
+      "Length": 32
+    }
+  }
+}

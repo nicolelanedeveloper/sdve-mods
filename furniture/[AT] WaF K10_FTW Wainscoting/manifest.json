@@ -1,0 +1,13 @@
+﻿{
+  "Name": "[AT] K10_FTW's Wainscoting Walls and Floors",
+  "Author": "A5Edit",
+  "Version": "1.0.2",
+  "Description": "Alternative Textures content pack for walls",
+  "UniqueID": "K10_FTW.AT.Wainscoting",
+  "UpdateKeys": [ "Nexus:9869" ],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "5.0.0-beta.19"
+  }
+}

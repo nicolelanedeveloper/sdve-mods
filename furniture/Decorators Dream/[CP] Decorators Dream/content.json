@@ -1,0 +1,17 @@
+{
+	"Format": "2.0.0",
+	"Changes": [
+		{
+			"Action": "Include",
+			"FromFile": "Data/Objects/Objects.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Objects/Textures.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Objects/Boxes.json"
+		}
+	]
+}

@@ -1,0 +1,18 @@
+﻿{
+   "Name": "Ali's Overgrown Fairy Buildings",
+   "Author": "lianace",
+   "Version": "1.2.0",
+   "Description": "Ali's Overgrown Fairy Buildings converted to AT.",
+   "UniqueID": "lianace.AliOvergrownFairyBuildings",
+   "UpdateKeys": ["Nexus:22350"],
+   "Dependencies": [
+       {
+      "UniqueID": "PeacefulEnd.AlternativeTextures",
+      "MinimumVersion": "7.2.6"
+   }
+   ],
+   "ContentPackFor": {
+     "UniqueID": "PeacefulEnd.AlternativeTextures",
+     "MinimumVersion": "7.2.6"
+   }
+ }

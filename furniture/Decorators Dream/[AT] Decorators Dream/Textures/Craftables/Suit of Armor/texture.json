@@ -1,0 +1,680 @@
+{
+  "ItemName": "Suit of Armor",
+  "Type": "Craftable",
+  "TextureWidth": 16,
+  "TextureHeight": 32,
+  "ManualVariations": [
+    {
+      "Id": 0,
+      "Keywords": [
+        "Navy",
+        "Default",
+        "Normal Eyes"
+      ]
+    },
+    {
+      "Id": 1,
+      "Keywords": [
+        "Red",
+        "Default",
+        "Normal Eyes"
+      ]
+    },
+    {
+      "Id": 2,
+      "Keywords": [
+        "Green",
+        "Default",
+        "Normal Eyes"
+      ]
+    },
+    {
+      "Id": 3,
+      "Keywords": [
+        "Yellow",
+        "Default",
+        "Normal Eyes"
+      ]
+    },
+    {
+      "Id": 4,
+      "Keywords": [
+        "Purple",
+        "Default",
+        "Normal Eyes"
+      ]
+    },
+    {
+      "Id": 5,
+      "Keywords": [
+        "Aqua",
+        "Default",
+        "Normal Eyes"
+      ]
+    },
+    {
+      "Id": 6,
+      "Keywords": [
+        "Pink",
+        "Default",
+        "Normal Eyes"
+      ]
+    },
+    {
+      "Id": 7,
+      "Keywords": [
+        "Navy",
+        "Default",
+        "Red Eyes"
+      ]
+    },
+    {
+      "Id": 8,
+      "Keywords": [
+        "Red",
+        "Default",
+        "Red Eyes"
+      ]
+    },
+    {
+      "Id": 9,
+      "Keywords": [
+        "Green",
+        "Default",
+        "Red Eyes"
+      ]
+    },
+    {
+      "Id": 10,
+      "Keywords": [
+        "Yellow",
+        "Default",
+        "Red Eyes"
+      ]
+    },
+    {
+      "Id": 11,
+      "Keywords": [
+        "Purple",
+        "Default",
+        "Red Eyes"
+      ]
+    },
+    {
+      "Id": 12,
+      "Keywords": [
+        "Aqua",
+        "Default",
+        "Red Eyes"
+      ]
+    },
+    {
+      "Id": 13,
+      "Keywords": [
+        "Pink",
+        "Default",
+        "Red Eyes"
+      ]
+    },
+    {
+      "Id": 14,
+      "Keywords": [
+        "Navy",
+        "Modern",
+        "Normal Eyes"
+      ]
+    },
+    {
+      "Id": 15,
+      "Keywords": [
+        "Red",
+        "Modern",
+        "Normal Eyes"
+      ]
+    },
+    {
+      "Id": 16,
+      "Keywords": [
+        "Green",
+        "Modern",
+        "Normal Eyes"
+      ]
+    },
+    {
+      "Id": 17,
+      "Keywords": [
+        "Yellow",
+        "Modern",
+        "Normal Eyes"
+      ]
+    },
+    {
+      "Id": 18,
+      "Keywords": [
+        "Purple",
+        "Modern",
+        "Normal Eyes"
+      ]
+    },
+    {
+      "Id": 19,
+      "Keywords": [
+        "Aqua",
+        "Modern",
+        "Normal Eyes"
+      ]
+    },
+    {
+      "Id": 20,
+      "Keywords": [
+        "Pink",
+        "Modern",
+        "Normal Eyes"
+      ]
+    },
+    {
+      "Id": 21,
+      "Keywords": [
+        "Navy",
+        "Modern",
+        "Red Eyes"
+      ]
+    },
+    {
+      "Id": 22,
+      "Keywords": [
+        "Red",
+        "Modern",
+        "Red Eyes"
+      ]
+    },
+    {
+      "Id": 23,
+      "Keywords": [
+        "Green",
+        "Modern",
+        "Red Eyes"
+      ]
+    },
+    {
+      "Id": 24,
+      "Keywords": [
+        "Yellow",
+        "Modern",
+        "Red Eyes"
+      ]
+    },
+    {
+      "Id": 25,
+      "Keywords": [
+        "Purple",
+        "Modern",
+        "Red Eyes"
+      ]
+    },
+    {
+      "Id": 26,
+      "Keywords": [
+        "Aqua",
+        "Modern",
+        "Red Eyes"
+      ]
+    },
+    {
+      "Id": 27,
+      "Keywords": [
+        "Pink",
+        "Modern",
+        "Red Eyes"
+      ]
+    },
+    {
+      "Id": 28,
+      "Keywords": [
+        "Navy",
+        "Gold",
+        "Normal Eyes"
+      ]
+    },
+    {
+      "Id": 29,
+      "Keywords": [
+        "Red",
+        "Gold",
+        "Normal Eyes"
+      ]
+    },
+    {
+      "Id": 30,
+      "Keywords": [
+        "Green",
+        "Gold",
+        "Normal Eyes"
+      ]
+    },
+    {
+      "Id": 31,
+      "Keywords": [
+        "Yellow",
+        "Gold",
+        "Normal Eyes"
+      ]
+    },
+    {
+      "Id": 32,
+      "Keywords": [
+        "Purple",
+        "Gold",
+        "Normal Eyes"
+      ]
+    },
+    {
+      "Id": 33,
+      "Keywords": [
+        "Aqua",
+        "Gold",
+        "Normal Eyes"
+      ]
+    },
+    {
+      "Id": 34,
+      "Keywords": [
+        "Pink",
+        "Gold",
+        "Normal Eyes"
+      ]
+    },
+    {
+      "Id": 35,
+      "Keywords": [
+        "Navy",
+        "Gold",
+        "Red Eyes"
+      ]
+    },
+    {
+      "Id": 36,
+      "Keywords": [
+        "Red",
+        "Gold",
+        "Red Eyes"
+      ]
+    },
+    {
+      "Id": 37,
+      "Keywords": [
+        "Green",
+        "Gold",
+        "Red Eyes"
+      ]
+    },
+    {
+      "Id": 38,
+      "Keywords": [
+        "Yellow",
+        "Gold",
+        "Red Eyes"
+      ]
+    },
+    {
+      "Id": 39,
+      "Keywords": [
+        "Purple",
+        "Gold",
+        "Red Eyes"
+      ]
+    },
+    {
+      "Id": 40,
+      "Keywords": [
+        "Aqua",
+        "Gold",
+        "Red Eyes"
+      ]
+    },
+    {
+      "Id": 41,
+      "Keywords": [
+        "Pink",
+        "Gold",
+        "Red Eyes"
+      ]
+    },
+    {
+      "Id": 42,
+      "Keywords": [
+        "Navy",
+        "Iridium",
+        "Normal Eyes"
+      ]
+    },
+    {
+      "Id": 43,
+      "Keywords": [
+        "Red",
+        "Iridium",
+        "Normal Eyes"
+      ]
+    },
+    {
+      "Id": 44,
+      "Keywords": [
+        "Green",
+        "Iridium",
+        "Normal Eyes"
+      ]
+    },
+    {
+      "Id": 45,
+      "Keywords": [
+        "Yellow",
+        "Iridium",
+        "Normal Eyes"
+      ]
+    },
+    {
+      "Id": 46,
+      "Keywords": [
+        "Purple",
+        "Iridium",
+        "Normal Eyes"
+      ]
+    },
+    {
+      "Id": 47,
+      "Keywords": [
+        "Aqua",
+        "Iridium",
+        "Normal Eyes"
+      ]
+    },
+    {
+      "Id": 48,
+      "Keywords": [
+        "Pink",
+        "Iridium",
+        "Normal Eyes"
+      ]
+    },
+    {
+      "Id": 49,
+      "Keywords": [
+        "Navy",
+        "Iridium",
+        "Red Eyes"
+      ]
+    },
+    {
+      "Id": 50,
+      "Keywords": [
+        "Red",
+        "Iridium",
+        "Red Eyes"
+      ]
+    },
+    {
+      "Id": 51,
+      "Keywords": [
+        "Green",
+        "Iridium",
+        "Red Eyes"
+      ]
+    },
+    {
+      "Id": 52,
+      "Keywords": [
+        "Yellow",
+        "Iridium",
+        "Red Eyes"
+      ]
+    },
+    {
+      "Id": 53,
+      "Keywords": [
+        "Purple",
+        "Iridium",
+        "Red Eyes"
+      ]
+    },
+    {
+      "Id": 54,
+      "Keywords": [
+        "Aqua",
+        "Iridium",
+        "Red Eyes"
+      ]
+    },
+    {
+      "Id": 55,
+      "Keywords": [
+        "Pink",
+        "Iridium",
+        "Red Eyes"
+      ]
+    },
+    {
+      "Id": 56,
+      "Keywords": [
+        "Navy",
+        "Dark",
+        "Normal Eyes"
+      ]
+    },
+    {
+      "Id": 57,
+      "Keywords": [
+        "Red",
+        "Dark",
+        "Normal Eyes"
+      ]
+    },
+    {
+      "Id": 58,
+      "Keywords": [
+        "Green",
+        "Dark",
+        "Normal Eyes"
+      ]
+    },
+    {
+      "Id": 59,
+      "Keywords": [
+        "Yellow",
+        "Dark",
+        "Normal Eyes"
+      ]
+    },
+    {
+      "Id": 60,
+      "Keywords": [
+        "Purple",
+        "Dark",
+        "Normal Eyes"
+      ]
+    },
+    {
+      "Id": 61,
+      "Keywords": [
+        "Aqua",
+        "Dark",
+        "Normal Eyes"
+      ]
+    },
+    {
+      "Id": 62,
+      "Keywords": [
+        "Pink",
+        "Dark",
+        "Normal Eyes"
+      ]
+    },
+    {
+      "Id": 63,
+      "Keywords": [
+        "Navy",
+        "Dark",
+        "Red Eyes"
+      ]
+    },
+    {
+      "Id": 64,
+      "Keywords": [
+        "Red",
+        "Dark",
+        "Red Eyes"
+      ]
+    },
+    {
+      "Id": 65,
+      "Keywords": [
+        "Green",
+        "Dark",
+        "Red Eyes"
+      ]
+    },
+    {
+      "Id": 66,
+      "Keywords": [
+        "Yellow",
+        "Dark",
+        "Red Eyes"
+      ]
+    },
+    {
+      "Id": 67,
+      "Keywords": [
+        "Purple",
+        "Dark",
+        "Red Eyes"
+      ]
+    },
+    {
+      "Id": 68,
+      "Keywords": [
+        "Aqua",
+        "Dark",
+        "Red Eyes"
+      ]
+    },
+    {
+      "Id": 69,
+      "Keywords": [
+        "Pink",
+        "Dark",
+        "Red Eyes"
+      ]
+    },
+    {
+      "Id": 70,
+      "Keywords": [
+        "Navy",
+        "Silver",
+        "Normal Eyes"
+      ]
+    },
+    {
+      "Id": 71,
+      "Keywords": [
+        "Red",
+        "Silver",
+        "Normal Eyes"
+      ]
+    },
+    {
+      "Id": 72,
+      "Keywords": [
+        "Green",
+        "Silver",
+        "Normal Eyes"
+      ]
+    },
+    {
+      "Id": 73,
+      "Keywords": [
+        "Yellow",
+        "Silver",
+        "Normal Eyes"
+      ]
+    },
+    {
+      "Id": 74,
+      "Keywords": [
+        "Purple",
+        "Silver",
+        "Normal Eyes"
+      ]
+    },
+    {
+      "Id": 75,
+      "Keywords": [
+        "Aqua",
+        "Silver",
+        "Normal Eyes"
+      ]
+    },
+    {
+      "Id": 76,
+      "Keywords": [
+        "Pink",
+        "Silver",
+        "Normal Eyes"
+      ]
+    },
+    {
+      "Id": 77,
+      "Keywords": [
+        "Navy",
+        "Silver",
+        "Red Eyes"
+      ]
+    },
+    {
+      "Id": 78,
+      "Keywords": [
+        "Red",
+        "Silver",
+        "Red Eyes"
+      ]
+    },
+    {
+      "Id": 79,
+      "Keywords": [
+        "Green",
+        "Silver",
+        "Red Eyes"
+      ]
+    },
+    {
+      "Id": 80,
+      "Keywords": [
+        "Yellow",
+        "Silver",
+        "Red Eyes"
+      ]
+    },
+    {
+      "Id": 81,
+      "Keywords": [
+        "Purple",
+        "Silver",
+        "Red Eyes"
+      ]
+    },
+    {
+      "Id": 82,
+      "Keywords": [
+        "Aqua",
+        "Silver",
+        "Red Eyes"
+      ]
+    },
+    {
+      "Id": 83,
+      "Keywords": [
+        "Pink",
+        "Silver",
+        "Red Eyes"
+      ]
+    }
+  ]
+}

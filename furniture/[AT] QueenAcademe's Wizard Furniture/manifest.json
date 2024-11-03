@@ -1,0 +1,11 @@
+﻿{
+  "Name": "[AT] QueenAcademe's Wizard Furniture Recolor",
+  "Author": "QueenAcademe",
+  "Version": "1.0",
+  "Description": "Alternative Furniture Textures",
+  "UniqueID": "QueenAcademe.AT.Wizard.Furniture",
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "5.0.0"
+  }
+}

@@ -1,0 +1,97 @@
+{
+    "Changes": [
+		// Outdoors
+		{
+			"LogName": "Outdoors",
+			"Action": "EditImage",
+			"Target": "Maps/spring_outdoorsTileSheet2, Maps/spring_outdoorTileSheet_extra, Maps/summer_outdoorsTileSheet2, Maps/summer_outdoorTileSheet_extra, Maps/fall_outdoorsTileSheet2, Maps/fall_outdoorTileSheet_extra, Maps/winter_outdoorsTileSheet2, Maps/winter_outdoorTileSheet_extra, Maps/island_tilesheet_1",
+			"FromFile": "assets/{{TargetWithoutPath}}.png",
+			"PatchMode": "Overlay",
+			"When": {"Force Replace Outdoors": "false"}
+		},
+		{
+			"LogName": "Outdoors Green Fall",
+			"Action": "EditImage",
+			"Target": "Maps/fall_outdoorTileSheet_extra, Maps/fall_outdoorsTileSheet2",
+			"FromFile": "assets/{{TargetWithoutPath}}_green.png",
+			"PatchMode": "Overlay",
+			"When": {"Force Replace Outdoors": "false", "GreenFallCompat": "true"}
+		},
+		{
+			"LogName": "Underwater Tile Opaque and Semi",
+			"Action": "EditImage",
+			"Target": "Maps/{{season}}_outdoorsTileSheet2",
+			"FromFile": "assets/{{season}}_opaque.png",
+			"ToArea": {"X": 0, "Y": 816, "Width": 112, "Height": 80},
+			"PatchMode": "Overlay",
+			"When": {"Water Type": "semi, opaque"}
+		},
+		{
+			"LogName": "Blue Grass Change",
+			"Action": "EditImage",
+			"Target": "TerrainFeatures/grass",
+			"FromFile": "assets/bluegrass_{{Blue Grass Type}}.png",
+			"ToArea": {"X": 0, "Y": 160, "Width": 48, "Height": 80},
+			"PatchMode": "Replace",
+			"When": {"Blue Grass Type|contains=none": "false", "HasFile:{{FromFile}}": "true"}
+		},
+		{
+			"LogName": "Derby Grass Fix",
+			"Action": "EditImage",
+			"Target": "Maps/FishingDerbyTiles_international, Maps/FishingDerbyTiles",
+			"FromFile": "assets/FishingDerbyTiles.png",
+			"PatchMode": "Overlay",
+			"Priority": "Early"
+		},
+		{
+			"LogName": "Winter Glittering Boulder Crevice Fix",
+			"Action": "EditImage",
+			"Target": "Maps/winter_outdoorsTileSheet",
+			"FromFile": "assets/{{TargetWithoutPath}}_crevice.png",
+			"PatchMode": "Overlay",
+			"ToArea": { "X": 288, "Y": 1104, "Width": 32, "Height": 32 }
+		},
+		{
+			"LogName": "Shadow Winter Tile",
+			"Action": "EditImage",
+			"Target": "Maps/winter_outdoorsTileSheet2",
+			"FromFile": "assets/winter_tile_fix.png",
+			"PatchMode": "Replace",
+			"ToArea": { "X": 48, "Y": 80, "Width": 16, "Height": 16 }
+		},
+		{
+			"LogName": "Mermaid Sand Fix",
+			"Action": "EditImage",
+			"Target": "Maps/island_tilesheet_2",
+			"FromFile": "assets/island_tilesheet_2_sand.png",
+			"PatchMode": "Overlay",
+			"ToArea": { "X": 48, "Y": 0, "Width": 96, "Height": 16 }
+		},
+		{
+			"LogName": "Snow on top of prize ticket box Fix",
+			"Action": "EditImage",
+			"Target": "Maps/spring_town, Maps/summer_town, Maps/fall_town, Maps/winter_town",
+			"FromFile": "assets/{{TargetWithoutPath}}_prize_ticket.png",
+			"PatchMode": "Overlay",
+			"ToArea": { "X": 288, "Y": 992, "Width": 16, "Height": 32 }
+		},
+		{
+			"LogName": "Force Outdoors",
+			"Action": "EditImage",
+			"Target": "Maps/spring_outdoorsTileSheet2, Maps/spring_outdoorTileSheet_extra, Maps/summer_outdoorsTileSheet2, Maps/summer_outdoorTileSheet_extra, Maps/fall_outdoorsTileSheet2, Maps/fall_outdoorTileSheet_extra, Maps/winter_outdoorsTileSheet2, Maps/winter_outdoorTileSheet_extra, Maps/island_tilesheet_1",
+			"FromFile": "assets/{{TargetWithoutPath}}.png",
+			"PatchMode": "Overlay",
+			"Priority": "Default+1",
+			"When": {"Force Replace Outdoors": "true"}
+		},
+        {
+			"LogName": "Force Outdoors Green Fall",
+			"Action": "EditImage",
+			"Target": "Maps/fall_outdoorTileSheet_extra, Maps/fall_outdoorsTileSheet2",
+			"FromFile": "assets/{{TargetWithoutPath}}_green.png",
+			"PatchMode": "Overlay",
+			"Priority": "Default+1",
+			"When": {"Force Replace Outdoors": "true", "GreenFallCompat": "true"}
+		}
+    ]
+}

@@ -1,0 +1,69 @@
+{
+  "ItemName": "Farmhouse_0",
+  "Type": "Building",
+  "Seasons": ["Summer"],
+  "TextureWidth": 320,
+  "TextureHeight": 144,
+  "ManualVariations": [
+	{
+      "Id": 0,
+      "ChanceWeight": 0.1,
+	  "Name": "Amherst",
+	  "Keywords": [ "Amherst" ]
+    },
+	{
+      "Id": 1,
+      "ChanceWeight": 0.1,
+	  "Name": "Cobleskill",
+	  "Keywords": [ "Cobleskill" ]
+    },
+	{
+      "Id": 2,
+      "ChanceWeight": 0.1,
+	  "Name": "Fahnestock",
+	  "Keywords": [ "Fahnestock" ]
+    },
+	{
+      "Id": 3,
+      "ChanceWeight": 0.1,
+      "Name": "Garrison",
+	  "Keywords": [ "Garrison" ]
+    },
+    {
+      "Id": 4,
+      "ChanceWeight": 0.1,
+	  "Name": "Glenmont",
+	  "Keywords": [ "Glenmont" ]
+    },
+	{
+      "Id": 5,
+      "ChanceWeight": 0.1,
+      "Name": "Nantucket",
+	  "Keywords": [ "Nantucket" ]
+    },
+    {
+      "Id": 6,
+      "ChanceWeight": 0.1,
+	  "Name": "Rhinebeck",
+	  "Keywords": [ "Rhinebeck" ]
+    },
+	{
+      "Id": 7,
+      "ChanceWeight": 0.1,
+      "Name": "Saratoga",
+	  "Keywords": [ "Saratoga" ]
+    },
+    {
+      "Id": 8,
+      "ChanceWeight": 0.1,
+	  "Name": "Stonybrook",
+	  "Keywords": [ "Stonybrook" ]
+    },
+	{
+      "Id": 9,
+      "ChanceWeight": 0.1,
+      "Name": "Woodbury",
+	  "Keywords": [ "Woodbury" ]
+    }
+	]
+}

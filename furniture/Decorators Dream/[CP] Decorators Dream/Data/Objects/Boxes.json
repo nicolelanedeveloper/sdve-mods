@@ -1,0 +1,867 @@
+{
+		"Changes": [
+				//
+				//  ******************************************
+				//  **										**
+				//  **			OBJECT HITBOXES				**
+				//  **									    **
+				//  ******************************************
+				//
+			{
+			//Patches For Object Placements
+			"Action": "EditData",
+			"Target": "Mods/aedenthorn.FurnitureDisplayFramework/dictionary",
+			"Entries": {
+				//
+				//  ******************************************
+				//  **										**
+				//  **				POSTERS					**
+				//  **									    **
+				//  ******************************************
+				//
+				//1x3 with one large item
+				//Custom Banner 
+				"IlyeanaCustomBanner": {
+					"slots": [
+						{
+							"slotRect": {
+								"X": 0,
+								"Y": 0,
+								"Width": 16,
+								"Height": 32
+							},
+							"itemRect": {
+								"X": 2,
+								"Y": 12,
+								"Width": 12,
+								"Height": 12
+							}
+						}
+					]
+				},
+				//1x2 with one item
+				//Custom Flag
+				"IlyeanaCustomFlag": {
+					"slots": [
+						{
+							"slotRect": {
+								"X": 2,
+								"Y": 3,
+								"Width": 16,
+								"Height": 16
+							},
+							"itemRect": {
+								"X": 3,
+								"Y": 4,
+								"Width": 10,
+								"Height": 10
+							}
+						}
+					]
+				},
+				//2x2 with one large centered item
+				//Large Picture Frame
+				"IlyeanaLargePictureFrame": {
+					"slots": [
+						{
+							"slotRect": {
+								"X": 0,
+								"Y": 0,
+								"Width": 32,
+								"Height": 32
+							},
+							"itemRect": {
+								"X": 6,
+								"Y": 6,
+								"Width": 20,
+								"Height": 20
+							}
+						}
+					]
+				},
+				//2x3 with one large centered item
+				//Custom Poster
+				//Large Board
+				"IlyeanaCustomPoster,IlyeanaLargeBoard": {
+					"slots": [
+						{
+							"slotRect": {
+								"X": 0,
+								"Y": 0,
+								"Width": 32,
+								"Height": 32
+							},
+							"itemRect": {
+								"X": 6,
+								"Y": 8,
+								"Width": 20,
+								"Height": 20
+							}
+						}
+					]
+				},
+				//2x2 with two items set diagonally
+				//Research Poster
+				"IlyeanaResearchPoster": {
+					"slots": [
+					{
+						"slotRect": {
+								"X": 2,
+								"Y": 0,
+								"Width": 16,
+								"Height": 16
+							},
+							"itemRect": {
+								"X": 3,
+								"Y": 7,
+								"Width": 12,
+								"Height": 12
+							}
+						},
+						{
+							"slotRect": {
+								"X": 16,
+								"Y": 16,
+								"Width": 16,
+								"Height": 16 
+							},
+							"itemRect": {
+								"X": 17,
+								"Y": 18,
+								"Width": 12,
+								"Height": 12
+							}
+						}
+					]
+				},
+				//2x3 with one bottom right slot
+				//Field Fern Board
+				//Field Poster
+				"IlyeanaFieldFernBoard,IlyeanaFieldPoster": {
+					"slots": [
+					{
+							"slotRect": {
+								"X": 16,
+								"Y": 16,
+								"Width": 16,
+								"Height": 16 
+							},
+							"itemRect": {
+								"X": 17,
+								"Y": 21,
+								"Width": 12,
+								"Height": 12
+							}
+						}
+					]
+				},
+				//2x2 with two items on the right
+				//Field Bulletin Board
+				"IlyeanaFieldBulletinBoard": {
+					"slots": [
+					{
+						"slotRect": {
+								"X": 16,
+								"Y": 6,
+								"Width": 14,
+								"Height": 14
+							},
+							"itemRect": {
+								"X": 16,
+								"Y": 7,
+								"Width": 12,
+								"Height": 12
+							}
+						},
+						{
+							"slotRect": {
+								"X": 16,
+								"Y": 19,
+								"Width": 14,
+								"Height": 14 
+							},
+							"itemRect": {
+								"X": 16,
+								"Y": 21,
+								"Width": 12,
+								"Height": 12
+							}
+						}
+					]
+				},
+				//Trophy Plaque
+				"IlyeanaTrophyPlaque": {
+					"slots": [
+				{
+							"slotRect": {
+								"X": 0,
+								"Y": 0,
+								"Width": 32,
+								"Height": 32
+							},
+							"itemRect": {
+								"X": 8,
+								"Y": 6,
+								"Width": 14,
+								"Height": 14
+							}
+						}
+					]
+				},
+				//
+				//  ******************************************
+				//  **										**
+				//  **				SHELVES					**
+				//  **									    **
+				//  ******************************************
+				//
+				//Kitchen Shelf
+				"IlyeanaKitchenShelf": {
+					"slots": [
+						{
+							"slotRect": {
+								"X": 0,
+								"Y": 0,
+								"Width": 16,
+								"Height": 32
+							},
+							"itemRect": {
+								"X": 2,
+								"Y": 8,
+								"Width": 12,
+								"Height": 12
+							}
+						}
+					]
+				},
+				//Big Kitchen Double Shelf
+				"IlyeanaBigKitchenDoubleShelf": {
+					"slots": [
+						{
+							"slotRect": {
+								"X": 2,
+								"Y": 8,
+								"Width": 12,
+								"Height": 12
+							},
+							"itemRect": {
+								"X": 2,
+								"Y": 8,
+								"Width": 12,
+								"Height": 12
+							}
+						},
+						{
+							"slotRect": {
+								"X": 16,
+								"Y": 8,
+								"Width": 12,
+								"Height": 12
+							},
+							"itemRect": {
+								"X": 16,
+								"Y": 8,
+								"Width": 12,
+								"Height": 12
+							}
+						}
+					]
+				},
+				//Big Kitchen Single Shelf
+				"IlyeanaBigKitchenSingleShelf": {
+					"slots": [
+						{
+							"slotRect": {
+								"X": 0,
+								"Y": 0,
+								"Width": 32,
+								"Height": 32
+							},
+							"itemRect": {
+								"X": 8,
+								"Y": 6,
+								"Width": 15,
+								"Height": 15
+							}
+						}
+					]
+				},
+				//Offset Double Shelf
+				"IlyeanaOffsetDoubleShelf": {
+					"slots": [
+						{
+							"slotRect": {
+								"X": 3,
+								"Y": 2,
+								"Width": 10,
+								"Height": 10
+							},
+							"itemRect": {
+								"X": 3,
+								"Y": 4,
+								"Width": 10,
+								"Height": 10
+							}
+						},
+						{
+							"slotRect": {
+								"X": 19,
+								"Y": 13,
+								"Width": 10,
+								"Height": 10 
+							},
+							"itemRect": {
+								"X": 19 	,
+								"Y": 15,
+								"Width": 10,
+								"Height": 10
+							}
+						}
+						
+					]
+				},
+				//Big Single Shelf
+				"IlyeanaBigSingleShelf": {
+					"slots": [
+						{
+							"slotRect": {
+								"X": 0,
+								"Y": 0,
+								"Width": 32,
+								"Height": 32
+							},
+							"itemRect": {
+								"X": 8,
+								"Y": 10,
+								"Width": 15,
+								"Height": 15
+							}
+						}
+					]
+				},
+				//Big Double Shelf
+				"IlyeanaBigDoubleShelf": {
+					"slots": [
+						{
+							"slotRect": {
+								"X": 4,
+								"Y": 8,
+								"Width": 10,
+								"Height": 10
+							},
+							"itemRect": {
+								"X": 4,
+								"Y": 8,
+								"Width": 10,
+								"Height": 10
+							}
+						},
+						{
+							"slotRect": {
+								"X": 18,
+								"Y": 8,
+								"Width": 10,
+								"Height": 10
+							},
+							"itemRect": {
+								"X": 18,
+								"Y": 8,
+								"Width": 10,
+								"Height": 10
+							}
+						}
+					]
+				},
+				//Big Triple Shelf
+				"IlyeanaBigTripleShelf": {
+					"slots": [
+						{
+							"slotRect": {
+								"X": 11,
+								"Y": 1,
+								"Width": 10,
+								"Height": 10
+							},
+							"itemRect": {
+								"X": 11,
+								"Y": 1,
+								"Width": 10,
+								"Height": 10
+							}
+						},
+						{
+							"slotRect": {
+								"X": 4,
+								"Y": 16,
+								"Width": 10,
+								"Height": 10
+							},
+							"itemRect": {
+								"X": 4,
+								"Y": 16,
+								"Width": 10,
+								"Height": 10
+							}
+						},
+						{
+							"slotRect": {
+								"X": 18,
+								"Y": 16,
+								"Width": 10,
+								"Height": 10
+							},
+							"itemRect": {
+								"X": 18,
+								"Y": 16,
+								"Width": 10,
+								"Height": 10
+							}
+						}
+					]
+				},
+				//Left Shelf Section
+				//Center Shelf Section
+				//Right Shelf Section
+				"IlyeanaLeftShelfSection,IlyeanaCenterShelfSection,IlyeanaRightShelfSection": {
+					"slots": [
+						{
+							"slotRect": {
+								"X": 2,
+								"Y": 8,
+								"Width": 12,
+								"Height": 12
+							},
+							"itemRect": {
+								"X": 2,
+								"Y": 14,
+								"Width": 12,
+								"Height": 12
+							}
+						}
+					]
+				},
+				//High Single Shelf
+				"IlyeanaHighSingleShelf": {
+					"slots": [
+						{
+							"slotRect": {
+								"X": 0,
+								"Y": 0,
+								"Width": 16,
+								"Height": 32
+							},
+							"itemRect": {
+								"X": 2,
+								"Y": 0,
+								"Width": 10,
+								"Height": 10
+							}
+						}
+					]
+				},
+				//High Big Double Shelf
+				"IlyeanaHighBigDoubleShelf": {
+					"slots": [
+						{
+							"slotRect": {
+								"X": 4,
+								"Y": 2,
+								"Width": 10,
+								"Height": 10
+							},
+							"itemRect": {
+								"X": 4,
+								"Y": -2,
+								"Width": 10,
+								"Height": 10
+							}
+						},
+						{
+							"slotRect": {
+								"X": 18,
+								"Y": 2,
+								"Width": 10,
+								"Height": 10
+							},
+							"itemRect": {
+								"X": 18,
+								"Y": -2,
+								"Width": 10,
+								"Height": 10
+							}
+						}
+					]
+				},
+				//High Big Single Shelf
+				"IlyeanaHighBigSingleShelf": {
+					"slots": [
+						{
+							"slotRect": {
+								"X": 0,
+								"Y": 0,
+								"Width": 32,
+								"Height": 32
+							},
+							"itemRect": {
+								"X": 8,
+								"Y": -4,
+								"Width": 15,
+								"Height": 15
+							}
+						}
+					]
+				},
+				//High Left Shelf Section
+				//High Center Shelf Section
+				//High Right Shelf Section
+				"IlyeanaHighLeftShelfSection,IlyeanaHighCenterShelfSection,IlyeanaHighRightShelfSection": {
+					"slots": [
+						{
+							"slotRect": {
+								"X": 2,
+								"Y": 0,
+								"Width": 12,
+								"Height": 12
+							},
+							"itemRect": {
+								"X": 2,
+								"Y": 0,
+								"Width": 10,
+								"Height": 10
+							}
+						}
+					]
+				},
+				//MultiLayer Shelf
+				"IlyeanaMultiLayerShelf": {
+					"slots": [
+						{
+							"slotRect": {
+								"X": 4,
+								"Y": 0,
+								"Width": 10,
+								"Height": 10
+							},
+							"itemRect": {
+								"X": 4,
+								"Y": 0,
+								"Width": 10,
+								"Height": 10
+							}
+						},
+						{
+							"slotRect": {
+								"X": 18,
+								"Y": 0,
+								"Width": 10,
+								"Height": 10
+							},
+							"itemRect": {
+								"X": 18,
+								"Y": 0,
+								"Width": 10,
+								"Height": 10
+							}
+						},
+						{
+							"slotRect": {
+								"X": 4,
+								"Y": 16,
+								"Width": 10,
+								"Height": 10
+							},
+							"itemRect": {
+								"X": 4,
+								"Y": 15,
+								"Width": 10,
+								"Height": 10
+							}
+						},
+						{
+							"slotRect": {
+								"X": 18,
+								"Y": 16,
+								"Width": 10,
+								"Height": 10
+							},
+							"itemRect": {
+								"X": 18,
+								"Y": 15,
+								"Width": 10,
+								"Height": 10
+							}
+						}	
+					]
+				},
+				//MultiLayer Shelf Left Section
+				//MultiLayer Shelf Center Section
+				//MultiLayer Shelf Right Section
+				"IlyeanaMultiLayerShelfLeftSection,IlyeanaMultiLayerShelfCenterSection,IlyeanaMultiLayerShelfRightSection": {
+					"slots": [
+						{
+							"slotRect": {
+								"X": 0,
+								"Y":0,
+								"Width": 10,
+								"Height": 10
+							},
+							"itemRect": {
+								"X": 2,
+								"Y": 0,
+								"Width": 10,
+								"Height": 10
+							}
+						},
+						{
+							"slotRect": {
+								"X": 2,
+								"Y": 16,
+								"Width": 10,
+								"Height": 10 
+							},
+							"itemRect": {
+								"X": 2,
+								"Y": 15,
+								"Width": 10,
+								"Height": 10
+							}
+						}
+					]
+				},
+				//
+				//  ******************************************
+				//  **										**
+				//  **				HANGERS					**
+				//  **									    **
+				//  ******************************************
+				//
+				//String Hanger
+				"IlyeanaStringHanger": {
+					"slots": [
+						{
+							"slotRect": {
+								"X": 0,
+								"Y": 0,
+								"Width": 16,
+								"Height": 32
+							},
+							"itemRect": {
+								"X": 0,
+								"Y": 9,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				//ChainHanger
+				"IlyeanaChainHanger": {
+					"slots": [
+						{
+							"slotRect": {
+								"X": 0,
+								"Y": 0,
+								"Width": 16,
+								"Height": 32
+							},
+							"itemRect": {
+								"X": 0,
+								"Y": 9,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				},
+				//
+				//  ******************************************
+				//  **										**
+				//  **				TABLES					**
+				//  **									    **
+				//  ******************************************
+				//
+				//Pub Table
+				"Pub Table,Luxury Table": {
+					"slots": [
+						{
+							"slotRect": {
+								"X": 1,
+								"Y": 5,
+								"Width": 9,
+								"Height": 9
+							},
+							"itemRect": {
+								"X": 2,
+								"Y": 5,
+								"Width": 9,
+								"Height": 9
+							}
+						},
+						{
+							"slotRect": {
+								"X": 11,
+								"Y": -5,
+								"Width": 10,
+								"Height": 10
+							},
+							"itemRect": {
+								"X": 11,
+								"Y": -4,
+								"Width": 9,
+								"Height": 9
+							}
+						},
+						{
+							"slotRect": {
+								"X": 11,
+								"Y": 15,
+								"Width": 10,
+								"Height": 10
+							},
+							"itemRect": {
+								"X": 11,
+								"Y": 14,
+								"Width": 9,
+								"Height": 9
+							}
+						},
+						{
+							"slotRect": {
+								"X": 21,
+								"Y": 5,
+								"Width": 9,
+								"Height": 9
+							},
+							"itemRect": {
+								"X": 20,
+								"Y": 5,
+								"Width": 9,
+								"Height": 9
+							}
+						}
+					]
+				},
+				//Dining Tables Left-Right
+				"Winter Dining Table:0,Festive Dining Table:0,Mahogany Dining Table:0,Modern Dining Table:0": {
+					"slots": [
+						{
+							"slotRect": {
+								"X": 4,
+								"Y": -6,
+								"Width": 16,
+								"Height": 16
+							},
+							"itemRect": {
+								"X": 6,
+								"Y": -5,
+								"Width": 14,
+								"Height": 14
+							}
+						},
+						{
+							"slotRect": {
+								"X": 35,
+								"Y": -2,
+								"Width": 16,
+								"Height": 16
+							},
+							"itemRect": {
+								"X": 32,
+								"Y": -5,
+								"Width": 14,
+								"Height": 14
+							}
+						},
+						{
+							"slotRect": {
+								"X": 56,
+								"Y": -2,
+								"Width": 16,
+								"Height": 16
+							},
+							"itemRect": {
+								"X": 60,
+								"Y": -5,
+								"Width": 14,
+								"Height": 14
+							}
+						}
+					]
+				},
+				//Dining Tables Top-Bottom
+				"Winter Dining Table:2,Festive Dining Table:2,Mahogany Dining Table:2,Modern Dining Table:0": {
+					"slots": [
+						{
+							"slotRect": {
+								"X": 8,
+								"Y": -13,
+								"Width": 16,
+								"Height": 16
+							},
+							"itemRect": {
+								"X": 9,
+								"Y": -11,
+								"Width": 14,
+								"Height": 14
+							}
+						},
+						{
+							"slotRect": {
+								"X": 8,
+								"Y": 9,
+								"Width": 16,
+								"Height": 16
+							},
+							"itemRect": {
+								"X": 9,
+								"Y": 10,
+								"Width": 14,
+								"Height": 14
+							}
+						},
+						{
+							"slotRect": {
+								"X": 8,
+								"Y": 29,
+								"Width": 16,
+								"Height": 16
+							},
+							"itemRect": {
+								"X": 9,
+								"Y": 31,
+								"Width": 14,
+								"Height": 14
+							}
+						}
+					]
+				},
+				//
+				//  ******************************************
+				//  **										**
+				//  **				PLANTS					**
+				//  **									    **
+				//  ******************************************
+				//
+				//Deluxe Tree
+				"Deluxe Tree, Exotic Tree": {
+					"slots": [
+						{
+							"slotRect": {
+								"X": 0,
+								"Y": -48,
+								"Width": 48,
+								"Height": 48
+							},
+							"itemRect": {
+								"X": 24,
+								"Y": -46,
+								"Width": 16,
+								"Height": 16
+							}
+						}
+					]
+				}
+			}
+		}
+	]
+}

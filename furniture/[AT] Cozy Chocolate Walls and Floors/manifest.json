@@ -1,0 +1,15 @@
+{
+  "Name": "Cozy Chocolate Walls and Floors",
+  "Author": "skellady",
+  "Version": "1.0.0",
+  "Description": "Cozy Chocolate walls and floors for Alternative Textures",
+  "UniqueID": "skellady.AT.CCWF",
+  "UpdateKeys": [
+    "Nexus:20013"
+  ],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "5.0.1"
+  }
+}

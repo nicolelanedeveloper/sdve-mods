@@ -1,0 +1,783 @@
+{ 
+  //Make Edits!
+  "CollectiveNames": [
+    "Jungle Decal",
+    "Jungle Decal 1",
+    "Jungle_Decal 2",
+    "Jungle Decal 3",
+    "Jungle Decal 4"
+  ],
+  "Type": "Furniture",
+  "TextureWidth": 16,
+  "TextureHeight": 48,
+  "ManualVariations": [
+    {
+      	"Id": 0,
+        "Keywords": ["Dark Green","Vines","Top","Flipped"]	
+    },
+    {
+      	"Id": 1,
+        "Keywords": ["Dark Green","Vines","Top","Right"]
+    },
+    {
+      	"Id": 2,
+        "Keywords": ["Dark Green","Vines","Bottom","Flipped"]	
+    },
+    {
+      	"Id": 3,
+        "Keywords": ["Dark Green","Vines","Bottom","Right"]	
+    },
+    {
+      	"Id": 4,
+        "Keywords": ["Dark Green","Lush Leaf","Top","Flipped"]	
+    },
+    {
+      	"Id": 5,
+        "Keywords": ["Dark Green","Lush Leaf","Top","Right"]	
+    },
+    {
+      	"Id": 6,
+        "Keywords": ["Dark Green","Lush Leaf","Bottom","Flipped"]	
+    },
+    {
+      	"Id": 7,
+        "Keywords": ["Dark Green","Lush Leaf","Bottom","Right"]	
+    },
+    {
+      	"Id": 8,
+        "Keywords": ["Dark Green","Plain Leaf","Top","Flipped"]	
+    },
+    {
+      	"Id": 9,
+        "Keywords": ["Dark Green","Plain Leaf","Top","Right"]	
+    },
+    {
+      	"Id": 10,
+        "Keywords":["Dark Green","Plain Leaf","Bottom","Flipped"]	
+    },
+    {
+      	"Id": 11,
+        "Keywords":["Dark Green","Plain Leaf","Bottom","Right"]	
+    },
+    {
+      	"Id": 12,
+        "Keywords":["Dark Green","Double Leaf","Top","Flipped"]	
+    },
+    {
+      	"Id": 13,
+        "Keywords":["Dark Green","Double Leaf","Top","Right"]	
+    },
+    {
+      	"Id": 14,
+        "Keywords":["Dark Green","Double Leaf","Bottom","Flipped"]	
+    },
+    {
+      	"Id": 15,
+        "Keywords":["Dark Green","Double Leaf","Bottom","Right"]	
+    },
+    {
+      	"Id": 16,
+        "Keywords":["Spring Green","Vines","Top","Flipped"]	
+    },
+    {
+      	"Id": 17,
+        "Keywords":["Spring Green","Vines","Top","Right"]	
+    },
+    {
+      	"Id": 18,
+        "Keywords":["Spring Green","Vines","Bottom","Flipped"]	
+    },
+    {
+      	"Id": 19,
+        "Keywords":["Spring Green","Vines","Bottom","Right"]	
+    },
+    {
+      	"Id": 20,
+        "Keywords":["Spring Green","Lush Leaf","Top","Flipped"]	
+    },
+    {
+      	"Id": 21,
+        "Keywords":["Spring Green","Lush Leaf","Top","Right"]	
+    },
+    {
+      	"Id": 22,
+        "Keywords":["Spring Green","Lush Leaf","Bottom","Flipped"]	
+    },
+    {
+      	"Id": 23,
+        "Keywords":["Spring Green","Lush Leaf","Bottom","Right"]	
+    },
+    {
+      	"Id": 24,
+        "Keywords":["Spring Green","Plain Leaf","Top","Flipped"]	
+    },
+    {
+      	"Id": 25,
+        "Keywords":["Spring Green","Plain Leaf","Top","Right"]	
+    },
+    {
+      	"Id": 26,
+        "Keywords":["Spring Green","Plain Leaf","Bottom","Flipped"]	
+    },
+    {
+      	"Id": 27,
+        "Keywords":["Spring Green","Plain Leaf","Bottom","Right"]	
+    },
+    {
+      	"Id": 28,
+        "Keywords":["Spring Green","Double Leaf","Top","Flipped"]	
+    },
+    {
+      	"Id": 29,
+        "Keywords":["Spring Green","Double Leaf","Top","Right"]	
+    },
+    {
+      	"Id": 30,
+        "Keywords":["Spring Green","Double Leaf","Bottom","Flipped"]	
+    },
+    {
+      	"Id": 31,
+        "Keywords":["Spring Green","Double Leaf","Bottom","Right"]	
+    },
+    {
+      	"Id": 32,
+        "Keywords":["Summer Green","Vines","Top","Flipped"]	
+    },
+    {
+      	"Id": 33,
+        "Keywords":["Summer Green","Vines","Top","Right"]	
+    },
+    {
+      	"Id": 34,
+        "Keywords":["Summer Green","Vines","Bottom","Flipped"]	
+    },
+    {
+      	"Id": 35,
+        "Keywords":["Summer Green","Vines","Bottom","Right"]	
+    },
+    {
+      	"Id": 36,
+        "Keywords":["Summer Green","Lush Leaf","Top","Flipped"]	
+    },
+    {
+      	"Id": 37,
+        "Keywords":["Summer Green","Lush Leaf","Top","Right"]	
+    },
+    {
+      	"Id": 38,
+        "Keywords":["Summer Green","Lush Leaf","Bottom","Flipped"]	
+    },
+    {
+      	"Id": 39,
+        "Keywords":["Summer Green","Lush Leaf","Bottom","Right"]	
+    },
+    {
+      	"Id": 40,
+        "Keywords":["Summer Green","Plain Leaf","Top","Flipped"]	
+    },
+    {
+      	"Id": 41,
+        "Keywords":["Summer Green","Plain Leaf","Top","Right"]	
+    },
+    {
+      	"Id": 42,
+        "Keywords":["Summer Green","Plain Leaf","Bottom","Flipped"]	
+    },
+    {
+      	"Id": 43,
+        "Keywords":["Summer Green","Plain Leaf","Bottom","Right"]	
+    },
+    {
+      	"Id": 44,
+        "Keywords":["Summer Green","Double Leaf","Top","Flipped"]	
+    },
+    {
+      	"Id": 45,
+        "Keywords":["Summer Green","Double Leaf","Top","Right"]	
+    },
+    {
+      	"Id": 46,
+        "Keywords":["Summer Green","Double Leaf","Bottom","Flipped"]	
+    },
+    {
+      	"Id": 47,
+        "Keywords":["Summer Green","Double Leaf","Bottom","Right"]	
+    },
+    {
+      	"Id": 48,
+        "Keywords":["Swampy Green","Vines","Top","Flipped"]	
+    },
+    {
+      	"Id": 49,
+        "Keywords":["Swampy Green","Vines","Top","Right"]	
+    },
+    {
+      	"Id": 50,
+        "Keywords":["Swampy Green","Vines","Bottom","Flipped"]	
+    },
+    {
+      	"Id": 51,
+        "Keywords":["Swampy Green","Vines","Bottom","Right"]	
+    },
+    {
+      	"Id": 52,
+        "Keywords":["Swampy Green","Lush Leaf","Top","Flipped"]	
+    },
+    {
+      	"Id": 53,
+        "Keywords":["Swampy Green","Lush Leaf","Top","Right"]	
+    },
+    {
+      	"Id": 54,
+        "Keywords":["Swampy Green","Lush Leaf","Bottom","Flipped"]	
+    },
+    {
+      	"Id": 55,
+        "Keywords":["Swampy Green","Lush Leaf","Bottom","Right"]	
+    },
+    {
+      	"Id": 56,
+        "Keywords":["Swampy Green","Plain Leaf","Top","Flipped"]	
+    },
+    {
+      	"Id": 57,
+        "Keywords":["Swampy Green","Plain Leaf","Top","Right"]	
+    },
+    {
+      	"Id": 58,
+        "Keywords":["Swampy Green","Plain Leaf","Bottom","Flipped"]	
+    },
+    {
+      	"Id": 59,
+        "Keywords":["Swampy Green","Plain Leaf","Bottom","Right"]	
+    },
+    {
+      	"Id": 60,
+        "Keywords":["Swampy Green","Double Leaf","Top","Flipped"]	
+    },
+    {
+      	"Id": 61,
+        "Keywords":["Swampy Green","Double Leaf","Top","Right"]	
+    },
+    {
+      	"Id": 62,
+        "Keywords":["Swampy Green","Double Leaf","Bottom","Flipped"]	
+    },
+    {
+      	"Id": 63,
+        "Keywords":["Swampy Green","Double Leaf","Bottom","Right"]	
+    },
+    {
+      	"Id": 64,
+        "Keywords":["Mint Green","Vines","Top","Flipped"]	
+    },
+    {
+      	"Id": 65,
+        "Keywords":["Mint Green","Vines","Top","Right"]	
+    },
+    {
+      	"Id": 66,
+        "Keywords":["Mint Green","Vines","Bottom","Flipped"]	
+    },
+    {
+      	"Id": 67,
+        "Keywords":["Mint Green","Vines","Bottom","Right"]	
+    },
+    {
+      	"Id": 68,
+        "Keywords":["Mint Green","Lush Leaf","Top","Flipped"]	
+    },
+    {
+      	"Id": 69,
+        "Keywords":["Mint Green","Lush Leaf","Top","Right"]	
+    },
+    {
+      	"Id": 70,
+        "Keywords":["Mint Green","Lush Leaf","Bottom","Flipped"]	
+    },
+    {
+      	"Id": 71,
+        "Keywords":["Mint Green","Lush Leaf","Bottom","Right"]	
+    },
+    {
+      	"Id": 72,
+        "Keywords":["Mint Green","Plain Leaf","Top","Flipped"]	
+    },
+    {
+      	"Id": 73,
+        "Keywords":["Mint Green","Plain Leaf","Top","Right"]	
+    },
+    {
+      	"Id": 74,
+        "Keywords":["Mint Green","Plain Leaf","Bottom","Flipped"]	
+    },
+    {
+      	"Id": 75,
+        "Keywords":["Mint Green","Plain Leaf","Bottom","Right"]	
+    },
+    {
+      	"Id": 76,
+        "Keywords":["Mint Green","Double Leaf","Top","Flipped"]	
+    },
+    {
+      	"Id": 77,
+        "Keywords":["Mint Green","Double Leaf","Top","Right"]	
+    },
+    {
+      	"Id": 78,
+        "Keywords":["Mint Green","Double Leaf","Bottom","Flipped"]	
+    },
+    {
+      	"Id": 79,
+        "Keywords":["Mint Green","Double Leaf","Bottom","Right"]	
+    },
+    {
+      	"Id": 80,
+        "Keywords":["Blue","Vines","Top","Flipped"]	
+    },
+    {
+      	"Id": 81,
+        "Keywords":["Blue","Vines","Top","Right"]	
+    },
+    {
+      	"Id": 82,
+        "Keywords":["Blue","Vines","Bottom","Flipped"]	
+    },
+    {
+      	"Id": 83,
+        "Keywords":["Blue","Vines","Bottom","Right"]	
+    },
+    {
+      	"Id": 84,
+        "Keywords":["Blue","Lush Leaf","Top","Flipped"]	
+    },
+    {
+      	"Id": 85,
+        "Keywords":["Blue","Lush Leaf","Top","Right"]	
+    },
+    {
+      	"Id": 86,
+        "Keywords":["Blue","Lush Leaf","Bottom","Flipped"]	
+    },
+    {
+      	"Id": 87,
+        "Keywords":["Blue","Lush Leaf","Bottom","Right"]	
+    },
+    {
+      	"Id": 88,
+        "Keywords":["Blue","Plain Leaf","Top","Flipped"]	
+    },
+    {
+      	"Id": 89,
+        "Keywords":["Blue","Plain Leaf","Top","Right"]	
+    },
+    {
+      	"Id": 90,
+        "Keywords":["Blue","Plain Leaf","Bottom","Flipped"]	
+    },
+    {
+      	"Id": 91,
+        "Keywords":["Blue","Plain Leaf","Bottom","Right"]	
+    },
+    {
+      	"Id": 92,
+        "Keywords":["Blue","Double Leaf","Top","Flipped"]	
+    },
+    {
+      	"Id": 93,
+        "Keywords":["Blue","Double Leaf","Top","Right"]	
+    },
+    {
+      	"Id": 94,
+        "Keywords":["Blue","Double Leaf","Bottom","Flipped"]	
+    },
+    {
+      	"Id": 95,
+        "Keywords":["Blue","Double Leaf","Bottom","Right"]	
+    },
+    {
+      	"Id": 96,
+        "Keywords":["Purple","Vines","Top","Flipped"]	
+    },
+    {
+      	"Id": 97,
+        "Keywords":["Purple","Vines","Top","Right"]	
+    },
+    {
+      	"Id": 98,
+        "Keywords":["Purple","Vines","Bottom","Flipped"]	
+    },
+    {
+      	"Id": 99,
+        "Keywords":["Purple","Vines","Bottom","Right"]	
+    },
+    {
+      	"Id": 100,
+        "Keywords": ["Purple","Lush Leaf","Top","Flipped"]	
+    },
+    {
+      	"Id": 101,
+        "Keywords": ["Purple","Lush Leaf","Top","Right"]	
+    },
+    {
+      	"Id": 102,
+        "Keywords": ["Purple","Lush Leaf","Bottom","Flipped"]	
+    },
+    {
+      	"Id": 103,
+        "Keywords": ["Purple","Lush Leaf","Bottom","Right"]	
+    },
+    {
+      	"Id": 104,
+        "Keywords": ["Purple","Plain Leaf","Top","Flipped"]	
+    },
+    {
+      	"Id": 105,
+        "Keywords": ["Purple","Plain Leaf","Top","Right"]	
+    },
+    {
+      	"Id": 106,
+        "Keywords": ["Purple","Plain Leaf","Bottom","Flipped"]	
+    },
+    {
+      	"Id": 107,
+        "Keywords": ["Purple","Plain Leaf","Bottom","Right"]	
+    },
+    {
+      	"Id": 108,
+        "Keywords": ["Purple","Double Leaf","Top","Flipped"]	
+    },
+    {
+      	"Id": 109,
+        "Keywords": ["Purple","Double Leaf","Top","Right"]	
+    },
+    {
+      	"Id": 110,
+        "Keywords": ["Purple","Double Leaf","Bottom","Flipped"]	
+    },
+    {
+      	"Id": 111,
+        "Keywords": ["Purple","Double Leaf","Bottom","Right"]	
+    },
+    {
+      	"Id": 112,
+        "Keywords": ["Pink","Vines","Top","Flipped"]	
+    },
+    {
+      	"Id": 113,
+        "Keywords": ["Pink","Vines","Top","Right"]	
+    },
+    {
+      	"Id": 114,
+        "Keywords": ["Pink","Vines","Bottom","Flipped"]	
+    },
+    {
+      	"Id": 115,
+        "Keywords": ["Pink","Vines","Bottom","Right"]	
+    },
+    {
+      	"Id": 116,
+        "Keywords": ["Pink","Lush Leaf","Top","Flipped"]	
+    },
+    {
+      	"Id": 117,
+        "Keywords": ["Pink","Lush Leaf","Top","Right"]	
+    },
+    {
+      	"Id": 118,
+        "Keywords": ["Pink","Lush Leaf","Bottom","Flipped"]	
+    },
+    {
+      	"Id": 119,
+        "Keywords": ["Pink","Lush Leaf","Bottom","Right"]	
+    },
+    {
+      	"Id": 120,
+        "Keywords": ["Pink","Plain Leaf","Top","Flipped"]	
+    },
+    {
+      	"Id": 121,
+        "Keywords": ["Pink","Plain Leaf","Top","Right"]	
+    },
+    {
+      	"Id": 122,
+        "Keywords": ["Pink","Plain Leaf","Bottom","Flipped"]	
+    },
+    {
+      	"Id": 123,
+        "Keywords": ["Pink","Plain Leaf","Bottom","Right"]	
+    },
+    {
+      	"Id": 124,
+        "Keywords": ["Pink","Double Leaf","Top","Flipped"]	
+    },
+    {
+      	"Id": 125,
+        "Keywords": ["Pink","Double Leaf","Top","Right"]	
+    },
+    {
+      	"Id": 126,
+        "Keywords": ["Pink","Double Leaf","Bottom","Flipped"]	
+    },
+    {
+      	"Id": 127,
+        "Keywords": ["Pink","Double Leaf","Bottom","Right"]	
+    },
+    {
+      	"Id": 128,
+        "Keywords": ["Peach","Vines","Top","Flipped"]	
+    },
+    {
+      	"Id": 129,
+        "Keywords": ["Peach","Vines","Top","Right"]	
+    },
+    {
+      	"Id": 130,
+        "Keywords": ["Peach","Vines","Bottom","Flipped"]	
+    },
+    {
+      	"Id": 131,
+        "Keywords": ["Peach","Vines","Bottom","Right"]	
+    },
+    {
+      	"Id": 132,
+        "Keywords": ["Peach","Lush Leaf","Top","Flipped"]	
+    },
+    {
+      	"Id": 133,
+        "Keywords": ["Peach","Lush Leaf","Top","Right"]	
+    },
+    {
+      	"Id": 134,
+        "Keywords": ["Peach","Lush Leaf","Bottom","Flipped"]	
+    },
+    {
+      	"Id": 135,
+        "Keywords": ["Peach","Lush Leaf","Bottom","Right"]	
+    },
+    {
+      	"Id": 136,
+        "Keywords": ["Peach","Plain Leaf","Top","Flipped"]	
+    },
+    {
+      	"Id": 137,
+        "Keywords": ["Peach","Plain Leaf","Top","Right"]	
+    },
+    {
+      	"Id": 138,
+        "Keywords": ["Peach","Plain Leaf","Bottom","Flipped"]	
+    },
+    {
+      	"Id": 139,
+        "Keywords": ["Peach","Plain Leaf","Bottom","Right"]	
+    },
+    {
+      	"Id": 140,
+        "Keywords": ["Peach","Double Leaf","Top","Flipped"]	
+    },
+    {
+      	"Id": 141,
+        "Keywords": ["Peach","Double Leaf","Top","Right"]	
+    },
+    {
+      	"Id": 142,
+        "Keywords": ["Peach","Double Leaf","Bottom","Flipped"]	
+    },
+    {
+      	"Id": 143,
+        "Keywords": ["Peach","Double Leaf","Bottom","Right"]	
+    },
+    {
+      	"Id": 144,
+        "Keywords": ["Pale Pink","Vines","Top","Flipped"]	
+    },
+    {
+      	"Id": 145,
+        "Keywords": ["Pale Pink","Vines","Top","Right"]	
+    },
+    {
+      	"Id": 146,
+        "Keywords": ["Pale Pink","Vines","Bottom","Flipped"]	
+    },
+    {
+      	"Id": 147,
+        "Keywords": ["Pale Pink","Vines","Bottom","Right"]	
+    },
+    {
+      	"Id": 148,
+        "Keywords": ["Pale Pink","Lush Leaf","Top","Flipped"]	
+    },
+    {
+      	"Id": 149,
+        "Keywords": ["Pale Pink","Lush Leaf","Top","Right"]	
+    },
+    {
+      	"Id": 150,
+        "Keywords": ["Pale Pink","Lush Leaf","Bottom","Flipped"]	
+    },
+    {
+      	"Id": 151,
+        "Keywords": ["Pale Pink","Lush Leaf","Bottom","Right"]	
+    },
+    {
+      	"Id": 152,
+        "Keywords": ["Pale Pink","Plain Leaf","Top","Flipped"]	
+    },
+    {
+      	"Id": 153,
+        "Keywords": ["Pale Pink","Plain Leaf","Top","Right"]	
+    },
+    {
+      	"Id": 154,
+        "Keywords": ["Pale Pink","Plain Leaf","Bottom","Flipped"]	
+    },
+    {
+      	"Id": 155,
+        "Keywords": ["Pale Pink","Plain Leaf","Bottom","Right"]	
+    },
+    {
+      	"Id": 156,
+        "Keywords": ["Pale Pink","Double Leaf","Top","Flipped"]	
+    },
+    {
+      	"Id": 157,
+        "Keywords": ["Pale Pink","Double Leaf","Top","Right"]	
+    },
+    {
+      	"Id": 158,
+        "Keywords": ["Pale Pink","Double Leaf","Bottom","Flipped"]	
+    },
+    {
+      	"Id": 159,
+        "Keywords": ["Pale Pink","Double Leaf","Bottom","Right"]	
+    },
+    {
+      	"Id": 160,
+        "Keywords": ["Red","Vines","Top","Flipped"]	
+    },
+    {
+      	"Id": 161,
+        "Keywords": ["Red","Vines","Top","Right"]	
+    },
+    {
+      	"Id": 162,
+        "Keywords": ["Red","Vines","Bottom","Flipped"]	
+    },
+    {
+      	"Id": 163,
+        "Keywords": ["Red","Vines","Bottom","Right"]	
+    },
+    {
+      	"Id": 164,
+        "Keywords": ["Red","Lush Leaf","Top","Flipped"]	
+    },
+    {
+      	"Id": 165,
+        "Keywords": ["Red","Lush Leaf","Top","Right"]	
+    },
+    {
+      	"Id": 166,
+        "Keywords": ["Red","Lush Leaf","Bottom","Flipped"]	
+    },
+    {
+      	"Id": 167,
+        "Keywords": ["Red","Lush Leaf","Bottom","Right"]	
+    },
+    {
+      	"Id": 168,
+        "Keywords": ["Red","Plain Leaf","Top","Flipped"]	
+    },
+    {
+      	"Id": 169,
+        "Keywords": ["Red","Plain Leaf","Top","Right"]	
+    },
+    {
+      	"Id": 170,
+        "Keywords": ["Red","Plain Leaf","Bottom","Flipped"]	
+    },
+    {
+      	"Id": 171,
+        "Keywords": ["Red","Plain Leaf","Bottom","Right"]	
+    },
+    {
+      	"Id": 172,
+        "Keywords": ["Red","Double Leaf","Top","Flipped"]	
+    },
+    {
+      	"Id": 173,
+        "Keywords": ["Red","Double Leaf","Top","Right"]	
+    },
+    {
+      	"Id": 174,
+        "Keywords": ["Red","Double Leaf","Bottom","Flipped"]	
+    },
+    {
+      	"Id": 175,
+        "Keywords": ["Red","Double Leaf","Bottom","Right"]	
+    },
+    {
+      	"Id": 176,
+        "Keywords": ["Orange","Vines","Top","Flipped"]	
+    },
+    {
+      	"Id": 177,
+        "Keywords": ["Orange","Vines","Top","Right"]	
+    },
+    {
+      	"Id": 178,
+        "Keywords": ["Orange","Vines","Bottom","Flipped"]	
+    },
+    {
+      	"Id": 179,
+        "Keywords": ["Orange","Vines","Bottom","Right"]	
+    },
+    {
+      	"Id": 180,
+        "Keywords": ["Orange","Lush Leaf","Top","Flipped"]	
+    },
+    {
+      	"Id": 181,
+        "Keywords": ["Orange","Lush Leaf","Top","Right"]	
+    },
+    {
+      	"Id": 182,
+        "Keywords": ["Orange","Lush Leaf","Bottom","Flipped"]	
+    },
+    {
+      	"Id": 183,
+        "Keywords": ["Orange","Lush Leaf","Bottom","Right"]	
+    },
+    {
+      	"Id": 184,
+        "Keywords": ["Orange","Plain Leaf","Top","Flipped"]	
+    },
+    {
+      	"Id": 185,
+        "Keywords": ["Orange","Plain Leaf","Top","Right"]	
+    },
+    {
+      	"Id": 186,
+        "Keywords": ["Orange","Plain Leaf","Bottom","Flipped"]	
+    },
+    {
+      	"Id": 187,
+        "Keywords": ["Orange","Plain Leaf","Bottom","Right"]	
+    },
+    {
+      	"Id": 188,
+        "Keywords": ["Orange","Double Leaf","Top","Flipped"]	
+    },
+    {
+      	"Id": 189,
+        "Keywords": ["Orange","Double Leaf","Top","Right"]	
+    },
+    {
+      	"Id": 190,
+        "Keywords": ["Orange","Double Leaf","Bottom","Flipped"]	
+    },
+    {
+      	"Id": 191,
+        "Keywords": ["Orange","Double Leaf","Bottom","Right"]	
+    }
+  ]
+}

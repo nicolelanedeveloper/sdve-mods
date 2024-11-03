@@ -1,0 +1,218 @@
+{
+	"$schema": "https://smapi.io/schemas/content-patcher.json",
+	"Format": "2.0.0",
+	"ConfigSchema": {
+		"Outdoors": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "VPR Sync Setting",
+			"Description": "Make edit to outdoors tiles. Should be always on."
+		},
+		"Green Fall": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "VPR Sync Setting",
+			"Description": "Make fall grass green instead of orange. Make sure to check for original VPR's config too. Will be override with Redraw Pelican Town's config if installed. Sleep for a day in game or reload the game to see the changes. If you see mismatching tiles, you might want to check the config of other recolor/retexture mods."
+		},
+		"Water Type": {
+			"AllowValues": "transparent, semi, opaque",
+			"Default": "opaque",
+			"Section": "VPR Sync Setting",
+			"Description": "If you see underwater tile flickering, please change this config to match VPR's Water Type config."
+		},
+		"Blue Grass Type": {
+			"AllowValues": "none, vanilla, vanillaShort, bluer, bluerShort",
+			"Default": "vanilla",
+			"Section": "VPR Sync Setting",
+			"Description": "Change the color of the blue grass. You can change this option to none if you want to use other mods that edit the blue grass."
+		},
+
+		"Town Interior Fix": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Interior",
+			"Description": "Change 1.6 town interior tilesheet to VPR. Turn this off if you see any conflict when you use other interior mods."
+		},
+		"Farm House Upgrade Interior Fix": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Interior",
+			"Description": "Change 1.6 farm house tilesheet to VPR. Turn this off if you see any conflict when you use other farm house interior mods."
+		},
+		"Door Mismatching Color Fix": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Interior",
+			"Description": "Fix town doors mismatching color. Turn this off if you see any conflict when you use other town interior mods."
+		},
+
+		"Mini Map Fix": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Mini Map",
+			"Description": "Fix town doors mismatching color. Recolor the vanilla mini map (not included other mod's maps). Turn this off if you're using SVE or any mod other mod that edit the mini map."
+		},
+		"Meadowland Map Fix": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Mini Map",
+			"Description": "Recolor the meadowland mini map to match this mod's map. Turn this off if you're using SVE or any other mod that edit the mini map."
+		},
+
+		"Mossy Tree Fix": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Tree",
+			"Description": "Recolor the mossy vanilla trees to VPR. Turn this off if you see any conflict when you use other tree texture mods."
+		},
+
+		"Green Rain Tree Fix": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Tree",
+			"Description": "Recolor the new green rain tree to VPR. Turn this off if you see any conflict when you use other tree texture mods."
+		},
+
+		"Carpenter Window Fix": {
+			"AllowValues": "true, false",
+			"Default": "false",
+			"Section": "Misc",
+			"Description": "Turn this on or off if you see weird animation for the window of Robin's house."
+		},
+		"Desert Tiles Fix": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Misc",
+			"Description": "Recolor the new 1.6 desert tilesheet to VPR."
+		},
+		"Skull Cavern Fix": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Misc",
+			"Description": "Recolor the new 1.6 skull cavern entrance to VPR."
+		},
+		"Bookseller Zone Shadow Fix": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Misc",
+			"Description": "Tried to fix the bookseller zone shadow. Turn this off if you see any conflicting shadow on the ground. Will be override with Redraw Pelican Town if installed."
+		},
+		"Underwater Tree Animation Fix": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Misc",
+			"Description": "Tried to fix the animation of underwater tree (mostly at beach farms). Turn this off if you're using other's mods that edit this tree."
+		},
+		"Seeds Spots Fix": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Misc",
+			"Description": "Recolor 1.6 seeds spots to make it more recognizable."
+		},
+		"Lumisteria Outdoors": {
+			"AllowValues": "auto, true, false",
+			"Default": "auto",
+			"Section": "Compatibility - Lumisteria Outdoors",
+			"Description": "Experimenting. Recolor Lumisteria's Outdoor Tilesheet to VPR."
+		},
+		"Lumisteria Outdoors Buildings": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Compatibility - Lumisteria Outdoors",
+			"Description": "Experimenting. Recolor Lumisteria's Outdoor Buildings Tilesheet to VPR."
+		},
+		"Lumisteria Outdoors Decorations": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Compatibility - Lumisteria Outdoors",
+			"Description": "Experimenting. Recolor Lumisteria's Outdoor Decorations Tilesheet to VPR."
+		},
+		"Lumisteria Outdoors Tiles": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Compatibility - Lumisteria Outdoors",
+			"Description": "Experimenting. Recolor Lumisteria's Outdoor Tiles Tilesheet to VPR."
+		},
+		"Force Replace Outdoors": {
+			"AllowValues": "true, false",
+			"Default": "false",
+			"Section": "Force Override",
+			"Description": "Experimenting. Not recommended. Force replace all outdoors tilesheet changes with this mod tilesheet changes."
+		}
+	},
+	"DynamicTokens": [
+		{
+			"Name": "LumiOutdoorCompat",
+			"Value": "{{Lumisteria Outdoors}}"
+		},
+		{
+			"Name": "LumiOutdoorCompat",
+			"Value": "true",
+			"When": {
+				"Lumisteria Outdoors": "auto",
+				"HasMod": "Lumisteria.TtilesheetsOutdoor",
+			}
+		},
+		{
+			"Name": "GreenFallCompat",
+			"Value": "{{Green Fall}}"
+		},
+		{
+			"Name": "GreenFallCompat",
+			"Value": "{{JefGrizli.RedrawPelicanTownC/GreenFall}}",
+			"When": { "HasMod": "JefGrizli.RedrawPelicanTownC" }
+		},
+		{
+			"Name": "SeedsSpotsFix",
+			"Value": "{{Seeds Spots Fix}}"
+		},
+		{
+			"Name": "SeedsSpotsFix",
+			"Value": "false",
+			"When": {
+				"Seeds Spots Fix": "true",
+				"GreenFallCompat": "false",
+				"Season": "fall"
+			}
+		},
+		{
+			"Name": "SeedsSpotsFix",
+			"Value": "false",
+			"When": {
+				"Seeds Spots Fix": "true",
+				"Season": "winter"
+			}
+		},
+		{
+			"Name": "BooksellerCompat",
+			"Value": "{{Bookseller Zone Shadow Fix}}"
+		},
+		{
+			"Name": "BooksellerCompat",
+			"Value": "false",
+			"When": { "HasMod": "JefGrizli.RedrawPelicanTown" }
+		}
+	],
+	"Changes": [
+		// Outdoors
+		{
+			"LogName": "Outdoors Include",
+			"Action": "Include",
+			"FromFile": "code/outdoors.json",
+			"When": {"Outdoors": "true"}
+		},
+		// Other files
+		{
+			"LogName": "Other file Include",
+			"Action": "Include",
+			"FromFile": "code/interior.json, code/minimap.json, code/tree.json, code/misc.json"
+		},
+		// Compatibility
+		{
+			"LogName": "Lumisteria Outdoors Include",
+			"Action": "Include",
+			"FromFile": "code/lumisteria_outdoors.json",
+			"When": {"LumiOutdoorCompat": "true"}
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+  "Name": "[AT] IdaIda's Wallpapers and Floors",
+  "Author": "IdaIda",
+  "Version": "1.0.0",
+  "Description": "Walls and floors content pack for Alternative Textures",
+  "UniqueID": "IdaIda.AT.Wallpapers_and_Floors",
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "5.0.1"
+  }
+}

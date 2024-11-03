@@ -1,0 +1,344 @@
+{
+  "ItemName": "Floor",
+  "Type": "Decoration",
+  "TextureWidth": 32,
+  "TextureHeight": 32,
+  "ManualVariations": [
+	{
+      "Id": 0,
+      "ChanceWeight": 0.1,
+	  "Name": "K10 birch diagonal planks",
+	  "Keywords": [ "K10 birch diagonal planks" ]
+    },
+	{
+      "Id": 1,
+      "ChanceWeight": 0.1,
+	  "Name": "K10 birch parquet",
+	  "Keywords": [ "K10 birch parquet" ]
+    },
+	{
+      "Id": 2,
+      "ChanceWeight": 0.1,
+	  "Name": "K10 birch parquet",
+	  "Keywords": [ "K10 birch parquet" ]
+    },
+	{
+      "Id": 3,
+      "ChanceWeight": 0.1,
+      "Name": "K10 birch parquet",
+	  "Keywords": [ "K10 birch parquet" ]
+    },
+    {
+      "Id": 4,
+      "ChanceWeight": 0.1,
+	  "Name": "K10 black tile",
+	  "Keywords": [ "K10 black tile" ]
+    },
+	{
+      "Id": 5,
+      "ChanceWeight": 0.1,
+      "Name": "K10 blue tile",
+	  "Keywords": [ "K10 blue tile" ]
+    },
+    {
+      "Id": 6,
+      "ChanceWeight": 0.1,
+	  "Name": "K10 cherry diagonal planks",
+	  "Keywords": [ "K10 cherry diagonal planks" ]
+    },
+	{
+      "Id": 7,
+      "ChanceWeight": 0.1,
+      "Name": "K10 cherry horizontal planks",
+	  "Keywords": [ "K10 cherry horizontal planks" ]
+    },
+    {
+      "Id": 8,
+      "ChanceWeight": 0.1,
+	  "Name": "K10 cherry parquet",
+	  "Keywords": [ "K10 cherry parquet" ]
+    },
+	{
+      "Id": 9,
+      "ChanceWeight": 0.1,
+      "Name": "K10 cherry parquet",
+	  "Keywords": [ "K10 cherry parquet" ]
+    },
+    {
+      "Id": 10,
+      "ChanceWeight": 0.1,
+	  "Name": "K10 cherry parquet",
+	  "Keywords": [ "K10 cherry parquet" ]
+    },
+	{
+      "Id": 11,
+      "ChanceWeight": 0.1,
+	  "Name": "K10 cherry tile",
+	  "Keywords": [ "K10 cherry tile" ]
+    },
+	{
+      "Id": 12,
+      "ChanceWeight": 0.1,
+	  "Name": "K10 cherry vertical planks",
+	  "Keywords": [ "K10 cherry vertical planks" ]
+    },
+	{
+      "Id": 13,
+      "ChanceWeight": 0.1,
+	  "Name": "K10 dark pine horizontal planks",
+	  "Keywords": [ "K10 dark pine horizontal planks" ]
+    },
+	{
+      "Id": 14,
+      "ChanceWeight": 0.1,
+	  "Name": "K10 dark pine horizontal planks",
+	  "Keywords": [ "K10 dark pine horizontal planks" ]
+    },
+	{
+      "Id": 15,
+      "ChanceWeight": 0.1,
+	  "Name": "K10 dark pine parquet",
+	  "Keywords": [ "K10 dark pine parquet" ]
+    },
+	{
+      "Id": 16,
+      "ChanceWeight": 0.1,
+	  "Name": "K10 dark pine tile",
+	  "Keywords": [ "K10 dark pine tile" ]
+    },
+	{
+      "Id": 17,
+      "ChanceWeight": 0.1,
+	  "Name": "K10 dark pine tile",
+	  "Keywords": [ "K10 dark pine tile" ]
+    },
+	{
+      "Id": 18,
+      "ChanceWeight": 0.1,
+	  "Name": "K10 dark pine vertical planks",
+	  "Keywords": [ "K10 dark pine vertical planks" ]
+    },
+	{
+      "Id": 19,
+      "ChanceWeight": 0.1,
+	  "Name": "K10 dark red tile",
+	  "Keywords": [ "K10 dark red tile" ]
+    },
+	{
+      "Id": 20,
+      "ChanceWeight": 0.1,
+	  "Name": "K10 green dotted grid",
+	  "Keywords": [ "K10 green dotted grid" ]
+    },
+	{
+      "Id": 21,
+      "ChanceWeight": 0.1,
+	  "Name": "K10 green tile",
+	  "Keywords": [ "K10 green tile" ]
+    },
+	{
+      "Id": 22,
+      "ChanceWeight": 0.1,
+	  "Name": "K10 light orange tile",
+	  "Keywords": [ "K10 light orange tile" ]
+    },
+	{
+      "Id": 23,
+      "ChanceWeight": 0.1,
+	  "Name": "K10 light pine horizontal planks",
+	  "Keywords": [ "K10 light pine horizontal planks" ]
+    },
+	{
+      "Id": 24,
+      "ChanceWeight": 0.1,
+	  "Name": "K10 light red carpet",
+	  "Keywords": [ "K10 light red carpet" ]
+    },
+	{
+      "Id": 25,
+      "ChanceWeight": 0.1,
+	  "Name": "K10 light red carpet",
+	  "Keywords": [ "K10 light red carpet" ]
+    },
+	{
+      "Id": 26,
+      "ChanceWeight": 0.1,
+	  "Name": "K10 light red carpet",
+	  "Keywords": [ "K10 light red carpet" ]
+    },
+	{
+      "Id": 27,
+      "ChanceWeight": 0.1,
+	  "Name": "K10 light red dotted grid",
+	  "Keywords": [ "K10 light red dotted grid" ]
+    },
+	{
+      "Id": 28,
+      "ChanceWeight": 0.1,
+	  "Name": "K10 light red dotted grid",
+	  "Keywords": [ "K10 light red dotted grid" ]
+    },
+	{
+      "Id": 29,
+      "ChanceWeight": 0.1,
+	  "Name": "K10 light red tile",
+	  "Keywords": [ "K10 light red tile" ]
+    },
+	{
+      "Id": 30,
+      "ChanceWeight": 0.1,
+	  "Name": "K10 light red tile",
+	  "Keywords": [ "K10 light red tile" ]
+    },
+	{
+      "Id": 31,
+      "ChanceWeight": 0.1,
+	  "Name": "K10 light red tile",
+	  "Keywords": [ "K10 light red tile" ]
+    },
+	{
+      "Id": 32,
+      "ChanceWeight": 0.1,
+	  "Name": "K10 oak diagonal planks",
+	  "Keywords": [ "K10 oak diagonal planks" ]
+    },
+	{
+      "Id": 33,
+      "ChanceWeight": 0.1,
+	  "Name": "K10 oak horizontal planks",
+	  "Keywords": [ "K10 oak horizontal planks" ]
+    },
+	{
+      "Id": 34,
+      "ChanceWeight": 0.1,
+	  "Name": "K10 oak horizontal planks",
+	  "Keywords": [ "K10 oak horizontal planks" ]
+    },
+	{
+      "Id": 35,
+      "ChanceWeight": 0.1,
+	  "Name": "K10 oak horizontal planks",
+	  "Keywords": [ "K10 oak horizontal planks" ]
+    },
+	{
+      "Id": 36,
+      "ChanceWeight": 0.1,
+	  "Name": "K10 oak horizontal planks",
+	  "Keywords": [ "K10 oak horizontal planks" ]
+    },
+	{
+      "Id": 37,
+      "ChanceWeight": 0.1,
+	  "Name": "K10 oak parquet",
+	  "Keywords": [ "K10 oak parquet" ]
+    },
+	{
+      "Id": 38,
+      "ChanceWeight": 0.1,
+	  "Name": "K10 oak parquet",
+	  "Keywords": [ "K10 oak parquet" ]
+    },
+	{
+      "Id": 39,
+      "ChanceWeight": 0.1,
+	  "Name": "K10 oak parquet",
+	  "Keywords": [ "K10 oak parquet" ]
+    },
+	{
+      "Id": 40,
+      "ChanceWeight": 0.1,
+	  "Name": "K10 oak parquet",
+	  "Keywords": [ "K10 oak parquet" ]
+    },
+	{
+      "Id": 41,
+      "ChanceWeight": 0.1,
+	  "Name": "K10 oak parquet",
+	  "Keywords": [ "K10 oak parquet" ]
+    },
+	{
+      "Id": 42,
+      "ChanceWeight": 0.1,
+	  "Name": "K10 oak parquet",
+	  "Keywords": [ "K10 oak parquet" ]
+    },
+	{
+      "Id": 43,
+      "ChanceWeight": 0.1,
+	  "Name": "K10 oak parquet",
+	  "Keywords": [ "K10 oak parquet" ]
+    },
+	{
+      "Id": 44,
+      "ChanceWeight": 0.1,
+	  "Name": "K10 oak vertical planks",
+	  "Keywords": [ "K10 oak vertical planks" ]
+    },
+	{
+      "Id": 45,
+      "ChanceWeight": 0.1,
+	  "Name": "K10 oak vertical planks",
+	  "Keywords": [ "K10 oak vertical planks" ]
+    },
+	{
+      "Id": 46,
+      "ChanceWeight": 0.1,
+	  "Name": "K10 walnut diagonal planks",
+	  "Keywords": [ "K10 walnut diagonal planks" ]
+    },
+	{
+      "Id": 47,
+      "ChanceWeight": 0.1,
+	  "Name": "K10 walnut parquet",
+	  "Keywords": [ "K10 walnut parquet" ]
+    },
+	{
+      "Id": 48,
+      "ChanceWeight": 0.1,
+	  "Name": "K10 walnut parquet",
+	  "Keywords": [ "K10 walnut parquet" ]
+    },
+	{
+      "Id": 49,
+      "ChanceWeight": 0.1,
+	  "Name": "K10 walnut parquet",
+	  "Keywords": [ "K10 walnut parquet" ]
+    },
+	{
+      "Id": 50,
+      "ChanceWeight": 0.1,
+	  "Name": "K10 walnut parquet",
+	  "Keywords": [ "K10 walnut parquet" ]
+    },
+	{
+      "Id": 51,
+      "ChanceWeight": 0.1,
+	  "Name": "K10 walnut tile",
+	  "Keywords": [ "K10 walnut tile" ]
+    },
+	{
+      "Id": 52,
+      "ChanceWeight": 0.1,
+	  "Name": "K10 walnut tile",
+	  "Keywords": [ "K10 walnut tile" ]
+    },
+	{
+      "Id": 53,
+      "ChanceWeight": 0.1,
+	  "Name": "K10 walnut tile",
+	  "Keywords": [ "K10 walnut tile" ]
+    },
+	{
+      "Id": 54,
+      "ChanceWeight": 0.1,
+      "Name": "K10 white horizontal planks",
+	  "Keywords": [ "K10 white horizontal planks" ]
+    },
+    {
+      "Id": 55,
+      "ChanceWeight": 0.1,
+	  "Name": "K10 white horizontal planks",
+	  "Keywords": [ "K10 white horizontal planks" ]
+    }
+	]
+}

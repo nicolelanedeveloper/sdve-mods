@@ -1,0 +1,25 @@
+﻿{
+	"Changes": [
+		{
+			"LogName": "Load Objects Tilesheet",
+			"Action": "Load",
+			"Target": "Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\Flags",
+			"FromFile": "Assets/CustomFlag.png"
+		},
+	  // Add Object
+	   {
+		"Action": "EditData",
+		"Target": "Data/Furniture",
+		"Entries": {
+			"Ilyeana.DecoratorsDreamCP_CustomFlag": "CustomFlag/painting/1 2/1 2/1/1000/-1/{{i18n:furniture.CustomFlag.name}}/0/Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\Flags"
+		}
+	   }
+	]
+}
+	  
+
+	
+
+
+  
+

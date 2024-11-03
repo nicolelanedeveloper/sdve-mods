@@ -1,0 +1,11 @@
+{
+    "Name": "[AT]Prophet's Dining Set",   
+    "Author": "Prophet",   
+    "Version": "1.1",
+    "Description": "Prophet's dining set",   
+    "UniqueID": "Prophet.DiningSetAT",    
+    "ContentPackFor": {
+        "UniqueID": "PeacefulEnd.AlternativeTextures",
+        "MinimumVersion": "6.10.0"
+    }
+}

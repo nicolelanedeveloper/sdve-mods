@@ -1,0 +1,294 @@
+{ 
+  //Make Edits!
+  "ItemName": "IlyeanaHighSingleShelf",
+  "Type": "Furniture",
+  "TextureWidth": 16,
+  "TextureHeight": 32,
+  "ManualVariations": [
+    {
+      "Id": 0,
+      "Keywords": [
+        "Vanilla",
+        "Oak"
+      ]
+    },
+    {
+      "Id": 1,
+      "Keywords": [
+        "Vanilla",
+        "Bracket",
+        "Oak"
+      ]
+    },
+    {
+      "Id": 2,
+      "Keywords": [
+        "Vanilla",
+        "Walnut"
+      ]
+    },
+    {
+      "Id": 3,
+      "Keywords": [
+        "Vanilla",
+        "Bracket",
+        "Walnut"
+      ]
+    },
+    {
+      "Id": 4,
+      "Keywords": [
+        "Vanilla",
+        "Birch"
+      ]
+    },
+    {
+      "Id": 5,
+      "Keywords": [
+        "Vanilla",
+        "Bracket",
+        "Birch"
+      ]
+    },
+    {
+      "Id": 6,
+      "Keywords": [
+        "Vanilla",
+        "Mahogany"
+      ]
+    },
+    {
+      "Id": 7,
+      "Keywords": [
+        "Vanilla",
+        "Bracket",
+        "Mahogany"
+      ]
+    },
+    {
+      "Id": 8,
+      "Keywords": [
+        "Vanilla",
+        "Cherry"
+      ]
+    },
+    {
+      "Id": 9,
+      "Keywords": [
+        "Vanilla",
+        "Bracket",
+        "Cherry"
+      ]
+    },
+    {
+      "Id": 10,
+      "Keywords": [
+        "Vanilla",
+        "Pine"
+      ]
+    },
+    {
+      "Id": 11,
+      "Keywords": [
+        "Vanilla",
+        "Bracket",
+        "Pine"
+      ]
+    },
+    {
+      "Id": 12,
+      "Keywords": [
+        "Vanilla",
+        "Modern"
+      ]
+    },
+    {
+      "Id": 13,
+      "Keywords": [
+        "Vanilla",
+        "Bracket",
+        "Modern"
+      ]
+    },
+    {
+      "Id": 14,
+      "Keywords": [
+        "Vanilla",
+        "Dark"
+      ]
+    },
+    {
+      "Id": 15,
+      "Keywords": [
+        "Vanilla",
+        "Bracket",
+        "Dark"
+      ]
+    },
+    {
+      "Id": 16,
+      "Keywords": [
+        "Vanilla",
+        "Gold"
+      ]
+    },
+    {
+      "Id": 17,
+      "Keywords": [
+        "Vanilla",
+        "Bracket",
+        "Gold"
+      ]
+    },
+    {
+      "Id": 18,
+      "Keywords": [
+        "Vanilla",
+        "Iridium"
+      ]
+    },
+    {
+      "Id": 19,
+      "Keywords": [
+        "Vanilla",
+        "Bracket",
+        "Iridium"
+      ]
+    },
+    {
+      "Id": 20,
+      "Keywords": [
+        "Kimberly's Witch Kitchen",
+        "Dark"
+      ]
+    },
+    {
+      "Id": 21,
+      "Keywords": [
+        "Kimberly's Witch Kitchen",
+        "Bracket",
+        "Dark"
+      ]
+    },
+    {
+      "Id": 22,
+      "Keywords": [
+        "Kimberly's Witch Kitchen",
+        "Purple"
+      ]
+    },
+    {
+      "Id": 23,
+      "Keywords": [
+        "Kimberly's Witch Kitchen",
+        "Bracket",
+        "Purple"
+      ]
+    },
+    {
+      "Id": 24,
+      "Keywords": [
+        "Kimberly's Witch Kitchen",
+        "Pale"
+      ]
+    },
+    {
+      "Id": 25,
+      "Keywords": [
+        "Kimberly's Witch Kitchen",
+        "Bracket",
+        "Pale"
+      ]
+    },
+    {
+      "Id": 26,
+      "Keywords": [
+        "DaisyNiko's Earthy Recolour",
+        "A"
+      ]
+    },
+    {
+      "Id": 27,
+      "Keywords": [
+        "DaisyNiko's Earthy Recolour",
+        "Bracket",
+        "A"
+      ]
+    },
+    {
+      "Id": 28,
+      "Keywords": [
+        "DaisyNiko's Earthy Recolour",
+        "B"
+      ]
+    },
+    {
+      "Id": 29,
+      "Keywords": [
+        "DaisyNiko's Earthy Recolour",
+        "Bracket",
+        "B"
+      ]
+    },
+    {
+      "Id": 30,
+      "Keywords": [
+        "DaisyNiko's Earthy Recolour",
+        "C"
+      ]
+    },
+    {
+      "Id": 31,
+      "Keywords": [
+        "DaisyNiko's Earthy Recolour",
+        "Bracket",
+        "C"
+      ]
+    },
+    {
+      "Id": 32,
+      "Keywords": [
+        "DaisyNiko's Earthy Recolour",
+        "D"
+      ]
+    },
+    {
+      "Id": 33,
+      "Keywords": [
+        "DaisyNiko's Earthy Recolour",
+        "Bracket",
+        "D"
+      ]
+    },
+    {
+      "Id": 34,
+      "Keywords": [
+        "DaisyNiko's Earthy Recolour",
+        "E"
+      ]
+    },
+    {
+      "Id": 35,
+      "Keywords": [
+        "DaisyNiko's Earthy Recolour",
+        "Bracket",
+        "E"
+      ]
+    },
+    {
+      "Id": 36,
+      "Keywords": [
+        "DaisyNiko's Earthy Recolour",
+        "F"
+      ]
+    },
+    {
+      "Id": 37,
+      "Keywords": [
+        "DaisyNiko's Earthy Recolour",
+        "Bracket",
+        "F"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Hudson Valley Buildings for AT",
+  "Author": "Kazan22",
+  "Version": "1.0.3",
+  "Description": "A replacement for buildings on your farm for each season!",
+  "UniqueID": "Kazan22.AT.HudsonValleyBuildings",
+  "UpdateKeys": [ "Nexus:13373" ],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "5.0.0"
+  }
+}

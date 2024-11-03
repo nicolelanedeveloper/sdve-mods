@@ -1,0 +1,97 @@
+{
+    "Format": "2.0.0",
+    "Changes": [
+        {
+            "Action": "EditData",    
+            "Target": "Data/Furniture",   
+            "Entries": {
+
+                "{{ModID}}_Dining_0": "{{ModID}}_Dining_0/table/4 3/4 2/2/100/2/{{i18n:Dining_0}}/0/Mods\\{{ModID}}\\Dining_0/true/collection_prophFurniture",
+                "{{ModID}}_Dining_1": "{{ModID}}_Dining_1/long table/-1/-1/2/3500/-1/{{i18n:Dining_1}}/0/Mods\\{{ModID}}\\Dining_1/true/collection_prophFurniture",  
+                "{{ModID}}_Dining_2": "dining.2/chair/-1/-1/4/350/-1/{{i18n:dining_2}}/0/Tilesheets\\chair1/true/collection_prophFurniture",
+                "{{ModID}}_Dining_3": "dining.3/chair/-1/-1/4/350/-1/{{i18n:dining_3}}/0/Tilesheets\\chair1pillow/true/collection_prophFurniture",
+		"{{ModID}}_Dining_4": "{{ModID}}_Dining_4/table/1 2/1 1/2/500/-1/{{i18n:Dining_4}}/0/Mods\\{{ModID}}\\Dining_4/true/collection_prophFurniture",
+		"{{ModID}}_Dining_5": "dining.5/chair/-1/-1/4/350/-1/{{i18n:dining_5}}/0/Tilesheets\\bench/true/collection_prophFurniture",
+                "{{ModID}}_Dining_6": "{{ModID}}_Dining_6/table/-1/-1/1/750/-1/{{i18n:Dining_6}}/0/Mods\\{{ModID}}\\Dining_6/true/collection_prophFurniture",
+                "{{ModID}}_Dining_7": "{{ModID}}_Dining_7/bookcase/3 4/3 1/1/400/-1/{{i18n:Dining_7}}/0/Mods\\{{ModID}}\\Dining_7/true/collection_prophFurniture",
+                "{{ModID}}_Dining_8": "{{ModID}}_Dining_8/lamp/-1/-1/1/750/-1/{{i18n:Dining_8}}/0/Mods\\{{ModID}}\\Dining_8/true/collection_prophFurniture",
+       
+                       }
+        },
+        
+      {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/Dining_0",
+            "FromFile": "assets/counter.png"
+         },
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/Dining_1",
+            "FromFile": "assets/largertable.png"
+         },
+{
+
+	"Action": "Load",
+	"Target": "Tilesheets/chair1pillow",
+	"FromFile": "assets/chair1pillow.png"
+
+	},
+
+{
+
+	"Action": "Load",
+	"Target": "Tilesheets/chair1",
+	"FromFile": "assets/chair1.png"
+
+	},
+
+{
+	"Action": "Load",
+	"Target": "Tilesheets/chair1pillowfront",
+	"FromFile": "assets/chair1pillowfront.png"
+        },
+
+{
+	"Action": "Load",
+	"Target": "Tilesheets/chair1front",
+	"FromFile": "assets/chair1front.png"
+        },
+
+{
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/Dining_4",
+            "FromFile": "assets/table.png"
+        },
+{
+           "Action": "Load",
+	   "Target": "Tilesheets/bench",
+	   "FromFile": "assets/bench.png"
+         },
+
+{
+           "Action": "Load",
+	   "Target": "Tilesheets/benchfront",
+	   "FromFile": "assets/benchfront.png"
+         },
+{
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/Dining_6",
+            "FromFile": "assets/smalltable.png"
+         },
+
+    
+{
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/Dining_7",
+            "FromFile": "assets/cabinet.png"
+         },
+
+{
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/Dining_8",
+            "FromFile": "assets/oven.png"
+         }, 
+    ]
+}
+
+

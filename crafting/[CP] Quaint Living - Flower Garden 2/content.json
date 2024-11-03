@@ -1,0 +1,67 @@
+{
+	"Format":"2.0.1",
+	"ConfigSchema":
+	{
+		"SeasonalVariant": {
+			"AllowValues":"true, false",
+			"Default":"true",
+			"Description":"Automatically makes some of the multi-season flowers change varieties when the season change."
+			}
+		},
+	"Changes": [
+	{
+		"LogName":"QL Sprites Load",
+		"Action":"Load",
+		"Target":"Mods/PC.QL.FlowerGarden2/Crops, Mods/PC.QL.FlowerGarden2/GiantCrops, Mods/PC.QL.FlowerGarden2/Objects, Mods/PC.QL.FlowerGarden2/FruitTrees",
+		"FromFile":"assets/{{TargetWithoutPath}}.png"
+		},
+//	SEASONAL PATCH
+	{
+		"LogName":"QL Flower Garden 2 - Seasonal Patch",
+		"Action":"Include",
+		"FromFile":"Data/SeasonalPatch.json",
+		"When": {"SeasonalVariant": true},
+		},
+//SPRING OBJECTS
+	{
+		"LogName":"QL Flower Garden 2 - Seed Object Data",
+		"Action":"Include",
+		"FromFile":"Data/SeedsData.json"
+		},
+	{
+		"LogName":"QL Flower Garden 2 - Object Data",
+		"Action":"Include",
+		"FromFile":"Data/ObjectData.json"
+		},
+//CROP DATA
+	{
+		"LogName":"QL Flower Garden 2 - Crop Data",
+		"Action":"Include",
+		"FromFile":"Data/CropData.json"
+		},
+	{
+		"LogName":"QL Flower Garden 2 - Giant Crops",
+		"Action":"Include",
+		"FromFile":"Data/GiantCrops.json"
+		},
+	{
+		"LogName":"QL Flower Garden 2 - Flower Tree Data",
+		"Action":"Include",
+		"FromFile":"Data/TreeData.json"
+		},
+//GIFT TASTES
+	{
+		"LogName":"QL Flower Garden 2 - Vanilla NPC Gift Tastes",
+		"Action":"Include",
+		"FromFile":"Data/VanillaNPCGiftTastes.json"
+		},
+//SHOP DATA
+	{
+		"LogName":"QL Flower Garden 2 - Shop Data",
+		"Action":"Include",
+		"FromFile":"Data/ShopData.json"
+		}
+	]
+}
+
+

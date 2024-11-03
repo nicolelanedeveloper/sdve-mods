@@ -1,0 +1,14 @@
+{
+  "Name": "[AT] Casual Furniture",
+   "Author": "katestardew",
+   "Version": "1.0.0",
+   "Description": "Casual Furniture by katestardew for AT.",
+   "UniqueID": "katestardew.AT.casualfurniture",
+   "MinimumApiVersion": "2.5.2",
+   "UpdateKeys": [],
+   "Dependencies": [],
+   "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "0.8.6"
+  }
+}

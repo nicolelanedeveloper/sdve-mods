@@ -1,0 +1,28 @@
+{"Format": "2.0.0",
+"Changes":[{
+"Action": "EditData",
+"Target": "Data/Furniture",
+"Entries":{
+
+"OB7.chair1": "ob7.chair1/chair/-1/-1/4/350/-1/{{i18n:ob7_chair1}}/0/Tilesheets\\ob7_basicdining_chairs/true/collection_ob7Furniture",
+"OB7.chair4": "ob7.chair4/chair/-1/-1/4/350/-1/{{i18n:ob7_chair4}}/38/Tilesheets\\ob7_basicdining_chairs/true/collection_ob7Furniture",
+"OB7.chair5": "ob7.chair5/chair/-1/-1/4/350/-1/{{i18n:ob7_chair5}}/64/Tilesheets\\ob7_basicdining_chairs/true/collection_ob7Furniture",
+
+"OB7.table1": "ob7.table1/table/-1/-1/1/750/-1/{{i18n:ob7_table1}}/0/Tilesheets\\ob7_basicdining_square/true/collection_ob7Furniture",
+"OB7.table1A": "ob7.table1A/table/-1/-1/1/750/-1/{{i18n:ob7_table1A}}/2/Tilesheets\\ob7_basicdining_square/true/collection_ob7Furniture",
+"OB7.table2": "ob7.table2/table/-1/-1/1/750/-1/{{i18n:ob7_table2}}/4/Tilesheets\\ob7_basicdining_square/true/collection_ob7Furniture",
+"OB7.table2A": "ob7.table2A/table/-1/-1/1/750/-1/{{i18n:ob7_table2}}/6/Tilesheets\\ob7_basicdining_square/true/collection_ob7Furniture",
+
+"OB7.longtable1": "ob7.longtable1/long table/-1/-1/2/3500/-1/{{i18n:ob7_longtable1}}/48/Tilesheets\\ob7_basicdining_square/true/collection_ob7Furniture",
+"OB7.longtable1A": "ob7.longtable1A/long table/-1/-1/2/3500/-1/{{i18n:ob7_longtable1A}}/55/Tilesheets\\ob7_basicdining_square/true/collection_ob7Furniture",
+"OB7.longtable2": "ob7.longtable2/long table/-1/-1/2/3500/-1/{{i18n:ob7_longtable2}}/128/Tilesheets\\ob7_basicdining_square/true/collection_ob7Furniture",
+"OB7.longtable2A": "ob7.longtable2A/long table/-1/-1/2/3500/-1/{{i18n:ob7_longtable2A}}/135/Tilesheets\\ob7_basicdining_square/true/collection_ob7Furniture",
+
+}
+},
+
+{"Action": "Load","Target": "Tilesheets/ob7_basicdining_chairs","FromFile": "assets/ob7_basicdining_chairs.png"},
+{"Action": "Load","Target": "Tilesheets/ob7_basicdining_chairsFront","FromFile": "assets/ob7_basicdining_chairsFront.png"},
+{"Action": "Load","Target": "Tilesheets/ob7_basicdining_square","FromFile": "assets/ob7_basicdining_square.png"},
+
+]}

@@ -1,0 +1,34 @@
+{
+  "ItemName": "Basic Window",
+  "Type": "Furniture",
+  "Seasons": ["Fall"],
+  "TextureWidth": 32,
+  "TextureHeight": 32,
+  "ManualVariations": [
+    {
+      "Id": 0,
+      "Name": "Curtain, Left",
+    },
+    {
+      "Id": 1,
+      "Name": "Curtain, Right",
+    },
+    {
+      "Id": 2,
+      "Name": "Curtain, Open, Left",
+    },
+    {
+      "Id": 3,
+      "Name": "Middle",
+    },
+    {
+      "Id": 4,
+      "Name": "Curtain, Open, Right",
+    },
+    {
+      "Id": 5,
+      "Name": "Curtain, Single",
+    },
+
+  ]
+}

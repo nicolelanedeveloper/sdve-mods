@@ -1,0 +1,237 @@
+{
+  "Format": "1.19.0",
+  "Changes": [
+
+// Craftables
+              
+	 {
+          "Action": "EditImage",
+          "Target": "TileSheets/Craftables",
+          "FromFile": "assets/autograbberempty.png",
+		  "ToArea": { "X": 80, "Y": 640, "Width": 16, "Height": 32 }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/Craftables",
+          "FromFile": "assets/autograbberfull.png",
+		  "ToArea": { "X": 96, "Y": 640, "Width": 16, "Height": 32 }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/Craftables",
+          "FromFile": "assets/lightningrod.png",
+		  "ToArea": { "X": 16, "Y": 32, "Width": 16, "Height": 32 }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/Craftables",
+          "FromFile": "assets/beehouseempty.png",
+		  "ToArea": { "X": 32, "Y": 32, "Width": 16, "Height": 32 }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/Craftables",
+          "FromFile": "assets/beehousefull.png",
+		  "ToArea": { "X": 48, "Y": 32, "Width": 16, "Height": 32 }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/Craftables",
+          "FromFile": "assets/cask.png",
+		  "ToArea": { "X": 48, "Y": 640, "Width": 16, "Height": 32 }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/Craftables",
+          "FromFile": "assets/keg.png",
+		  "ToArea": { "X": 64, "Y": 32, "Width": 16, "Height": 32 }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/Craftables",
+          "FromFile": "assets/furnaceempty.png",
+		  "ToArea": { "X": 80, "Y": 32, "Width": 16, "Height": 32 }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/Craftables",
+          "FromFile": "assets/computer.png",
+		  "ToArea": { "X": 112, "Y": 928, "Width": 16, "Height": 32 }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/Craftables",
+          "FromFile": "assets/woodenpost.png",
+		  "ToArea": { "X": 0, "Y": 608, "Width": 16, "Height": 32 }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/Craftables",
+          "FromFile": "assets/solarpanel.png",
+		  "ToArea": { "X": 112, "Y": 896, "Width": 16, "Height": 32 }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/Craftables",
+          "FromFile": "assets/perfection.png",
+		  "ToArea": { "X": 0, "Y": 640, "Width": 16, "Height": 32 }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/Craftables",
+          "FromFile": "assets/trueperfection.png",
+		  "ToArea": { "X": 0, "Y": 1120, "Width": 16, "Height": 32 }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/Craftables",
+          "FromFile": "assets/ironpost.png",
+		  "ToArea": { "X": 16, "Y": 608, "Width": 16, "Height": 32 }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/Craftables",
+          "FromFile": "assets/furnacefull.png",
+		  "ToArea": { "X": 96, "Y": 32, "Width": 16, "Height": 32 }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/Craftables",
+          "FromFile": "assets/preservejar.png",
+		  "ToArea": { "X": 112, "Y": 32, "Width": 16, "Height": 32 }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/Craftables",
+          "FromFile": "assets/recycling.png",
+		  "ToArea": { "X": 64, "Y": 64, "Width": 16, "Height": 32 }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/Craftables",
+          "FromFile": "assets/houseplant1.png",
+		  "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 32 }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/Craftables",
+          "FromFile": "assets/houseplant2.png",
+		  "ToArea": { "X": 64, "Y": 0, "Width": 64, "Height": 32 }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/Craftables",
+          "FromFile": "assets/gardenpot.png",
+		  "ToArea": { "X": 96, "Y": 224, "Width": 32, "Height": 32 }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/Craftables",
+          "FromFile": "assets/autopetter.png",
+		  "ToArea": { "X": 0, "Y": 1088, "Width": 48, "Height": 32 }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/Craftables",
+          "FromFile": "assets/tapper.png",
+		  "ToArea": { "X": 16, "Y": 416, "Width": 16, "Height": 32 }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/Craftables",
+          "FromFile": "assets/mayo.png",
+		  "ToArea": { "X": 0, "Y": 96, "Width": 16, "Height": 32 }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/Craftables",
+          "FromFile": "assets/seedmaker.png",
+		  "ToArea": { "X": 16, "Y": 96, "Width": 16, "Height": 32 }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/Craftables",
+          "FromFile": "assets/cheesepress.png",
+		  "ToArea": { "X": 0, "Y": 64, "Width": 16, "Height": 32 }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/Craftables",
+          "FromFile": "assets/loom.png",
+		  "ToArea": { "X": 16, "Y": 64, "Width": 32, "Height": 32 }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/Craftables",
+          "FromFile": "assets/oilmaker.png",
+		  "ToArea": { "X": 48, "Y": 64, "Width": 16, "Height": 32 }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/Craftables",
+          "FromFile": "assets/chest.png",
+		  "ToArea": { "X": 0, "Y": 672, "Width": 96, "Height": 32 }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/Craftables",
+          "FromFile": "assets/chestmetal.png",
+		  "ToArea": { "X": 0, "Y": 704, "Width": 96, "Height": 32 }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/Craftables",
+          "FromFile": "assets/chest.png",
+		  "ToArea": { "X": 32, "Y": 512, "Width": 96, "Height": 32 }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/Craftables",
+          "FromFile": "assets/minibin.png",
+		  "ToArea": { "X": 0, "Y": 992, "Width": 96, "Height": 32 }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/Craftables",
+          "FromFile": "assets/sign.png",
+		  "ToArea": { "X": 80, "Y": 128, "Width": 16, "Height": 32 }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/Craftables",
+          "FromFile": "assets/sign.png",
+		  "ToArea": { "X": 96, "Y": 128, "Width": 16, "Height": 32 }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/Craftables",
+          "FromFile": "assets/miniobelisk.png",
+		  "ToArea": { "X": 96, "Y": 928, "Width": 16, "Height": 32 }
+       },
+
+// Sprinklers
+       
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "assets/regular sprinkler.png",
+		  "ToArea": { "X": 368, "Y": 384, "Width": 16, "Height": 16 },
+          "Enabled": true
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "assets/quality sprinkler.png",
+		  "ToArea": { "X": 336, "Y": 400, "Width": 16, "Height": 16 },
+          "Enabled": true
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "assets/iridium sprinkler.png",
+		  "ToArea": { "X": 336, "Y": 416, "Width": 16, "Height": 16 },
+          "Enabled": true
+       },
+       
+    ]
+}

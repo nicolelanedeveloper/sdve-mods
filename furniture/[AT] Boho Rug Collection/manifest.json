@@ -1,0 +1,14 @@
+{
+	"Name": "[AT] Boho Rug Collection",
+	"Author": "Inmognito",
+	"Version": "1.1.1",
+	"Description": "Boho-style Rugs for Alternative textures",
+	"UniqueID": "Inmognito.BohoRug",
+	"UpdateKeys": [
+		"Nexus:13818"
+	],
+	"ContentPackFor": {
+		"UniqueID": "PeacefulEnd.AlternativeTextures",
+		"MinimumVersion": "4.5.3"
+	}
+}

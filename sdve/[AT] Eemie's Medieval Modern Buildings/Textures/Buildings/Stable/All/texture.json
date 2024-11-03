@@ -1,0 +1,8 @@
+{
+  "ItemName": "Stable",
+  "Type": "Building",
+  "Seasons": ["Spring", "Summer", "Fall", "Winter"],
+  "TextureWidth": 64,
+  "TextureHeight": 96,
+  "Variations": 2
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Eemie's Medieval Modern Buildings (packaged for AT by lydocia)",
+  "Author": "Eemiestardew/lydocia",
+  "Version": "1.0.0",
+  "Description": "Eemie's Medieval Modern Buildings (packaged for AT by lydocia)",
+  "UniqueID": "lydocia.eemiestardew.medieval.modern.buildings.at",
+  "UpdateKeys": [],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "5.0.0"
+  }
+}

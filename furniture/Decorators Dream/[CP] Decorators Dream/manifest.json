@@ -1,0 +1,17 @@
+{
+    "Name": "CP Decorators Dream by Ilyeana",
+    "Author": "Ilyeana",
+    "Version": "2.0",
+    "Description": "Decorating and Display Assets for your best farm life",
+    "UniqueID": "Ilyeana.DecoratorsDreamCP",
+    "UpdateKeys": [ "Nexus:17030" ],
+    "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies": [
+        {
+           "UniqueID": "PeacefulEnd.AlternativeTextures",
+           "IsRequired": false
+        }
+    ]    
+}

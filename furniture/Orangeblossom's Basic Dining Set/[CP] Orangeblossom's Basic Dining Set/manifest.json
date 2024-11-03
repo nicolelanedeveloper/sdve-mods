@@ -1,0 +1,10 @@
+{
+"Name": "[CP] Orangeblossom's Basic Dining Set",
+"Author": "orangeblossom",
+"Version": "1.0",
+"Description": "Dining set.",
+"UniqueID": "OB7.bds",
+"Dependencies": [{"UniqueID": "OB7.FurniCatalogue","IsRequired": true}],
+"UpdateKeys":["Nexus:24949"],
+"ContentPackFor": {"UniqueID": "Pathoschild.ContentPatcher"}
+}

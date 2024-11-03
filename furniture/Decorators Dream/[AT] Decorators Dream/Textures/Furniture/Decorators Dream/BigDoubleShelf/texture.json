@@ -1,0 +1,142 @@
+{ 
+  //Make Edits!
+  "ItemName": "BigDoubleShelf",
+  "Type": "Furniture",
+  "TextureWidth": 32,
+  "TextureHeight": 32,
+  "ManualVariations": [
+    {
+      "Id": 0,
+      "Keywords": [
+        "Vanilla",
+        "Oak"
+      ]
+    },
+    {
+      "Id": 1,
+      "Keywords": [
+        "Vanilla",
+        "Walnut"
+      ]
+    },
+    {
+      "Id": 2,
+      "Keywords": [
+        "Vanilla",
+        "Birch"
+      ]
+    },
+    {
+      "Id": 3,
+      "Keywords": [
+        "Vanilla",
+        "Mahogany"
+      ]
+    },
+    {
+      "Id": 4,
+      "Keywords": [
+        "Vanilla",
+        "Cherry"
+      ]
+    },
+    {
+      "Id": 5,
+      "Keywords": [
+        "Vanilla",
+        "Pine"
+      ]
+    },
+    {
+      "Id": 6,
+      "Keywords": [
+        "Vanilla",
+        "Modern"
+      ]
+    },
+    {
+      "Id": 7,
+      "Keywords": [
+        "Vanilla",
+        "Dark"
+      ]
+    },
+    {
+      "Id": 8,
+      "Keywords": [
+        "Vanilla",
+        "Gold"
+      ]
+    },
+    {
+      "Id": 9,
+      "Keywords": [
+        "Vanilla",
+        "Iridium"
+      ]
+    },
+    {
+      "Id": 10,
+      "Keywords": [
+        "Kimberly's Witch Kitchen",
+        "Dark"
+      ]
+    },
+    {
+      "Id": 11,
+      "Keywords": [
+        "Kimberly's Witch Kitchen",
+        "Purple"
+      ]
+    },
+    {
+      "Id": 12,
+      "Keywords": [
+        "Kimberly's Witch Kitchen",
+        "Pale"
+      ]
+    },
+    {
+      "Id": 13,
+      "Keywords": [
+        "DaisyNiko's Earthy Recolour",
+        "A"
+      ]
+    },
+    {
+      "Id": 14,
+      "Keywords": [
+        "DaisyNiko's Earthy Recolour",
+        "B"
+      ]
+    },
+    {
+      "Id": 15,
+      "Keywords": [
+        "DaisyNiko's Earthy Recolour",
+        "C"
+      ]
+    },
+    {
+      "Id": 16,
+      "Keywords": [
+        "DaisyNiko's Earthy Recolour",
+        "D"
+      ]
+    },
+    {
+      "Id": 17,
+      "Keywords": [
+        "DaisyNiko's Earthy Recolour",
+        "E"
+      ]
+    },
+    {
+      "Id": 18,
+      "Keywords": [
+        "DaisyNiko's Earthy Recolour",
+        "F"
+      ]
+    }
+  ]
+}

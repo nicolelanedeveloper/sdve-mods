@@ -1,0 +1,13 @@
+{
+  "Name": "Seasonal Open Windows",
+  "Author": "orangeblossom",
+  "Version": "1.1",
+  "Description": "open windows that change with the season. at version.",
+  "UniqueID": "windowsseasonalAT.orangeblossom",
+  "UpdateKeys": ["Nexus:20298"],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,12 @@
+{
+   "Name": "[FS] Churpy's Vivid Hair - Herb Garden Set v1",
+   "Author": "Churpix",
+   "Version": "1.0.1",
+   "Description": "Farmer hairstyles designed by Churpix. Each hairstyle has 5 tint variants: untinted, mint, lavender, rose, and lemon for a total of 60 hairstyles. Fashion Sense version.",
+   "UniqueID": "churpysherbgarden.FS",
+	"ContentPackFor":
+	{
+		"UniqueID": "PeacefulEnd.FashionSense",
+		"MinimumVersion": "5.0.0"
+	}
+}

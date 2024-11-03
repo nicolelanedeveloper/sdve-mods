@@ -1,0 +1,11 @@
+{
+    "Name": "Prophet's Dining Set",   
+    "Author": "Prophet",   
+    "Version": "1.1",
+    "Description": "Prophet's dining set",   
+    "UniqueID": "Prophet.DiningSet",    
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher",
+        "MinimumVersion": "2.0.0"
+    }
+}

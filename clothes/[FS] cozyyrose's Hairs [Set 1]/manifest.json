@@ -1,0 +1,11 @@
+{
+  "Name": "[FS] cozyyrose's Hairs [Set 1]",
+  "Author": "cozyyrose",
+  "Version": "1.0.0",
+  "Description": "Pretty hairstyles for your farmer. Personal use only.",
+  "UniqueID": "cozyyrose.hairsset1.fs",
+  "UpdateKeys": [ "Nexus:21898" ],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.FashionSense",
+  }
+}

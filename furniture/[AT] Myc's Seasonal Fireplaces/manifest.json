@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Myc's Seasonal Fireplaces for Alternative Textures",
+  "Author": "Mycenia",
+  "Version": "1.3.0",
+  "Description": "Two fireplace variations with seasonal decor.",
+  "UniqueID": "mycenia.ATSeasonalFireplaces",
+  "UpdateKeys": ["Nexus:9754"],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "3.3.2"
+  }
+}

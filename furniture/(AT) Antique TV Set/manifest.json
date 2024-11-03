@@ -1,0 +1,12 @@
+{
+    "Name": "(AT) Antique TV Set",
+    "Author": "Novaphene",
+    "Version": "2.0",
+    "Description": "AT version for DustBeauty's Industrial Furnitures",
+    "UniqueID": "Novaphene.ATAntiqueTV",
+    "UpdateKeys": ["Nexus:17387"],
+    "ContentPackFor": {
+        "UniqueID": "PeacefulEnd.AlternativeTextures",
+        "MinimumVersion": "6.9.1"
+    }
+}

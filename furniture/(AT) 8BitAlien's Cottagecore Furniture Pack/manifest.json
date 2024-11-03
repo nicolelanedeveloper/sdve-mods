@@ -1,0 +1,13 @@
+﻿{
+  "Name": "8BitAlien's Cottagecore Furniture Pack",
+  "Author": "8BitAlien",
+  "Version": "1.0.0",
+  "Description": "Adds Cottagecore furniture to the game for Alternative Textures.",
+  "UniqueID": "8BitAlien.CottagecoreFurniturePack",
+  "UpdateKeys": [],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "7.2.4"
+  }
+}

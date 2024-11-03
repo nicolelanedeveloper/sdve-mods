@@ -1,0 +1,42 @@
+{
+"Changes": [
+    {
+        "Action": "EditData",
+        "Target": "Data/Furniture",
+        "Entries": {
+            "Ilyeana.DecoratorsDreamCP_CustomBanner": "IlyeanaCustomBanner/painting/1 3/1 3/1/1000/-1/{{i18n:furniture.CustomBanner.name}}/0/Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\CustomBanner",
+	        "Ilyeana.DecoratorsDreamCP_CustomFlag": "IlyeanaCustomFlag/painting/1 2/1 2/1/1000/-1/{{i18n:furniture.CustomFlag.name}}/0/Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\CustomFlag",
+	        "Ilyeana.DecoratorsDreamCP_LargePictureFrame": "IlyeanaLargePictureFrame/painting/2 2/2 2/1/1000/-1/{{i18n:furniture.LargePictureFrame.name}}/0/Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\LargePictureFrame",
+	        "Ilyeana.DecoratorsDreamCP_CustomPoster": "IlyeanaCustomPoster/painting/2 2/2 2/1/1000/-1/{{i18n:furniture.CustomPoster.name}}/0/Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\CustomPoster",
+	        "Ilyeana.DecoratorsDreamCP_LargeBoard": "IlyeanaLargeBoard/painting/2 3/2 3/1/1000/-1/{{i18n:furniture.LargeBoard.name}}/0/Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\LargeBoard",
+	        "Ilyeana.DecoratorsDreamCP_ResearchPoster": "IlyeanaResearchPoster/painting/2 2/2 2/1/1000/-1/{{i18n:furniture.ResearchPoster.name}}/0/Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\ResearchPoster",
+	        "Ilyeana.DecoratorsDreamCP_FieldFernBoard": "IlyeanaFieldFernBoard/painting/2 3/2 3/1/1000/-1/{{i18n:furniture.FieldFernBoard.name}}/0/Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\FieldFernBoard",
+	        "Ilyeana.DecoratorsDreamCP_FieldPoster": "IlyeanaFieldPoster/painting/2 3/2 3/1/1000/-1/{{i18n:furniture.FieldPoster.name}}/0/Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\FieldPoster",
+	        "Ilyeana.DecoratorsDreamCP_FieldBulletinBoard": "IlyeanaFieldBulletinBoard/painting/2 3/2 3/1/1000/-1/{{i18n:furniture.FieldBulletinBoard.name}}/0/Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\FieldBulletinBoard",
+	        "Ilyeana.DecoratorsDreamCP_TrophyPlaque": "IlyeanaTrophyPlaque/painting/2 1/2 1/1/1000/-1/{{i18n:furniture.TrophyPlaque.name}}/0/Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\TrophyPlaque",
+	        "Ilyeana.DecoratorsDreamCP_KitchenShelf": "IlyeanaKitchenShelf/painting/1 2/1 2/1/1000/-1/{{i18n:furniture.KitchenShelf.name}}/0/Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\KitchenShelf",
+	        "Ilyeana.DecoratorsDreamCP_BigKitchenDoubleShelf": "IlyeanaBigKitchenDoubleShelf/painting/2 2/2 2/1/1000/-1/{{i18n:furniture.BigKitchenDoubleShelf.name}}/0/Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\BigKitchenDoubleShelf",
+	        "Ilyeana.DecoratorsDreamCP_BigKitchenSingleShelf": "IlyeanaBigKitchenSingleShelf/painting/2 2/2 2/1/1000/-1/{{i18n:furniture.BigKitchenSingleShelf.name}}/0/Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\BigKitchenSingleShelf",
+	        "Ilyeana.DecoratorsDreamCP_OffsetDoubleShelf": "IlyeanaOffsetDoubleShelf/painting/2 2/2 2/1/1000/-1/{{i18n:furniture.OffsetDoubleShelf.name}}/0/Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\OffsetDoubleShelf",
+	        "Ilyeana.DecoratorsDreamCP_BigSingleShelf": "IlyeanaBigSingleShelf/painting/2 2/2 2/1/1000/-1/{{i18n:furniture.BigSingleShelf.name}}/0/Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\BigSingleShelf",
+	        "Ilyeana.DecoratorsDreamCP_BigDoubleShelf": "IlyeanaBigDoubleShelf/painting/2 2/2 2/1/1000/-1/{{i18n:furniture.BigDoubleShelf.name}}/0/Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\BigDoubleShelf",
+	        "Ilyeana.DecoratorsDreamCP_BigTripleShelf": "IlyeanaBigTripleShelf/painting/2 2/2 2/1/1000/-1/{{i18n:furniture.BigTripleShelf.name}}/0/Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\BigTripleShelf",
+	        "Ilyeana.DecoratorsDreamCP_LeftShelfSection": "IlyeanaLeftShelfSection/painting/1 2/1 2/1/1000/-1/{{i18n:furniture.LeftShelfSection.name}}/0/Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\LeftShelfSection",
+	        "Ilyeana.DecoratorsDreamCP_CenterShelfSection": "IlyeanaCenterShelfSection/painting/1 2/1 2/1/1000/-1/{{i18n:furniture.CenterShelfSection.name}}/0/Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\CenterShelfSection",
+	        "Ilyeana.DecoratorsDreamCP_RightShelfSection": "IlyeanaRightShelfSection/painting/1 2/1 2/1/1000/-1/{{i18n:furniture.RightShelfSection.name}}/0/Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\RightShelfSection",
+	        "Ilyeana.DecoratorsDreamCP_HighSingleShelf": "IlyeanaHighSingleShelf/painting/1 2/1 2/1/1000/-1/{{i18n:furniture.HighSingleShelf.name}}/0/Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\HighSingleShelf",
+	        "Ilyeana.DecoratorsDreamCP_HighBigDoubleShelf": "IlyeanaHighBigDoubleShelf/painting/2 2/2 2/1/1000/-1/{{i18n:furniture.HighBigDoubleShelf.name}}/0/Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\HighBigDoubleShelf",
+	        "Ilyeana.DecoratorsDreamCP_HighBigSingleShelf": "IlyeanaHighBigSingleShelf/painting/1 2/1 2/1/1000/-1/{{i18n:furniture.HighBigSingleShelf.name}}/0/Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\HighBigSingleShelf",
+	        "Ilyeana.DecoratorsDreamCP_HighLeftShelfSection": "IlyeanaHighLeftShelfSection/painting/1 2/1 2/1/1000/-1/{{i18n:furniture.HighLeftShelfSection.name}}/0/Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\HighLeftShelfSection",
+	        "Ilyeana.DecoratorsDreamCP_HighCenterShelfSection": "IlyeanaHighCenterShelfSection/painting/1 2/1 2/1/1000/-1/{{i18n:furniture.HighCenterShelfSection.name}}/0/Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\HighCenterShelfSection",
+	        "Ilyeana.DecoratorsDreamCP_HighRightShelfSection": "IlyeanaHighRightShelfSection/painting/1 2/1 2/1/1000/-1/{{i18n:furniture.HighRightShelfSection.name}}/0/Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\HighRightShelfSection",
+	        "Ilyeana.DecoratorsDreamCP_MultiLayerShelf": "IlyeanaMultiLayerShelf/painting/2 2/2 2/1/1000/-1/{{i18n:furniture.MultiLayerShelf.name}}/0/Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\MultiLayerShelf",
+	        "Ilyeana.DecoratorsDreamCP_MultiLayerShelfLeftSection": "IlyeanaMultiLayerShelfLeftSection/painting/1 2/1 2/1/1000/-1/{{i18n:furniture.MultiLayerShelfLeftSection.name}}/0/Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\MultiLayerShelfLeftSection",
+	        "Ilyeana.DecoratorsDreamCP_MultiLayerShelfCenterSection": "IlyeanaMultiLayerShelfCenterSection/painting/1 2/1 2/1/1000/-1/{{i18n:furniture.MultiLayerShelfCenterSection.name}}/0/Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\MultiLayerShelfCenterSection",
+	        "Ilyeana.DecoratorsDreamCP_MultiLayerShelfRightSection": "IlyeanaMultiLayerShelfRightSection/painting/1 2/1 2/1/1000/-1/{{i18n:furniture.MultiLayerShelfRightSection.name}}/0/Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\MultiLayerShelfRightSection",
+	        "Ilyeana.DecoratorsDreamCP_StringHanger": "IlyeanaStringHanger/painting/1 2/1 2/1/1000/-1/{{i18n:furniture.StringHanger.name}}/0/Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\StringHanger",
+	        "Ilyeana.DecoratorsDreamCP_ChainHanger": "IlyeanaChainHanger/painting/1 2/1 2/1/1000/-1/{{i18n:furniture.ChainHanger.name}}/0/Mods\\Ilyeana.DecoratorsDreamCP\\Objects\\ChainHanger"
+            }
+        }
+    ]
+}
