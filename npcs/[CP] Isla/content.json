@@ -1,128 +1,228 @@
 {
-	"Format": "1.22.0",
-    "DynamicTokens": [
-            {
-            "Name": "IndoorVariant",
-            "Value": "Indoor",
-            "When":{
-                "Season": "Summer, Winter",
-            },
+	"Format": "2.0",
+	
+	"ConfigSchema": {
+		"DiverseArt": {
+			"AllowValues": "default, diverse",
+			"Default": "default",
+			"Description": "Choose whether to use Isla's original portraits and sprites or Isla's diverse portraits and sprites. Extra characters will match the option chosen.",
         },
-        {
-            "Name": "IndoorVariant",
-            "Value": "Outdoor",
-            "When": {
-                "IsOutdoors": "true",
-                "Season": "Summer, Winter",
-            },
+		"ChildrenSprites": {
+			"AllowValues": "default, isla",
+			"Default": "default",
+			"Description": "Choose whether to use the default child sprite or sprites to make the children look like Isla.",
         },
-        {
-            "Name": "FestivalVariant",
-            "Value": "SpiritsEve",
-            "When":
-            {
-                "DayEvent": "spirit's eve"
-            }
+		"MapRecolor": {
+			"AllowValues": "automatic, default, starblue",
+			"Default": "automatic",
+			"Description": "Choose recolor for Isla's maps. Automatic will choose the default unless Starblue Valley is installed, in which case it will choose the Starblue maps.",
         },
+    },
+	
+	"DynamicTokens": [
+
+		//Namespace Isla's Name
 		{
-            "Name": "FestivalVariant",
-            "Value": "FlowerDance",
-            "When":
-            {
-                "DayEvent": "flower dance"
-            }
-        },
-     ],
-    "Changes": [
-		{
-			"LogName": "Isla Seasonal Sprite",
-			"Action": "EditImage",
-			"Target": "Characters/Isla",
-			"FromFile": "assets/sprites/Isla_{{season}}.png",
-			"When": {"Season":"spring, fall"}
+			"Name": "Isla",
+			"Value": "PaperNautilus_Isla",
 		},
+		
+		//Island Name Replacement
+		
 		{
-			"LogName": "Isla Seasonal Indoor Outdoor Sprite",
-			"Action": "EditImage",
-			"Target": "Characters/Isla",
-			"FromFile": "assets/sprites/Isla_{{season}}_{{IndoorVariant}}.png",
-			"Update": "OnLocationChange",
-			"When": {"Season":"summer, winter"}
+			"Name": "IslandName",
+			"Value": "{{i18n:Isla.UnderwaterCoveExterior.Name.Unmet}}",
 		},
-        {
-			"LogName": "Isla Festival Sprites",
-			"Action": "EditImage",
-			"Target": "Characters/Isla",
-			"Update": "OnLocationChange",
-			"FromFile": "assets/sprites/Isla_{{FestivalVariant}}.png",
-			"When": {"DayEvent": "flower dance, spirit's eve"}
-        },
+		
 		{
-          "LogName": "Isla Mermaid Sprite",			
-          "Action": "EditImage",
-          "Target": "LooseSprites/temporary_sprites_1",
-          "FromFile": "assets/sprites/Isla_MermaidShow.png",
-          "ToArea": { "X": 68, "Y": 190, "Width": 70, "Height": 51 },
-          "PatchMode": "Replace",
-        },
-		{
-			"LogName": "Kelpie Sprite",
-			"Action": "EditImage",
-			"Target": "Characters/Kelpie",
-			"FromFile": "assets/sprites/Kelpie.png",
-        },
-		{
-			"LogName": "Soraya Sprite",
-			"Action": "EditImage",
-			"Target": "Characters/Soraya",
-			"FromFile": "assets/sprites/Soraya.png",
-        },
-		{
-			"LogName": "Marika Sprite",
-			"Action": "EditImage",
-			"Target": "Characters/Marika",
-			"FromFile": "assets/sprites/Marika.png",
-        },
-		{
-			"LogName": "Elysa Sprite",
-			"Action": "EditImage",
-			"Target": "Characters/Elysa",
-			"FromFile": "assets/sprites/Elysa.png",
-        },
-		{
-			"LogName": "Isla Seasonal Portrait",
-			"Action": "EditImage",
-			"Target": "Portraits/Isla",
-			"FromFile": "assets/portraits/Isla_{{season}}.png",
-			"When": {"Season":"spring, fall"}
+			"Name": "IslandName",
+			"Value": "{{i18n:Isla.UnderwaterCoveExterior.Name}}",
+			"When":{
+				"HasSeenEvent": "8205020"
+			},
 		},
+
+		//Diverse Isla Compatibility
+		
 		{
-			"LogName": "Isla Seasonal Indoor Outdoor Portrait",
-			"Action": "EditImage",
-			"Target": "Portraits/Isla",
-			"FromFile": "assets/portraits/Isla_{{season}}_{{IndoorVariant}}.png",
-			"Update": "OnLocationChange",
-			"When": {"Season":"summer, winter"}
+			"Name": "PortraitPath",
+			"Value": "Portraits",
 		},
-        {
-			"LogName": "Isla Festival Portrait",
-			"Action": "EditImage",
-			"Target": "Portraits/Isla",
-			"Update": "OnLocationChange",
-			"FromFile": "assets/portraits/Isla_{{FestivalVariant}}.png",
-			"When": {"DayEvent": "flower dance, spirit's eve"}
-        },
+		
 		{
-			"LogName": "Soraya Portrait",
-			"Action": "EditImage",
-			"Target": "Portraits/Soraya",
-			"FromFile": "assets/portraits/Soraya.png",
-        },
+			"Name": "SpritePath",
+			"Value": "Sprites",
+		},
+		
 		{
-			"LogName": "Elysa Portrait",
-			"Action": "EditImage",
-			"Target": "Portraits/Elysa",
-			"FromFile": "assets/portraits/Elysa.png",
-        },
-	]
+			"Name": "PortraitPath",
+			"Value": "DiversePortraits",
+			"When": {
+				"DiverseArt": "diverse",
+			}
+		},
+		
+		{
+			"Name": "SpritePath",
+			"Value": "DiverseSprites",
+			"When": {
+				"DiverseArt": "diverse",
+			}
+		},
+		
+		//Starblue Compatibility
+		
+			//Default
+		{
+			"Name": "Recolor",
+			"Value": "Maps/Default"
+		},
+		
+			//Apply Starblue recolor if installed and MapRecolor left on automatic
+		{
+			"Name": "Recolor",
+			"Value": "Maps/Starblue",
+			"When": {
+				"HasMod": "Lita.StarblueValley",
+				"MapRecolor": "automatic",
+			},
+		},
+		
+			//Allow the option of using Starblue anyway without Starblue itself present
+		{
+			"Name": "Recolor",
+			"Value": "Maps/Starblue",
+			"When": {
+				"MapRecolor": "starblue",
+			},
+		},
+		
+		//SVE Festival Compatibility Token
+		
+		{
+			"Name": "YearToken",
+			"Value": "Odd",
+		},
+		
+		{
+			"Name": "YearToken",
+			"Value": "Even",
+			"When": {
+				"Query: {{Year}} % 2 = 0": true,
+			},
+		},
+		
+		{
+			"Name": "YearToken",
+			"Value": "SVEYear1",
+			"When": {
+				"Query: {{Year}} % 4 = 1": true,
+				"HasMod": "FlashShifter.StardewValleyExpandedCP",
+			},
+		},
+		
+		{
+			"Name": "YearToken",
+			"Value": "SVEYear3",
+			"When": {
+				"Query: {{Year}} % 4 = 3": true,
+				"HasMod": "FlashShifter.StardewValleyExpandedCP",
+			},
+		},
+		
+	],
+
+	"Changes": [	
+
+		//Load of Blank File for editing schedules/dialogue
+		{
+			"LogName": "Load Schedules, Schedule Strings, and all Dialogues",
+			"Action": "Load",
+			"Target": "Characters/Dialogue/{{Isla}}, Characters/Dialogue/MarriageDialogue{{Isla}}, Characters/schedules/{{Isla}}, Strings/schedules/{{Isla}}",
+			"FromFile": "assets/blank.json"
+		},
+
+		//Map Data
+		{
+			"LogName": "Isla Map Data",
+			"Action": "Include",
+			"FromFile": "assets/Maps/Default/LocationData.json", //does not need altering, location data will be loaded regardless from this file
+		},
+
+		//Isla NPC Data (Disposition, Spouse Room, etc.)
+		{
+			"LogName": "Isla NPC Data",
+			"Action": "Include",
+			"FromFile": "assets/NPCData/Isla.json",
+		},
+
+		{
+			"LogName": "Extra Character Data",
+			"Action": "Include",
+			"FromFile": "assets/NPCData/ExtraCharacters.json",
+		},
+		
+		//Isla Children Data (formerly a separate mod)
+		
+		{
+			"LogName": "Children Sprites",
+			"Action": "Include",
+			"FromFile": "assets/NPCData/Children.json",
+			"When": {
+				"ChildrenSprites": "isla",
+			},
+		},
+
+		//Mail Data (formerly MFM)
+		{
+			"LogName": "Isla Mail Data",
+			"Action": "Include",
+			"FromFile": "assets/NPCData/Mail.json",
+		},
+
+		//Schedule Data
+		{
+			"LogName": "Isla Schedule Data",
+			"Action": "Include",
+			"FromFile": "assets/Schedules/Schedule.json",
+		},
+
+		{
+			"LogName": "Isla Schedule Dialogue",
+			"Action": "Include",
+			"FromFile": "assets/Schedules/ScheduleDialogue.json"
+		},
+
+
+		//Festival Data Include
+		{
+			"LogName": "Festival Data",
+			"Action": "Include",
+			"FromFile": "assets/Festivals/Festivals.json",
+			"When": {
+				"HasSeenEvent |contains=8205020": true,
+			}
+		},
+
+		//Dialogue Includes
+		{
+			"LogName": "Isla Regular Dialogue",
+			"Action": "Include",
+			"FromFile": "assets/Dialogue/DialogueIsla.json"
+		},
+
+
+		{
+			"LogName": "Isla Marriage Dialogue",
+			"Action": "Include",
+			"FromFile": "assets/Dialogue/MarriageDialogueIsla.json"
+		},
+
+		//Events
+		{
+			"LogName": "Events",
+			"Action": "Include",
+			"FromFile": "assets/NPCData/Events.json"
+		},
+	],
 }

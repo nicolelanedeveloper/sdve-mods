@@ -1,19 +1,11 @@
 {
-  "Name": "Isla Reimagined",
-  "Author": "AEscraed",
-  "Description": "All-in-one replacer for Isla, Kelpie, Elysa and Soraya sprites and portraits.",
-  "Version": "3.4.0",
-  "UniqueID": "AEscraed.IslaReimagined",
-  "UpdateKeys": [ "Nexus: 8720" ],
-  "ContentPackFor": {
-		"UniqueID": "Pathoschild.ContentPatcher"
-  },
-  "Dependencies": [
-   {
-		"UniqueID": "PaperNautilus.Isla"
-   },
-   {
-		"UniqueID": "PaperNautilus.IslaMermaid"
-   },
-  ]
+	"Name": "Isla",
+	"Author": "PaperNautilus",
+	"Description": "A poetic spirit who lives in the Gem Sea.",
+	"Version": "3.0.4",
+	"UniqueID": "PaperNautilus.Isla",
+	"UpdateKeys": [ "Nexus:6931" ],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher",
+	},
 }
