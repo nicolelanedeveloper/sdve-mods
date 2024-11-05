@@ -3062,7 +3062,7 @@
                     "FarmType": "Standard"
                },
                "Entries": {
-                    "BusStop.1": "` {{i18n:BusStop}}^> {{i18n:PelicanTown}}^= {{FarmName}} {{i18n:Farm}}^@ {{FarmName}} {{i18n:Farm}}",
+                    "BusStop.1": "` {{i18n:BusStop}}^> {{i18n:PelicanTown}}^= {{i18n:Farm |FarmName={{FarmName}}}}^@ {{i18n:Farm |FarmName={{FarmName}}}}",
                }
           },
           {
@@ -3073,7 +3073,7 @@
                     "FarmType": "Standard"
                },
                "Entries": {
-                    "BusStop.1": "` {{i18n:BusStop}}^> {{i18n:PelicanTown}}^= {{FarmName}} {{i18n:Farm}}^@ {{FarmName}} {{i18n:Farm}}",
+                    "BusStop.1": "` {{i18n:BusStop}}^> {{i18n:PelicanTown}}^= {{i18n:Farm |FarmName={{FarmName}}}}^@ {{i18n:Farm |FarmName={{FarmName}}}}",
                }
           },
 		  
