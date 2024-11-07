@@ -1,5 +1,5 @@
 {
-  "WeatherForYesterday": "Sun",
+  "WeatherForYesterday": "Rain",
   "LNOSCounter": {
     "Ferngill Republic Frontier Log Spawns": 1,
     "Ferngill Republic Frontier Boulder Spawns": 1,
@@ -1375,120 +1375,10 @@
     {
       "MapName": "Custom_FrontierFarm_HiddenCave",
       "Name": "Stone",
-      "Tile": "4, 10",
-      "Type": "Ore",
-      "ID": 668,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_FerngillRepublicFrontier_Cave",
-      "Name": "Stone",
-      "Tile": "32, 16",
-      "Type": "Ore",
-      "ID": 670,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_FerngillRepublicFrontier_Cave",
-      "Name": "Stone",
-      "Tile": "15, 29",
-      "Type": "Ore",
-      "ID": 670,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_FerngillRepublicFrontier_Cave",
-      "Name": "Stone",
-      "Tile": "14, 31",
-      "Type": "Ore",
-      "ID": 670,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_FerngillRepublicFrontier_Cave",
-      "Name": "Stone",
-      "Tile": "33, 21",
-      "Type": "Ore",
-      "ID": 670,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_FerngillRepublicFrontier_Cave",
-      "Name": "Stone",
-      "Tile": "21, 31",
-      "Type": "Ore",
-      "ID": 668,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_FerngillRepublicFrontier_Cave",
-      "Name": "Stone",
-      "Tile": "30, 29",
-      "Type": "Ore",
-      "ID": 670,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_FerngillRepublicFrontier_Cave",
-      "Name": "Stone",
-      "Tile": "9, 32",
-      "Type": "Ore",
-      "ID": 668,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_FerngillRepublicFrontier_Cave",
-      "Name": "Stone",
-      "Tile": "8, 29",
-      "Type": "Ore",
-      "ID": 670,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_FerngillRepublicFrontier_Cave",
-      "Name": "Stone",
-      "Tile": "10, 14",
-      "Type": "Ore",
-      "ID": 670,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_FrontierFarm_HiddenCave",
-      "Name": "Stone",
       "Tile": "8, 7",
       "Type": "Ore",
       "ID": 670,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1499,7 +1389,7 @@
       "Tile": "10, 19",
       "Type": "Ore",
       "ID": 670,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1510,7 +1400,7 @@
       "Tile": "19, 32",
       "Type": "Ore",
       "ID": 670,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1521,7 +1411,7 @@
       "Tile": "24, 30",
       "Type": "Ore",
       "ID": 670,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1532,7 +1422,7 @@
       "Tile": "9, 20",
       "Type": "Ore",
       "ID": 670,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1543,7 +1433,7 @@
       "Tile": "5, 27",
       "Type": "Ore",
       "ID": 668,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1554,7 +1444,7 @@
       "Tile": "9, 33",
       "Type": "Ore",
       "ID": 668,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1565,7 +1455,7 @@
       "Tile": "6, 29",
       "Type": "Ore",
       "ID": 670,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1576,7 +1466,7 @@
       "Tile": "9, 24",
       "Type": "Ore",
       "ID": 668,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1587,7 +1477,7 @@
       "Tile": "32, 25",
       "Type": "Ore",
       "ID": 670,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1598,7 +1488,7 @@
       "Tile": "6, 8",
       "Type": "Ore",
       "ID": 670,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1609,7 +1499,7 @@
       "Tile": "4, 8",
       "Type": "Ore",
       "ID": 668,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1620,7 +1510,7 @@
       "Tile": "11, 15",
       "Type": "Ore",
       "ID": 668,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1631,7 +1521,7 @@
       "Tile": "19, 12",
       "Type": "Ore",
       "ID": 670,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1642,7 +1532,7 @@
       "Tile": "33, 16",
       "Type": "Ore",
       "ID": 668,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1653,7 +1543,7 @@
       "Tile": "35, 27",
       "Type": "Ore",
       "ID": 670,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1664,7 +1554,7 @@
       "Tile": "7, 22",
       "Type": "Ore",
       "ID": 670,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1675,7 +1565,7 @@
       "Tile": "27, 32",
       "Type": "Ore",
       "ID": 668,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1686,7 +1576,7 @@
       "Tile": "22, 29",
       "Type": "Ore",
       "ID": 668,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1697,7 +1587,7 @@
       "Tile": "21, 11",
       "Type": "Ore",
       "ID": 75,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1708,7 +1598,7 @@
       "Tile": "13, 8",
       "Type": "Ore",
       "ID": 668,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1719,51 +1609,7 @@
       "Tile": "9, 25",
       "Type": "Ore",
       "ID": 668,
-      "DaysUntilExpire": 3,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_FrontierFarm_UndergroundTunnel",
-      "Name": "Stone",
-      "Tile": "23, 21",
-      "Type": "Ore",
-      "ID": 668,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_FrontierFarm_UndergroundTunnel",
-      "Name": "OmniGeode",
-      "Tile": "22, 19",
-      "Type": "Ore",
-      "ID": 819,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_FrontierFarm_UndergroundTunnel",
-      "Name": "OmniGeode",
-      "Tile": "19, 22",
-      "Type": "Ore",
-      "ID": 819,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_FrontierFarm_UndergroundTunnel",
-      "Name": "OmniGeode",
-      "Tile": "20, 18",
-      "Type": "Ore",
-      "ID": 819,
-      "DaysUntilExpire": 1,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1774,7 +1620,7 @@
       "Tile": "3, 7",
       "Type": "Ore",
       "ID": 668,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1785,7 +1631,7 @@
       "Tile": "5, 8",
       "Type": "Ore",
       "ID": 670,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1796,7 +1642,7 @@
       "Tile": "7, 24",
       "Type": "Ore",
       "ID": 670,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1807,7 +1653,7 @@
       "Tile": "24, 29",
       "Type": "Ore",
       "ID": 670,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1818,7 +1664,7 @@
       "Tile": "19, 10",
       "Type": "Ore",
       "ID": 670,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1829,7 +1675,7 @@
       "Tile": "14, 12",
       "Type": "Ore",
       "ID": 670,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1840,7 +1686,7 @@
       "Tile": "21, 30",
       "Type": "Ore",
       "ID": 668,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1851,7 +1697,7 @@
       "Tile": "33, 28",
       "Type": "Ore",
       "ID": 668,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1862,7 +1708,7 @@
       "Tile": "6, 27",
       "Type": "Ore",
       "ID": 670,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1873,7 +1719,7 @@
       "Tile": "7, 29",
       "Type": "Ore",
       "ID": 670,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1884,7 +1730,7 @@
       "Tile": "28, 13",
       "Type": "Ore",
       "ID": 668,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1895,7 +1741,7 @@
       "Tile": "34, 15",
       "Type": "Ore",
       "ID": 75,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1906,7 +1752,7 @@
       "Tile": "11, 8",
       "Type": "Ore",
       "ID": 670,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1917,7 +1763,7 @@
       "Tile": "19, 18",
       "Type": "Ore",
       "ID": 819,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1928,7 +1774,7 @@
       "Tile": "19, 16",
       "Type": "Ore",
       "ID": 819,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1939,7 +1785,7 @@
       "Tile": "18, 17",
       "Type": "Ore",
       "ID": 819,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1950,7 +1796,7 @@
       "Tile": "17, 19",
       "Type": "Ore",
       "ID": 670,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1959,6 +1805,149 @@
       "MapName": "Custom_FrontierFarm_HiddenCave",
       "Name": "Stone",
       "Tile": "9, 9",
+      "Type": "Ore",
+      "ID": 668,
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_FerngillRepublicFrontier_Cave",
+      "Name": "Stone",
+      "Tile": "35, 31",
+      "Type": "Ore",
+      "ID": 670,
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_FerngillRepublicFrontier_Cave",
+      "Name": "Stone",
+      "Tile": "9, 9",
+      "Type": "Ore",
+      "ID": 670,
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_FerngillRepublicFrontier_Cave",
+      "Name": "Stone",
+      "Tile": "14, 14",
+      "Type": "Ore",
+      "ID": 670,
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_FerngillRepublicFrontier_Cave",
+      "Name": "Geode",
+      "Tile": "8, 22",
+      "Type": "Ore",
+      "ID": 75,
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_FerngillRepublicFrontier_Cave",
+      "Name": "Stone",
+      "Tile": "30, 16",
+      "Type": "Ore",
+      "ID": 668,
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_FerngillRepublicFrontier_Cave",
+      "Name": "Stone",
+      "Tile": "30, 31",
+      "Type": "Ore",
+      "ID": 668,
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_FerngillRepublicFrontier_Cave",
+      "Name": "Geode",
+      "Tile": "31, 19",
+      "Type": "Ore",
+      "ID": 75,
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_FrontierFarm_UndergroundTunnel",
+      "Name": "OmniGeode",
+      "Tile": "22, 17",
+      "Type": "Ore",
+      "ID": 819,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_FrontierFarm_UndergroundTunnel",
+      "Name": "OmniGeode",
+      "Tile": "25, 20",
+      "Type": "Ore",
+      "ID": 819,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_FrontierFarm_UndergroundTunnel",
+      "Name": "Stone",
+      "Tile": "21, 23",
+      "Type": "Ore",
+      "ID": 668,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_FrontierFarm_UndergroundTunnel",
+      "Name": "OmniGeode",
+      "Tile": "23, 24",
+      "Type": "Ore",
+      "ID": 819,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_FrontierFarm_HiddenCave",
+      "Name": "Stone",
+      "Tile": "8, 8",
+      "Type": "Ore",
+      "ID": 670,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_FrontierFarm_HiddenCave",
+      "Name": "Stone",
+      "Tile": "7, 11",
       "Type": "Ore",
       "ID": 668,
       "DaysUntilExpire": 5,

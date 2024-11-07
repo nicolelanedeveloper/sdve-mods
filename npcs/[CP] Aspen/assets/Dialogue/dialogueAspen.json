@@ -64,8 +64,8 @@
     //Related bugs:
     //Bug: only shown if an equivalent <dayOfWeek><hearts> key also exists.
     //Bug: only shown if an equivalent <dayOfWeek> key also exists.
-    "Mon": "Hey, @! Since I'm stuck in town for a bit, I might stop by Marnie's ranch and watch her animals.$0#$b#Is that weird? I just really hope to have some one day!$1#$e#I wish Marnie's shop was open on Monday's, I'd really like to get some fresh milk tea.$2",
-    "Mon2": "Hi-hi, @!$9#$b#You're lookin' spiffy today!$1#$e#I'll be hangin' out with Leah at the Saloon tonight, if you want to come say hi.$1", //I justify her being somewhat flirty because if your friendship is at 2 hearts in Spring in Year 1 you must be doin' SOMETHIN' right lol
+    "Mon": "Hey, @! Since I'm stuck in town for a bit, I might stop by Marnie's ranch and watch her animals.$0#$b#Is that weird? I just really hope to have some one day!$1#$e#I wish Marnie's shop was open on Mondays, I'd really like to get some fresh milk tea.$2",
+    "Mon2": "Hi, @!$9#$b#You're lookin' spiffy today!$1#$e#I'll be hangin' out with Leah at the Saloon tonight, if you want to come say hi.$1", //I justify her being somewhat flirty because if your friendship is at 2 hearts in Spring in Year 1 you must be doin' SOMETHIN' right lol
     "Tue": "Howdy, @! Lovely weather we're havin' today.$9#$e#You have anything fun planned to do today?",
     "Tue1": "I'm going to the beach today. I think I'm going to make that a thing!$1#$e#It's not like you get the chance to wake up 5 minutes away from the beach very often!$9",
     "Tue2": "You should come with me to the beach one day, @! It would be so much fun.$8#$b#My offer only stands while I'm staying at the Saloon!$6", //I want to make this more immersive, asking the player, remembering the choice but my baby brain cant figure it out atm
