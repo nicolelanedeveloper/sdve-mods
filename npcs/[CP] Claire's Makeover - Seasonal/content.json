@@ -1,0 +1,48 @@
+{
+  "Format": "2.0.0",
+  "DynamicTokens": [
+    {
+      "Name": "Outfit",
+      "Value": "Spring"
+    },
+    {
+      "Name": "Outfit",
+      "Value": "Summer",
+      "When": {
+        "Season": "Summer"
+      }
+    },
+    {
+      "Name": "Outfit",
+      "Value": "Fall",
+      "When": {
+        "Season": "Fall"
+      }
+    },
+    {
+      "Name": "Outfit",
+      "Value": "Winter_Indoor",
+      "When": {
+        "Season": "Winter"
+      }
+    }
+  ],
+  "ConfigSchema": {
+    "NoNose": {
+      "Section": "Seasonal Cute Characters - SCA Settings",
+      "AllowValues": "true, false",
+      "Description": "Hide the nose from Claire. (Recommended to use the same setting as Seasonal Outfits - Slightly Cuter Aesthetics)",
+      "Default": "true"
+    }
+  },
+  "Changes": [
+    {
+      "LogName": "Claire's Makeover Include",
+      "Action": "Include",
+      "FromFile": "assets/Code/Claire.json",
+      "When": {
+        "HasFile:{{FromFile}}": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "Format": "2.0.0",
+  "DynamicTokens": [
+    {
+      "Name": "Outfit",
+      "Value": "Spring"
+    },
+    {
+      "Name": "Outfit",
+      "Value": "Summer",
+      "When": {
+        "Season": "Summer"
+      }
+    },
+    {
+      "Name": "Outfit",
+      "Value": "Fall",
+      "When": {
+        "Season": "Fall"
+      }
+    },
+    {
+      "Name": "Outfit",
+      "Value": "Winter_Indoor",
+      "When": {
+        "Season": "Winter"
+      }
+    }
+  ],
+  "ConfigSchema": {
+    "NoNose": {
+      "Section": "Seasonal Cute Characters - SCA Settings",
+      "AllowValues": "true, false",
+      "Description": "Hide the nose from Abigail. (Recommended to use the same setting as Seasonal Outfits - Slightly Cuter Aesthetics)",
+      "Default": "true"
+    },
+    "FestivalOutfits": {
+      "Section": "Seasonal Cute Characters - SCA Settings",
+      "AllowValues": "true, false",
+      "Description": "Wear festival outfits. (Recommended to use the same setting as Seasonal Outfits - Slightly Cuter Aesthetics)",
+      "Default": "true"
+    },
+    "Replace Spring Outfit": {
+      "Section": "Abigail's Outfits",
+      "AllowValues": "true, false",
+      "Description": "Replace Abigail's spring outfit.",
+      "Default": "true"
+    },
+    "Replace Summer Outfit": {
+      "Section": "Abigail's Outfits",
+      "AllowValues": "true, false",
+      "Description": "Replace Abigail's summer outfit.",
+      "Default": "true"
+    },
+    "Replace Fall Outfit": {
+      "Section": "Abigail's Outfits",
+      "AllowValues": "true, false",
+      "Description": "Replace Abigail's fall outfit.",
+      "Default": "true"
+    },
+    "Replace Winter Outfit": {
+      "Section": "Abigail's Outfits",
+      "AllowValues": "true, false",
+      "Description": "Replace Abigail's spring outfit.",
+      "Default": "true"
+    },
+    "Replace Beach Outfit": {
+      "Section": "Abigail's Outfits",
+      "AllowValues": "true, false",
+      "Description": "Replace Abigail's beach outfit.",
+      "Default": "true"
+    }
+  },
+  "Changes": [
+    {
+      "LogName": "Abigail's New Haircut Revised - Seasonal Include",
+      "Action": "Include",
+      "FromFile": "assets/Code/Abigail.json",
+      "When": {
+        "HasFile:{{FromFile}}": true
+      }
+    }
+  ]
+}

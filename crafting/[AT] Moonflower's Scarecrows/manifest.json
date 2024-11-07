@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Moonflower's Scarecrows",
+    "Author": "GentleMoonflower",
+    "Version": "1.0.0",
+    "Description": "Allows players to choose a new scarecrow appearance using alternative textures.",
+    "UniqueID": "GentleMoonflower.MoonflowersScarecrows",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "7.3.0"
+  }
+}

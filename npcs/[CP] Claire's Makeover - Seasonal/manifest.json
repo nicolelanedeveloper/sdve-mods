@@ -1,0 +1,20 @@
+{
+  "Name": "Claire's Makeover - Seasonal",
+  "Author": "Limecat86",
+  "Version": "1.0.2",
+  "Description": "A Content Patcher mod for overhauling the NPC Claire from SVE",
+  "UniqueID": "Limecat86.ClairesMakeover",
+  "MinimumApiVersion": "3.8.0",
+  "UpdateKeys": [
+    "Nexus:25668"
+  ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "Dependencies": [
+    {
+      "UniqueID": "Poltergeister.SeasonalCuteSpritesSVE",
+      "IsRequired": true
+    }
+  ]
+}

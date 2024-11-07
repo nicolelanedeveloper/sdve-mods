@@ -1,0 +1,12 @@
+{
+   "Name": "AT_GwenCraft_Vp",
+   "Author": "Gweniaczek",
+   "Version": "1.1.0",
+   "Description": "My craftables retextures for Alternative Textures mod. Vibrant Pastoral Recolour matching version",
+   "UniqueID": "Gweniaczek.AT_GwenCraft_Vp",
+   "UpdateKeys": ["Nexus:13897"],
+   "ContentPackFor": {
+		"UniqueID": "PeacefulEnd.AlternativeTextures",
+		"MinimumVersion": "7.0.0"
+	},
+}

@@ -1,0 +1,19 @@
+{
+  "Name": "Abigail's New Haircut",
+  "Author": "Limecat86 with assets by Poltergeister, Stanloona420 and other various artists",
+  "Version": "1.0.1",
+  "Description": "Seasonal SCA outfits for Abigail with a new haircut.",
+  "UniqueID": "Limecat86.AbigailsNewHaircut",
+  "UpdateKeys": [
+    "Nexus:25431"
+  ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "Dependencies": [
+    {
+      "UniqueID": "Poltergeister.SeasonalCuteCharacters",
+      "IsRequired": true
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "Changes": [
+
+    //Seasonal Outfits
+    {
+      "LogName": "Replace Claire Outfita",
+      "Action": "EditImage",
+      "Priority": "Late",
+      "Target": "Portraits/Claire_Winter_Outdoor, Portraits/Claire_Winter_Indoor, Portraits/Claire_Spring, Portraits/Claire_Summer, Portraits/Claire_Fall, Portraits/Claire_Beach, Portraits/Claire_Joja, Portraits/Claire_Theater, Portraits/Claire_Aerobics, Portraits/Claire_FlowerDance, Portraits/Claire_SpiritsEve, Characters/Claire_Winter_Outdoor, Characters/Claire_Winter_Indoor, Characters/Claire_Spring, Characters/Claire_Summer, Characters/Claire_Fall, Characters/Claire_Beach, Characters/Claire_Joja, Characters/Claire_Theater, Character/Claire_Aerobics, Characters/Claire_FlowerDance, Characters/Claire_SpiritsEve",
+      "FromFile": "assets/{{Target}}.png",
+      "When": {
+        "HasFile:{{FromFile}}": true,
+      }
+    },
+
+    //Tom Riddle or Voldemort mode
+    {
+      "LogName": "Claire - Seasonal Nose",
+      "Action": "EditImage",
+      "Priority": "Late",
+      "Target": "Characters/Claire_Winter_Outdoor, Characters/Claire_Winter_Indoor, Characters/Claire_Spring, Characters/Claire_Summer, Characters/Claire_Fall, Character/Claire_Aerobics, Characters/Claire_FlowerDance, Characters/Claire_SpiritsEve",
+      "FromFile": "assets/Nose/Claire_Nose.png",
+      "PatchMode": "Overlay",
+      "Update": "OnLocationChange",
+      "When": {
+        "HasFile:{{FromFile}}": true,
+        "NoNose": "false"
+      }
+    },
+    {
+      "LogName": "Claire - Joja Nose",
+      "Action": "EditImage",
+      "Priority": "Late",
+      "Target": "Characters/Claire_Joja",
+      "FromFile": "assets/Nose/ClaireJoja_Nose.png",
+      "PatchMode": "Overlay",
+      "Update": "OnLocationChange",
+      "When": {
+        "HasFile:{{FromFile}}": true,
+        "NoNose": "false"
+      }
+    },
+    {
+      "LogName": "Claire - Theater Nose",
+      "Action": "EditImage",
+      "Priority": "Late",
+      "Target": "Characters/Claire_Theater",
+      "FromFile": "assets/Nose/ClaireTheater_Nose.png",
+      "PatchMode": "Overlay",
+      "Update": "OnLocationChange",
+      "When": {
+        "HasFile:{{FromFile}}": true,
+        "NoNose": "false"
+      }
+    },
+    {
+      "LogName": "Claire - Beach Nose",
+      "Action": "EditImage",
+      "Priority": "Late",
+      "Target": "Characters/Claire_Beach",
+      "FromFile": "assets/Nose/Claire_Beach_Nose.png",
+      "PatchMode": "Overlay",
+      "Update": "OnLocationChange",
+      "When": {
+        "HasFile:{{FromFile}}": true,
+        "NoNose": "false"
+      }
+    },
+
+    //Spouse Portrait, Calendar Sprite and Joja Vendor
+    {
+      "LogName": "Claire - Spouse Picture",
+      "Action": "EditImage",
+      "Target": "Mods/FlashShifter.StardewValleyExpandedCP/SVE_Portraits",
+      "FromFile": "assets/Misc/Claire_Spouse_Portrait.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 32, "Height": 32},
+      "ToArea": {"X": 64, "Y": 0, "Width": 32, "Height": 32},
+      "PatchMode": "Overlay",
+      "When":
+      {
+        "HasFile:{{FromFile}}": true
+      }
+    },
+    {
+      "LogName": "Claire Calendar Sprite Edits",
+      "Action": "EditImage",
+      "Target": "Characters/Claire",
+      "FromFile": "assets/{{Target}}_{{Outfit}}.png",
+      "When": {
+        "HasFile:{{FromFile}}": true
+      }
+    },
+    {
+      "LogName": "Claire Joja Vendor Portrait",
+      "Action": "EditImage",
+      "Priority": "Late",
+      "Target": "Mods/FlashShifter.StardewValleyExpandedCP/Claire_Vendor",
+      "FromFile": "assets/Misc/Claire_Vendor.png",
+      "When": {
+        "HasFile:{{FromFile}}": true
+      }
+    }
+  ]
+}

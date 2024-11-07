@@ -1,0 +1,128 @@
+{
+  "Changes": [
+
+    //Seasonal Outfits
+    {
+      "LogName": "Replace Abigail Winter Outfit",
+      "Action": "EditImage",
+      "Priority": "Late",
+      "Target": "Portraits/Abigail_Winter_Outdoor, Portraits/Abigail_Winter_Indoor, Characters/Abigail_Winter_Outdoor, Characters/Abigail_Winter_Indoor",
+      "FromFile": "assets/{{Target}}.png",
+      "When": {
+        "HasFile:{{FromFile}}": true,
+        "Replace Winter Outfit": true
+      }
+    },
+    {
+      "LogName": "Replace Abigail Spring Outfit",
+      "Action": "EditImage",
+      "Priority": "Late",
+      "Target": "Portraits/Abigail_Spring, Characters/Abigail_Spring",
+      "FromFile": "assets/{{Target}}.png",
+      "When": {
+        "HasFile:{{FromFile}}": true,
+        "Replace Spring Outfit": true
+      }
+    },
+    {
+      "LogName": "Replace Abigail Summer Outfit",
+      "Action": "EditImage",
+      "Priority": "Late",
+      "Target": "Portraits/Abigail_Summer, Characters/Abigail_Summer",
+      "FromFile": "assets/{{Target}}.png",
+      "When": {
+        "HasFile:{{FromFile}}": true,
+        "Replace Summer Outfit": true
+      }
+    },
+    {
+      "LogName": "Replace Abigail Fall Outfit",
+      "Action": "EditImage",
+      "Priority": "Late",
+      "Target": "Portraits/Abigail_Fall, Characters/Abigail_Fall",
+      "FromFile": "assets/{{Target}}.png",
+      "When": {
+        "HasFile:{{FromFile}}": true,
+        "Replace Fall Outfit": true
+      }
+    },
+
+    //Beach outfit
+    {
+      "LogName": "Replace Abigail Beach Outfit",
+      "Action": "EditImage",
+      "Priority": "Late",
+      "Target": "Portraits/Abigail_Beach, Characters/Abigail_Beach",
+      "FromFile": "assets/{{Target}}.png",
+      "When": {
+        "HasFile:{{FromFile}}": true,
+        "Replace Beach Outfit": true
+      }
+    },
+
+    //Festival Outfits
+    {
+      "LogName": "Replace Abigail's festival Outfit",
+      "Action": "EditImage",
+      "Priority": "Late",
+      "Target": "Portraits/Abigail_EggF, Portraits/Abigail_FlowerDance, Portraits/Abigail_Luau, Portraits/Abigail_Jellies, Portraits/Abigail_Fair, Portraits/Abigail_SpiritsEve, Portraits/Abigail_Winter_IceF, Portraits/Abigail_Winter_WinterStar, Characters/Abigail_EggF, Characters/Abigail_FlowerDance, Characters/Abigail_Luau, Characters/Abigail_Jellies, Characters/Abigail_Fair, Characters/Abigail_SpiritsEve, Characters/Abigail_Winter_IceF, Characters/Abigail_Winter_WinterStar",
+      "FromFile": "assets/{{Target}}.png",
+      "When": {
+        "HasFile:{{FromFile}}": true,
+        "FestivalOutfits": true
+      }
+    },
+
+    //Tom Riddle or Voldemort mode
+    {
+      "LogName": "Abigail - Seasonal Nose",
+      "Action": "EditImage",
+      "Priority": "Late",
+      "Target": "Characters/Abigail_Spring, Characters/Abigail_Summer, Characters/Abigail_Fall, Characters/Abigail_Winter_Outdoor, Characters/Abigail_Winter_Indoor, Characters/Abigail_EggF, Characters/Abigail_FlowerDance, Characters/Abigail_Luau, Characters/Abigail_Jellies, Characters/Abigail_Fair, Characters/Abigail_SpiritsEve, Characters/Abigail_Winter_IceF, Characters/Abigail_Winter_WinterStar",
+      "FromFile": "assets/Nose/Abigail_nose.png",
+      "PatchMode": "Overlay",
+      "Update": "OnLocationChange",
+      "When": {
+        "HasFile:{{FromFile}}": true,
+        "NoNose": "false"
+      }
+    },
+    {
+      "LogName": "Abigail - Beach Nose",
+      "Action": "EditImage",
+      "Priority": "Late",
+      "Target": "Characters/Abigail_Beach",
+      "FromFile": "assets/Nose/Abigail_Beach_Nose.png",
+      "PatchMode": "Overlay",
+      "Update": "OnLocationChange",
+      "When": {
+        "HasFile:{{FromFile}}": true,
+        "NoNose": "false"
+      }
+    },
+
+    //Spouse Portrait and Calendar Sprite
+    {
+      "LogName": "Emily - Spouse Picture",
+      "Action": "EditImage",
+      "Target": "TileSheets/junimo_furniture",
+      "FromFile": "assets/Misc/Abigail_Spouse_Portrait.png",
+      "FromArea": {"X": 0, "Y": 0, "Width": 32, "Height": 32},
+      "ToArea": {"X": 0, "Y": 272, "Width": 32, "Height": 32},
+      "PatchMode": "Overlay",
+      "When":
+      {
+        "HasFile:{{FromFile}}": true
+      }
+    },
+    {
+      "LogName": "Abigail Calendar Sprite Edits",
+      "Action": "EditImage",
+      "Target": "Characters/Abigail",
+      "FromFile": "assets/{{Target}}_{{Outfit}}.png",
+      "When": {
+        "HasFile:{{FromFile}}": true
+      }
+    }
+  ]
+}
