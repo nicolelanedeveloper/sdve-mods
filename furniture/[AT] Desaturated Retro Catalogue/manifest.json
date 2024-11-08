@@ -1,0 +1,12 @@
+{
+  "Name": "(AT) Desaturated Retro Catalogue",
+  "Author": "AngelOfStars",
+  "Version": "1.0.0",
+  "Description": "A desaturated version of the Retro Catalogue",
+  "UniqueID": "AngelOfStars.DRC.AT",
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "5.0.0"
+  },
+  "UpdateKeys": [ "Nexus:25348" ]
+}
