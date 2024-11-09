@@ -620,7 +620,7 @@
                     "Name": "Galdoran Gem",
                     "DisplayName": "{{i18n:object.galdoran-gem.name}}",
                     "Description": "{{i18n:object.galdoran-gem.description}}",
-                    "Type": "Gem",
+                    "Type": "Arch",
                     "Category": -2,
                     "Price": 600,
                     "Texture": "Mods\\FlashShifter.StardewValleyExpandedCP\\Galdoran Gem",
@@ -632,7 +632,6 @@
                     "ExcludeFromRandomSale": true,
 					"ContextTags": [
                         "color_red",
-                        "not_giftable",
                     ],
                 },
                 "FlashShifter.StardewValleyExpandedCP_Gemfish": {
@@ -2553,7 +2552,7 @@
                     "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": false,
                     "ContextTags": [
-                        "colow_red",
+                        "color_red",
 						"dye_medium",
 						"season_fall"
                     ]
