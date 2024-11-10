@@ -1,0 +1,20 @@
+{
+	//line breaks in the config/GMCM need to be done with \n, for in-game texts with ^
+	
+    //CONFIG
+    "config.Buildings.name": "Buildings",	
+    "config.PremiumBarn.name": "Premium Barn",	
+    "config.PremiumCoop.name": "Premium Coop",	
+    "config.Winery.name": "Winery",
+    "config.brokenSVEupdate.name": "SVE update broken",
+    "config.Buildings.values.farm": "Farm",
+    "config.Buildings.values.lighthouse": "Lighthouse",
+    "config.Buildings.values.morris": "Morris' House",
+    "config.brokenSVEupdate.description": "Enable this option if you see broken textures after an SVE update.\nPrevents replacing of SVE tilesheets.",
+    "config.section.Buildings.name": "Buildings",
+    "config.section.Farm.name": "Farm",
+    "config.section.Debug.name": "Debug",
+    "config.section.Buildings.description": "Enable changes to selected buildings.",
+    "config.section.Farm.description": "Enable changes to selected farm buildings.\nNo effect if 'Buildings: Farm' not enabled.",
+    "config.section.Debug.description": "Enable this section only if your game is broken after an SVE update.\nReport your findings on the VPR nexus mod page."
+}

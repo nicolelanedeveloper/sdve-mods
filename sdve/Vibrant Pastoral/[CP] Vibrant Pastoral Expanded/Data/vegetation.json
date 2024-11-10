@@ -1,0 +1,63 @@
+{
+	"Changes": [
+        //SVE Fruit Trees
+        {
+            "LogName": "SVE Fruit Trees",
+            "Action": "EditImage",
+            "Target": "Mods/FlashShifter.StardewValleyExpandedCP/SVEFruitTrees",
+            "FromFile": "Assets/Mods/Trees/SVE_Fruit_Trees.png",
+            "PatchMode": "Replace",
+            "Priority": "Early"
+        },
+        //SVE Trees
+        {
+            "LogName": "SVE Trees",
+            "Action": "EditImage",
+            "Target": "Mods/FlashShifter.StardewValleyExpandedCP/spring_Birch_Tree, Mods/FlashShifter.StardewValleyExpandedCP/summer_Birch_Tree, Mods/FlashShifter.StardewValleyExpandedCP/fall_Birch_Tree, Mods/FlashShifter.StardewValleyExpandedCP/winter_Birch_Tree, Mods/FlashShifter.StardewValleyExpandedCP/spring_Fir_Tree, Mods/FlashShifter.StardewValleyExpandedCP/summer_Fir_Tree, Mods/FlashShifter.StardewValleyExpandedCP/fall_Fir_Tree, Mods/FlashShifter.StardewValleyExpandedCP/winter_Fir_Tree",
+            "FromFile": "assets/Mods/trees/{{TargetWithoutPath}}.png",
+            "PatchMode": "Replace",
+            "Priority": "Early"
+        },
+        //Extras
+        {
+            "LogName": "Extras Shrubbery Fall",
+            "Action": "EditImage",
+            "Target": "Maps/fall_z_extras",
+            "FromFile": "assets/Patches/Maps/{{TreeType}}/OliVic.png",
+            "PatchMode": "Overlay",
+            "Priority": "Early",
+            "FromArea": { "X": 0, "Y": 0, "Width": 159, "Height": 20 },
+            "ToArea": { "X": 216, "Y": 768, "Width": 159, "Height": 20 }
+        },
+        {
+            "LogName": "Extras Shrubbery Spring",
+            "Action": "EditImage",
+            "Target": "Maps/spring_z_extras",
+            "FromFile": "assets/Patches/Maps/{{TreeType}}/OliVic.png",
+            "PatchMode": "Overlay",
+            "Priority": "Early",
+            "FromArea": { "X": 0, "Y": 20, "Width": 159, "Height": 20 },
+            "ToArea": { "X": 216, "Y": 768, "Width": 159, "Height": 20 }
+        },
+        {
+            "LogName": "Extras Shrubbery Summer",
+            "Action": "EditImage",
+            "Target": "Maps/summer_z_extras",
+            "FromFile": "assets/Patches/Maps/{{TreeType}}/OliVic.png",
+            "PatchMode": "Overlay",
+            "Priority": "Early",
+            "FromArea": { "X": 0, "Y": 40, "Width": 159, "Height": 20 },
+            "ToArea": { "X": 216, "Y": 768, "Width": 159, "Height": 20 }
+        },
+        {
+            "LogName": "Extras Shrubbery Winter",
+            "Action": "EditImage",
+            "Target": "Maps/winter_z_extras",
+            "FromFile": "assets/Patches/Maps/{{TreeType}}/OliVic.png",
+            "PatchMode": "Overlay",
+            "Priority": "Early",
+            "FromArea": { "X": 0, "Y": 60, "Width": 159, "Height": 20 },
+            "ToArea": { "X": 216, "Y": 768, "Width": 159, "Height": 20 }
+        }
+    ]
+}

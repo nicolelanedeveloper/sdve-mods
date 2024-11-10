@@ -23,6 +23,28 @@
             "Action": "EditData",
             "Target": "Data/Shops",
             "TargetField": [ "SeedShop", "Items" ],
+            "When": {"AllSeedsAvailableY2": true},
+            "Entries": {
+                "QL_CarnationSeeds": {
+                    "Id": "QL_CarnationSeeds",
+                    "ItemId": "(O)QL_CarnationSeeds",
+                    "Price": 150,
+                    "Condition": "SEASON summer, YEAR 2"
+                },
+                "QL_OrchidSeeds": {
+                    "Id": "QL_OrchidSeeds",
+                    "ItemId": "(O)QL_OrchidSeeds",
+                    "Price": 1500,
+                    "Condition": "YEAR 2"
+                },
+            
+            }
+		},
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "SeedShop", "Items" ],
             "Entries": {
 
 //FLOWER CROPS

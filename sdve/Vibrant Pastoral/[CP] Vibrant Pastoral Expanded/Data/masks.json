@@ -1,0 +1,37 @@
+{
+	"Changes": [
+        {
+            "LogName": "Premium Barn Mask",
+            "Action": "EditImage",
+            "Target": "Buildings/SVE_PremiumBarn_PaintMask",
+            "FromFile": "assets/Buildings/masks/PremiumBarn_PaintMask{{SnOverlay}}.png",
+			"PatchMode": "Replace",
+            "When": {
+                "PremiumBarn": true,
+                "HasFile:{{FromFile}}": true
+            }
+        },
+        {
+            "LogName": "Premium Coop Mask",
+            "Action": "EditImage",
+            "Target": "Buildings/SVE_PremiumCoop_PaintMask",
+            "FromFile": "assets/Buildings/masks/PremiumCoop_PaintMask{{SnOverlay}}.png",
+			"PatchMode": "Replace",
+            "When": {
+                "PremiumCoop": true,
+                "HasFile:{{FromFile}}": true
+            }
+        },
+        {
+            "LogName": "Winery Mask",
+            "Action": "EditImage",
+            "Target": "Buildings/SVE_Winery_PaintMask",
+            "FromFile": "assets/Buildings/masks/Winery_PaintMask{{SnOverlay}}.png",
+			"PatchMode": "Replace",
+            "When": {
+                "Winery": true,
+                "HasFile:{{FromFile}}": true
+            }
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+	"Changes": [
+        {
+            "LogName": "Premium Barn",
+            "Action": "EditImage",
+            "Target": "Buildings/SVE_PremiumBarn",
+            "FromFile": "assets/Buildings/{{Season}}_PremiumBarn{{SnOverlay}}.png",
+			"PatchMode": "Replace",
+            "When": {
+                "PremiumBarn": true,
+                "HasFile:{{FromFile}}": true
+            }
+        },
+        {
+            "LogName": "Premium Coop",
+            "Action": "EditImage",
+            "Target": "Buildings/SVE_PremiumCoop",
+            "FromFile": "assets/Buildings/{{Season}}_PremiumCoop{{SnOverlay}}.png",
+			"PatchMode": "Replace",
+            "When": {
+                "PremiumCoop": true,
+                "HasFile:{{FromFile}}": true
+            }
+        },
+        {
+            "LogName": "Winery",
+            "Action": "EditImage",
+            "Target": "Buildings/SVE_Winery",
+            "FromFile": "assets/Buildings/{{Season}}_Winery{{SnOverlay}}.png",
+			"PatchMode": "Replace",
+            "When": {
+                "Winery": true,
+                "HasFile:{{FromFile}}": true
+            }
+        }
+    ]
+}

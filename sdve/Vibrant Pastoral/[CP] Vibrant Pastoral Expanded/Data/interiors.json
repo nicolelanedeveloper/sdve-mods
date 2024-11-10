@@ -1,0 +1,10 @@
+{
+	"Changes": [
+        {
+            "Action": "Load",
+            "Target": "Maps/Arcade_Couch",
+            "FromFile": "assets/{{Target}}.png",
+            "Priority": "Medium"
+        }
+    ]
+}

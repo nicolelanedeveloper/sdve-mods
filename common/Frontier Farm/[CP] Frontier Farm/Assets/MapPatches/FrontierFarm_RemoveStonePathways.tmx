@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.5.0" orientation="orthogonal" renderorder="right-down" width="156" height="65" tilewidth="16" tileheight="16" infinite="0" nextlayerid="23" nextobjectid="1613">
+<map version="1.5" tiledversion="1.5.0" orientation="orthogonal" renderorder="right-down" width="156" height="65" tilewidth="16" tileheight="16" infinite="0" nextlayerid="24" nextobjectid="2324">
  <tileset firstgid="1" name="spring_outdoorsTileSheet" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
   <image source="spring_outdoorsTileSheet.png" width="400" height="1264"/>
   <tile id="150">
@@ -5971,7 +5971,3724 @@
  </tileset>
  <layer id="1" name="Back" width="156" height="65">
   <data encoding="base64" compression="zlib">
-   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
+   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
   </data>
  </layer>
+ <objectgroup id="23" name="Back">
+  <object id="1613" name="TileData" x="1712" y="224" width="16" height="16">
+   <properties>
+    <property name="NPCBarrier" value="t"/>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1614" name="TileData" x="1728" y="224" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1615" name="TileData" x="1712" y="208" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1616" name="TileData" x="1712" y="192" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1617" name="TileData" x="1712" y="176" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1618" name="TileData" x="1728" y="176" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1619" name="TileData" x="1744" y="176" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1620" name="TileData" x="1728" y="192" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1621" name="TileData" x="1744" y="192" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1622" name="TileData" x="1728" y="240" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1623" name="TileData" x="1712" y="272" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1624" name="TileData" x="1728" y="272" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1625" name="TileData" x="1728" y="256" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1626" name="TileData" x="2304" y="624" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1627" name="TileData" x="400" y="496" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1628" name="TileData" x="1344" y="368" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1629" name="TileData" x="160" y="656" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1630" name="TileData" x="160" y="672" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1631" name="TileData" x="176" y="672" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1632" name="TileData" x="176" y="656" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1633" name="TileData" x="192" y="656" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1634" name="TileData" x="192" y="672" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1635" name="TileData" x="16" y="656" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1636" name="TileData" x="16" y="672" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1637" name="TileData" x="32" y="656" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1638" name="TileData" x="32" y="672" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1639" name="TileData" x="48" y="656" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1640" name="TileData" x="48" y="672" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1641" name="TileData" x="64" y="656" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1642" name="TileData" x="64" y="672" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1643" name="TileData" x="80" y="656" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1644" name="TileData" x="80" y="672" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1645" name="TileData" x="0" y="656" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1646" name="TileData" x="0" y="672" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1647" name="TileData" x="288" y="480" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1648" name="TileData" x="304" y="480" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1649" name="TileData" x="304" y="464" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1650" name="TileData" x="288" y="464" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1651" name="TileData" x="288" y="448" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1652" name="TileData" x="304" y="448" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1653" name="TileData" x="304" y="432" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1654" name="TileData" x="288" y="432" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1655" name="TileData" x="1408" y="288" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1656" name="TileData" x="1424" y="288" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1657" name="TileData" x="1424" y="304" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1658" name="TileData" x="1408" y="304" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1659" name="TileData" x="1408" y="320" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1660" name="TileData" x="1424" y="320" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1661" name="TileData" x="1424" y="336" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1662" name="TileData" x="1408" y="336" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1663" name="TileData" x="1168" y="96" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1664" name="TileData" x="1168" y="80" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1665" name="TileData" x="1296" y="192" width="16" height="16">
+   <properties>
+    <property name="NPCBarrier" value="t"/>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1666" name="TileData" x="2176" y="0" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1667" name="TileData" x="2160" y="0" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1668" name="TileData" x="2160" y="16" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1669" name="TileData" x="2176" y="16" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1670" name="TileData" x="2176" y="32" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1671" name="TileData" x="2160" y="32" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1672" name="TileData" x="2160" y="48" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1673" name="TileData" x="2176" y="48" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1674" name="TileData" x="2176" y="64" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1675" name="TileData" x="2160" y="64" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1676" name="TileData" x="2160" y="80" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1677" name="TileData" x="2176" y="80" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1678" name="TileData" x="2176" y="96" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1679" name="TileData" x="2160" y="96" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1680" name="TileData" x="2160" y="112" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1681" name="TileData" x="2176" y="112" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1682" name="TileData" x="2480" y="256" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1683" name="TileData" x="2464" y="256" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1684" name="TileData" x="2448" y="256" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1685" name="TileData" x="2432" y="256" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1686" name="TileData" x="2416" y="256" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1687" name="TileData" x="2400" y="256" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1688" name="TileData" x="2384" y="256" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1689" name="TileData" x="2368" y="256" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1690" name="TileData" x="2352" y="256" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1691" name="TileData" x="2336" y="256" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1692" name="TileData" x="2320" y="256" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1693" name="TileData" x="2304" y="256" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1694" name="TileData" x="2272" y="256" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1695" name="TileData" x="2288" y="256" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1696" name="TileData" x="2256" y="256" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1697" name="TileData" x="2256" y="240" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1698" name="TileData" x="2272" y="240" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1699" name="TileData" x="2288" y="240" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1700" name="TileData" x="2304" y="240" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1701" name="TileData" x="2320" y="224" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1702" name="TileData" x="2320" y="240" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1703" name="TileData" x="2336" y="240" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1704" name="TileData" x="2352" y="240" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1705" name="TileData" x="2368" y="240" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1706" name="TileData" x="2384" y="240" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1707" name="TileData" x="2416" y="240" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1708" name="TileData" x="2400" y="240" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1709" name="TileData" x="2432" y="240" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1710" name="TileData" x="2448" y="240" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1711" name="TileData" x="2464" y="240" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1712" name="TileData" x="2480" y="240" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1713" name="TileData" x="2256" y="272" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1714" name="TileData" x="2272" y="272" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1715" name="TileData" x="2288" y="272" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1716" name="TileData" x="2304" y="272" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1717" name="TileData" x="2320" y="272" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1718" name="TileData" x="2336" y="272" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1719" name="TileData" x="2352" y="272" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1720" name="TileData" x="2368" y="272" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1721" name="TileData" x="2384" y="272" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1722" name="TileData" x="2416" y="272" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1723" name="TileData" x="2400" y="272" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1724" name="TileData" x="2432" y="272" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1725" name="TileData" x="2448" y="272" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1726" name="TileData" x="2464" y="272" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1727" name="TileData" x="2480" y="272" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1728" name="TileData" x="2384" y="288" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1729" name="TileData" x="2416" y="288" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1730" name="TileData" x="2400" y="288" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1731" name="TileData" x="2432" y="288" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1732" name="TileData" x="2368" y="288" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1733" name="TileData" x="2224" y="160" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1734" name="TileData" x="2224" y="176" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1735" name="TileData" x="2272" y="224" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1736" name="TileData" x="2256" y="224" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1737" name="TileData" x="2240" y="208" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1738" name="TileData" x="2240" y="224" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1739" name="TileData" x="2240" y="240" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1740" name="TileData" x="2240" y="256" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1741" name="TileData" x="2240" y="272" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1742" name="TileData" x="2240" y="288" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1743" name="TileData" x="2240" y="304" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1744" name="TileData" x="2144" y="1024" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1745" name="TileData" x="2160" y="1024" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1746" name="TileData" x="2176" y="1024" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1747" name="TileData" x="2192" y="1024" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1748" name="TileData" x="2208" y="1024" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1749" name="TileData" x="2208" y="1008" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1750" name="TileData" x="2192" y="1008" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1751" name="TileData" x="2160" y="1008" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1752" name="TileData" x="2144" y="1008" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1753" name="TileData" x="1392" y="1024" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1754" name="TileData" x="1408" y="1024" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1755" name="TileData" x="1424" y="1024" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1756" name="TileData" x="1424" y="1008" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1757" name="TileData" x="1408" y="1008" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1758" name="TileData" x="1392" y="1008" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1759" name="TileData" x="576" y="112" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1760" name="TileData" x="560" y="112" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1761" name="TileData" x="544" y="112" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1762" name="TileData" x="304" y="352" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1763" name="TileData" x="288" y="352" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1764" name="TileData" x="1200" y="752" width="16" height="16">
+   <properties>
+    <property name="NPCBarrier" value="t"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1765" name="TileData" x="1296" y="464" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1766" name="TileData" x="1296" y="448" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1767" name="TileData" x="1280" y="464" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1768" name="TileData" x="1280" y="448" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1769" name="TileData" x="1264" y="464" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1770" name="TileData" x="1264" y="448" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1771" name="TileData" x="2160" y="912" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1772" name="TileData" x="2176" y="912" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1773" name="TileData" x="2176" y="928" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1774" name="TileData" x="2160" y="928" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1775" name="TileData" x="2160" y="944" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1776" name="TileData" x="2176" y="944" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1777" name="TileData" x="2176" y="960" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1778" name="TileData" x="2160" y="960" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1779" name="TileData" x="2160" y="976" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1780" name="TileData" x="2176" y="976" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1781" name="TileData" x="2176" y="992" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1782" name="TileData" x="2160" y="992" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1783" name="TileData" x="2160" y="816" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1784" name="TileData" x="2176" y="816" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1785" name="TileData" x="2176" y="832" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1786" name="TileData" x="2160" y="832" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1787" name="TileData" x="2160" y="848" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1788" name="TileData" x="2176" y="848" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1789" name="TileData" x="2176" y="864" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1790" name="TileData" x="2160" y="864" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1791" name="TileData" x="2160" y="880" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1792" name="TileData" x="2176" y="880" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1793" name="TileData" x="2176" y="896" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1794" name="TileData" x="2160" y="896" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1795" name="TileData" x="2160" y="720" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1796" name="TileData" x="2176" y="720" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1797" name="TileData" x="2176" y="736" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1798" name="TileData" x="2160" y="736" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1799" name="TileData" x="2160" y="752" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1800" name="TileData" x="2176" y="752" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1801" name="TileData" x="2176" y="768" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1802" name="TileData" x="2160" y="768" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1803" name="TileData" x="2160" y="784" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1804" name="TileData" x="2176" y="784" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1805" name="TileData" x="2176" y="800" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1806" name="TileData" x="2160" y="800" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1807" name="TileData" x="2160" y="624" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1808" name="TileData" x="2176" y="624" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1809" name="TileData" x="2176" y="640" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1810" name="TileData" x="2160" y="640" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1811" name="TileData" x="2160" y="656" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1812" name="TileData" x="2176" y="656" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1813" name="TileData" x="2176" y="672" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1814" name="TileData" x="2160" y="672" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1815" name="TileData" x="2160" y="688" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1816" name="TileData" x="2176" y="688" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1817" name="TileData" x="2176" y="704" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1818" name="TileData" x="2160" y="704" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1819" name="TileData" x="2160" y="528" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1820" name="TileData" x="2176" y="528" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1821" name="TileData" x="2176" y="544" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1822" name="TileData" x="2160" y="544" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1823" name="TileData" x="2160" y="560" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1824" name="TileData" x="2176" y="560" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1825" name="TileData" x="2176" y="576" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1826" name="TileData" x="2160" y="576" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1827" name="TileData" x="2160" y="592" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1828" name="TileData" x="2176" y="592" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1829" name="TileData" x="2176" y="608" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1830" name="TileData" x="2160" y="608" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1831" name="TileData" x="2160" y="432" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1832" name="TileData" x="2176" y="432" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1833" name="TileData" x="2176" y="448" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1834" name="TileData" x="2160" y="448" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1835" name="TileData" x="2160" y="464" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1836" name="TileData" x="2176" y="464" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1837" name="TileData" x="2176" y="480" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1838" name="TileData" x="2160" y="480" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1839" name="TileData" x="2160" y="496" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1840" name="TileData" x="2176" y="496" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1841" name="TileData" x="2176" y="512" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1842" name="TileData" x="2160" y="512" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1843" name="TileData" x="2160" y="384" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1844" name="TileData" x="2176" y="384" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1845" name="TileData" x="2176" y="400" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1846" name="TileData" x="2160" y="400" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1847" name="TileData" x="2160" y="416" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1848" name="TileData" x="2176" y="416" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1849" name="TileData" x="2160" y="288" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1850" name="TileData" x="2176" y="288" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1851" name="TileData" x="2176" y="304" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1852" name="TileData" x="2160" y="304" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1853" name="TileData" x="2160" y="320" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1854" name="TileData" x="2176" y="320" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1855" name="TileData" x="2176" y="336" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1856" name="TileData" x="2160" y="336" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1857" name="TileData" x="2160" y="352" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1858" name="TileData" x="2176" y="352" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1859" name="TileData" x="2176" y="368" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1860" name="TileData" x="2160" y="368" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1861" name="TileData" x="2160" y="240" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1862" name="TileData" x="2176" y="240" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1863" name="TileData" x="2176" y="256" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1864" name="TileData" x="2160" y="256" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1865" name="TileData" x="2160" y="272" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1866" name="TileData" x="2176" y="272" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1867" name="TileData" x="2160" y="144" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1868" name="TileData" x="2176" y="144" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1869" name="TileData" x="2176" y="160" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1870" name="TileData" x="2160" y="160" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1871" name="TileData" x="2160" y="176" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1872" name="TileData" x="2176" y="176" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1873" name="TileData" x="2176" y="192" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1874" name="TileData" x="2160" y="192" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1875" name="TileData" x="2160" y="208" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1876" name="TileData" x="2176" y="208" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1877" name="TileData" x="2176" y="224" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1878" name="TileData" x="2160" y="224" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1879" name="TileData" x="2160" y="128" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1880" name="TileData" x="2176" y="128" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1881" name="TileData" x="2208" y="240" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1882" name="TileData" x="2224" y="240" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1883" name="TileData" x="2192" y="240" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1884" name="TileData" x="2192" y="256" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1885" name="TileData" x="2208" y="256" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1886" name="TileData" x="2224" y="256" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1887" name="TileData" x="2192" y="272" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1888" name="TileData" x="2208" y="272" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1889" name="TileData" x="2224" y="272" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1890" name="TileData" x="1424" y="256" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1891" name="TileData" x="1408" y="256" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1892" name="TileData" x="1408" y="272" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1893" name="TileData" x="1424" y="272" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1894" name="TileData" x="1232" y="192" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1895" name="TileData" x="1232" y="176" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1896" name="TileData" x="1216" y="176" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1897" name="TileData" x="1216" y="160" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1898" name="TileData" x="1232" y="160" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1899" name="TileData" x="1200" y="160" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1900" name="TileData" x="1200" y="144" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1901" name="TileData" x="1184" y="144" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1902" name="TileData" x="1184" y="128" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1903" name="TileData" x="1168" y="128" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1904" name="TileData" x="1168" y="112" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1905" name="TileData" x="1184" y="112" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1906" name="TileData" x="1184" y="96" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1907" name="TileData" x="1248" y="176" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1908" name="TileData" x="1216" y="192" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1909" name="TileData" x="400" y="512" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1910" name="TileData" x="2192" y="656" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1911" name="TileData" x="2208" y="656" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1912" name="TileData" x="2224" y="656" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1913" name="TileData" x="2240" y="656" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1914" name="TileData" x="2240" y="640" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1915" name="TileData" x="2256" y="640" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1916" name="TileData" x="2272" y="640" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1917" name="TileData" x="2288" y="640" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1918" name="TileData" x="2304" y="640" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1919" name="TileData" x="1328" y="272" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1920" name="TileData" x="1344" y="272" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1921" name="TileData" x="1360" y="272" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1922" name="TileData" x="1376" y="272" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1923" name="TileData" x="1456" y="272" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1924" name="TileData" x="1472" y="272" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1925" name="TileData" x="1488" y="272" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1926" name="TileData" x="2288" y="768" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1927" name="TileData" x="2272" y="848" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1928" name="TileData" x="2256" y="880" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1929" name="TileData" x="2240" y="912" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1930" name="TileData" x="2224" y="960" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1931" name="TileData" x="2304" y="720" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1932" name="TileData" x="2320" y="688" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1933" name="TileData" x="2336" y="672" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1934" name="TileData" x="2224" y="352" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1935" name="TileData" x="224" y="400" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1936" name="TileData" x="240" y="400" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1937" name="TileData" x="256" y="400" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1938" name="TileData" x="336" y="400" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1939" name="TileData" x="352" y="400" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1940" name="TileData" x="368" y="400" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1941" name="TileData" x="2032" y="224" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1942" name="TileData" x="2048" y="224" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1943" name="TileData" x="2064" y="224" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1944" name="TileData" x="2080" y="224" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1945" name="TileData" x="2080" y="240" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1946" name="TileData" x="2064" y="240" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1947" name="TileData" x="2048" y="240" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1948" name="TileData" x="2032" y="240" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1949" name="TileData" x="2176" y="1008" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1950" name="TileData" x="720" y="960" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1951" name="TileData" x="688" y="976" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1952" name="TileData" x="704" y="976" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1953" name="TileData" x="720" y="976" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1954" name="TileData" x="736" y="976" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1955" name="TileData" x="752" y="976" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1956" name="TileData" x="736" y="960" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1957" name="TileData" x="704" y="960" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1958" name="TileData" x="688" y="960" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1959" name="TileData" x="688" y="944" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1960" name="TileData" x="688" y="928" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1961" name="TileData" x="688" y="912" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1962" name="TileData" x="688" y="896" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1963" name="TileData" x="704" y="896" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1964" name="TileData" x="720" y="896" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1965" name="TileData" x="752" y="944" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1966" name="TileData" x="752" y="928" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1967" name="TileData" x="752" y="960" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1968" name="TileData" x="736" y="928" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1969" name="TileData" x="736" y="912" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1970" name="TileData" x="736" y="944" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1971" name="TileData" x="720" y="944" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1972" name="TileData" x="720" y="928" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1973" name="TileData" x="720" y="912" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1974" name="TileData" x="704" y="912" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1975" name="TileData" x="704" y="928" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1976" name="TileData" x="704" y="944" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1977" name="TileData" x="1120" y="752" width="16" height="16">
+   <properties>
+    <property name="NPCBarrier" value="t"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1978" name="TileData" x="1376" y="736" width="16" height="16">
+   <properties>
+    <property name="NPCBarrier" value="t"/>
+   </properties>
+  </object>
+  <object id="1979" name="TileData" x="1376" y="752" width="16" height="16">
+   <properties>
+    <property name="NPCBarrier" value="t"/>
+   </properties>
+  </object>
+  <object id="1980" name="TileData" x="1376" y="768" width="16" height="16">
+   <properties>
+    <property name="NPCBarrier" value="t"/>
+   </properties>
+  </object>
+  <object id="1981" name="TileData" x="1152" y="496" width="16" height="16">
+   <properties>
+    <property name="NPCBarrier" value="t"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1982" name="TileData" x="1392" y="944" width="16" height="16">
+   <properties>
+    <property name="NPCBarrier" value="t"/>
+   </properties>
+  </object>
+  <object id="1983" name="TileData" x="1408" y="944" width="16" height="16">
+   <properties>
+    <property name="NPCBarrier" value="t"/>
+   </properties>
+  </object>
+  <object id="1984" name="TileData" x="1424" y="944" width="16" height="16">
+   <properties>
+    <property name="NPCBarrier" value="t"/>
+   </properties>
+  </object>
+  <object id="1985" name="TileData" x="1440" y="944" width="16" height="16">
+   <properties>
+    <property name="NPCBarrier" value="t"/>
+   </properties>
+  </object>
+  <object id="1986" name="TileData" x="2128" y="896" width="16" height="16">
+   <properties>
+    <property name="NPCBarrier" value="t"/>
+   </properties>
+  </object>
+  <object id="1987" name="TileData" x="2128" y="912" width="16" height="16">
+   <properties>
+    <property name="NPCBarrier" value="t"/>
+   </properties>
+  </object>
+  <object id="1988" name="TileData" x="2128" y="400" width="16" height="16">
+   <properties>
+    <property name="NPCBarrier" value="t"/>
+   </properties>
+  </object>
+  <object id="1989" name="TileData" x="2128" y="416" width="16" height="16">
+   <properties>
+    <property name="NPCBarrier" value="t"/>
+   </properties>
+  </object>
+  <object id="1990" name="TileData" x="2128" y="432" width="16" height="16">
+   <properties>
+    <property name="NPCBarrier" value="t"/>
+   </properties>
+  </object>
+  <object id="1991" name="TileData" x="2128" y="480" width="16" height="16">
+   <properties>
+    <property name="NPCBarrier" value="t"/>
+   </properties>
+  </object>
+  <object id="1992" name="TileData" x="1248" y="192" width="16" height="16">
+   <properties>
+    <property name="NPCBarrier" value="t"/>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1993" name="TileData" x="304" y="496" width="16" height="16">
+   <properties>
+    <property name="NPCBarrier" value="t"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1994" name="TileData" x="288" y="496" width="16" height="16">
+   <properties>
+    <property name="NPCBarrier" value="t"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1995" name="TileData" x="288" y="416" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1996" name="TileData" x="304" y="416" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1997" name="TileData" x="304" y="400" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1998" name="TileData" x="304" y="384" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="1999" name="TileData" x="304" y="368" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2000" name="TileData" x="288" y="368" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2001" name="TileData" x="288" y="384" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2002" name="TileData" x="288" y="400" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2003" name="TileData" x="704" y="816" width="16" height="16">
+   <properties>
+    <property name="NPCBarrier" value="t"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2004" name="TileData" x="720" y="816" width="16" height="16">
+   <properties>
+    <property name="NPCBarrier" value="t"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2005" name="TileData" x="720" y="800" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2006" name="TileData" x="704" y="800" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2007" name="TileData" x="208" y="320" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2008" name="TileData" x="208" y="336" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2009" name="TileData" x="208" y="352" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2010" name="TileData" x="224" y="352" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2011" name="TileData" x="240" y="352" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2012" name="TileData" x="256" y="352" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2013" name="TileData" x="272" y="352" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2014" name="TileData" x="320" y="352" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2015" name="TileData" x="336" y="352" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2016" name="TileData" x="352" y="352" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2017" name="TileData" x="368" y="352" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2018" name="TileData" x="384" y="352" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2019" name="TileData" x="384" y="336" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2020" name="TileData" x="384" y="320" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2021" name="TileData" x="384" y="304" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2022" name="TileData" x="1792" y="432" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2023" name="TileData" x="1792" y="416" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2024" name="TileData" x="1792" y="400" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2025" name="TileData" x="1792" y="384" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2026" name="TileData" x="1792" y="368" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2027" name="TileData" x="1792" y="352" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2028" name="TileData" x="1936" y="336" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2029" name="TileData" x="1920" y="336" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2030" name="TileData" x="1904" y="336" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2031" name="TileData" x="1888" y="336" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2032" name="TileData" x="1872" y="336" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2033" name="TileData" x="1856" y="336" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2034" name="TileData" x="1840" y="336" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2035" name="TileData" x="1824" y="336" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2036" name="TileData" x="1808" y="336" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2037" name="TileData" x="1792" y="336" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2038" name="TileData" x="1856" y="416" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2039" name="TileData" x="1840" y="416" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2040" name="TileData" x="1824" y="416" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2041" name="TileData" x="1920" y="416" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2042" name="TileData" x="1952" y="400" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="T"/>
+    <property name="NoSpawn" value="All"/>
+    <property name="Spawnable" value="F"/>
+   </properties>
+  </object>
+  <object id="2043" name="TileData" x="1456" y="944" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2044" name="TileData" x="1472" y="944" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2045" name="TileData" x="1488" y="944" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2046" name="TileData" x="1504" y="944" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2047" name="TileData" x="1520" y="944" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2048" name="TileData" x="1536" y="944" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2049" name="TileData" x="1552" y="944" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2050" name="TileData" x="1568" y="944" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2051" name="TileData" x="1584" y="944" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2052" name="TileData" x="1600" y="944" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2053" name="TileData" x="1616" y="944" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2054" name="TileData" x="1632" y="944" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2055" name="TileData" x="1648" y="944" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2056" name="TileData" x="1664" y="944" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2057" name="TileData" x="1680" y="944" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2058" name="TileData" x="1696" y="944" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2059" name="TileData" x="1712" y="944" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2060" name="TileData" x="1728" y="944" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2061" name="TileData" x="1744" y="944" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2062" name="TileData" x="1760" y="944" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2063" name="TileData" x="1776" y="944" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2064" name="TileData" x="1792" y="944" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2065" name="TileData" x="1808" y="944" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2066" name="TileData" x="1824" y="944" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2067" name="TileData" x="1840" y="944" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2068" name="TileData" x="1856" y="944" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2069" name="TileData" x="1872" y="944" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2070" name="TileData" x="1888" y="944" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2071" name="TileData" x="1904" y="944" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2072" name="TileData" x="1920" y="944" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2073" name="TileData" x="2000" y="944" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2074" name="TileData" x="2016" y="944" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2075" name="TileData" x="2032" y="944" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2076" name="TileData" x="2048" y="944" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2077" name="TileData" x="2064" y="944" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2078" name="TileData" x="2080" y="928" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2079" name="TileData" x="2096" y="928" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2080" name="TileData" x="2112" y="928" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2081" name="TileData" x="1200" y="400" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2082" name="TileData" x="1232" y="384" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2083" name="TileData" x="1216" y="384" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2084" name="TileData" x="1296" y="560" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2085" name="TileData" x="1120" y="480" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2086" name="TileData" x="1104" y="480" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2087" name="TileData" x="1088" y="480" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2088" name="TileData" x="1072" y="480" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2089" name="TileData" x="1056" y="480" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2090" name="TileData" x="1040" y="480" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2091" name="TileData" x="1024" y="480" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2092" name="TileData" x="1008" y="480" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2093" name="TileData" x="992" y="480" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2094" name="TileData" x="976" y="480" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2095" name="TileData" x="960" y="480" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2096" name="TileData" x="944" y="480" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2097" name="TileData" x="1136" y="480" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2098" name="TileData" x="1200" y="480" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2099" name="TileData" x="1216" y="480" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2100" name="TileData" x="1232" y="480" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2101" name="TileData" x="2320" y="624" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2102" name="TileData" x="2144" y="144" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="Tree"/>
+   </properties>
+  </object>
+  <object id="2103" name="TileData" x="2144" y="160" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="Tree"/>
+   </properties>
+  </object>
+  <object id="2104" name="TileData" x="2144" y="176" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="Tree"/>
+   </properties>
+  </object>
+  <object id="2105" name="TileData" x="2144" y="192" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="Tree"/>
+   </properties>
+  </object>
+  <object id="2106" name="TileData" x="2144" y="208" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="Tree"/>
+   </properties>
+  </object>
+  <object id="2107" name="TileData" x="2144" y="224" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="Tree"/>
+   </properties>
+  </object>
+  <object id="2108" name="TileData" x="2144" y="240" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="Tree"/>
+   </properties>
+  </object>
+  <object id="2109" name="TileData" x="1728" y="304" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="Tree"/>
+   </properties>
+  </object>
+  <object id="2110" name="TileData" x="1712" y="304" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="Tree"/>
+   </properties>
+  </object>
+  <object id="2111" name="TileData" x="1696" y="304" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="Tree"/>
+   </properties>
+  </object>
+  <object id="2112" name="TileData" x="1680" y="304" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="Tree"/>
+   </properties>
+  </object>
+  <object id="2113" name="TileData" x="1728" y="288" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="Tree"/>
+   </properties>
+  </object>
+  <object id="2114" name="TileData" x="1712" y="288" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="Tree"/>
+   </properties>
+  </object>
+  <object id="2115" name="TileData" x="1680" y="272" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="Tree"/>
+   </properties>
+  </object>
+  <object id="2116" name="TileData" x="176" y="752" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="Tree"/>
+   </properties>
+  </object>
+  <object id="2117" name="TileData" x="192" y="752" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="Tree"/>
+   </properties>
+  </object>
+  <object id="2118" name="TileData" x="192" y="736" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="Tree"/>
+   </properties>
+  </object>
+  <object id="2119" name="TileData" x="192" y="720" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="Tree"/>
+   </properties>
+  </object>
+  <object id="2120" name="TileData" x="2128" y="128" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2121" name="TileData" x="2144" y="128" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2122" name="TileData" x="2128" y="144" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2123" name="TileData" x="2128" y="160" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2124" name="TileData" x="2128" y="176" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2125" name="TileData" x="2112" y="128" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2126" name="TileData" x="2096" y="128" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2127" name="TileData" x="1760" y="176" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2128" name="TileData" x="1760" y="192" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2129" name="TileData" x="1776" y="176" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2130" name="TileData" x="1792" y="176" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2131" name="TileData" x="1776" y="160" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2132" name="TileData" x="1760" y="160" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2133" name="TileData" x="1760" y="144" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2134" name="TileData" x="1776" y="144" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2135" name="TileData" x="1776" y="128" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2136" name="TileData" x="1760" y="128" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2137" name="TileData" x="1792" y="128" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2138" name="TileData" x="1808" y="112" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2139" name="TileData" x="1792" y="112" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2140" name="TileData" x="1776" y="112" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2141" name="TileData" x="1760" y="112" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2142" name="TileData" x="1760" y="96" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2143" name="TileData" x="1776" y="96" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2144" name="TileData" x="1792" y="96" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2145" name="TileData" x="1808" y="96" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2146" name="TileData" x="1824" y="96" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2147" name="TileData" x="1808" y="80" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2148" name="TileData" x="1792" y="80" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2149" name="TileData" x="1776" y="80" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2150" name="TileData" x="1760" y="80" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2151" name="TileData" x="1760" y="64" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2152" name="TileData" x="1792" y="64" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2153" name="TileData" x="944" y="224" width="16" height="16">
+   <properties>
+    <property name="NPCBarrier" value="t"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2154" name="TileData" x="2128" y="448" width="16" height="16">
+   <properties>
+    <property name="NPCBarrier" value="t"/>
+   </properties>
+  </object>
+  <object id="2155" name="TileData" x="2128" y="464" width="16" height="16">
+   <properties>
+    <property name="NPCBarrier" value="t"/>
+   </properties>
+  </object>
+  <object id="2156" name="TileData" x="2080" y="432" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2157" name="TileData" x="2096" y="432" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2158" name="TileData" x="2144" y="432" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2159" name="TileData" x="2144" y="448" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2160" name="TileData" x="2144" y="464" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2161" name="TileData" x="2112" y="448" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2162" name="TileData" x="2096" y="448" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2163" name="TileData" x="2080" y="448" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2164" name="TileData" x="2080" y="464" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2165" name="TileData" x="2096" y="464" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2166" name="TileData" x="2112" y="464" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2167" name="TileData" x="2064" y="448" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2168" name="TileData" x="2064" y="464" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2169" name="TileData" x="1888" y="448" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2170" name="TileData" x="1872" y="448" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2171" name="TileData" x="1904" y="448" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2172" name="TileData" x="1920" y="448" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2173" name="TileData" x="1920" y="464" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2174" name="TileData" x="1904" y="464" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2175" name="TileData" x="1888" y="464" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2176" name="TileData" x="1872" y="464" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2177" name="TileData" x="1856" y="464" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2178" name="TileData" x="1856" y="448" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2179" name="TileData" x="1840" y="448" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2180" name="TileData" x="1824" y="448" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2181" name="TileData" x="1824" y="448" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2182" name="TileData" x="1936" y="448" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2183" name="TileData" x="1952" y="448" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2184" name="TileData" x="1952" y="464" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2185" name="TileData" x="1936" y="464" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2186" name="TileData" x="1840" y="464" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2187" name="TileData" x="1824" y="464" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2188" name="TileData" x="1808" y="464" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2189" name="TileData" x="1808" y="448" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2190" name="TileData" x="1792" y="448" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2191" name="TileData" x="1792" y="464" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2192" name="TileData" x="2048" y="448" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2193" name="TileData" x="2032" y="448" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2194" name="TileData" x="2016" y="448" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2195" name="TileData" x="2000" y="448" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2196" name="TileData" x="1984" y="448" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2197" name="TileData" x="1968" y="448" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2198" name="TileData" x="1968" y="464" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2199" name="TileData" x="1984" y="464" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2200" name="TileData" x="2000" y="464" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2201" name="TileData" x="2016" y="464" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2202" name="TileData" x="2032" y="464" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2203" name="TileData" x="2048" y="464" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2204" name="TileData" x="2352" y="288" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2205" name="TileData" x="2352" y="304" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2206" name="TileData" x="2352" y="320" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2207" name="TileData" x="2352" y="336" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2208" name="TileData" x="2352" y="352" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2209" name="TileData" x="2336" y="352" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2210" name="TileData" x="2320" y="352" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2211" name="TileData" x="2304" y="352" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2212" name="TileData" x="2288" y="352" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2213" name="TileData" x="2272" y="352" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2214" name="TileData" x="2256" y="352" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2215" name="TileData" x="2240" y="352" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2216" name="TileData" x="2192" y="288" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2217" name="TileData" x="2192" y="368" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2218" name="TileData" x="2192" y="384" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2219" name="TileData" x="2192" y="400" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2220" name="TileData" x="2208" y="384" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2221" name="TileData" x="2192" y="416" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2222" name="TileData" x="2192" y="432" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2223" name="TileData" x="2192" y="448" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2224" name="TileData" x="2192" y="672" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2225" name="TileData" x="2208" y="672" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2226" name="TileData" x="2192" y="688" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2227" name="TileData" x="2224" y="672" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2228" name="TileData" x="2192" y="640" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2229" name="TileData" x="2208" y="640" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2230" name="TileData" x="2192" y="624" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2231" name="TileData" x="2224" y="640" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2232" name="TileData" x="2256" y="656" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2233" name="TileData" x="2240" y="672" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2234" name="TileData" x="2208" y="688" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2235" name="TileData" x="2192" y="704" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2236" name="TileData" x="2192" y="720" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2237" name="TileData" x="2192" y="736" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2238" name="TileData" x="2192" y="832" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2239" name="TileData" x="2192" y="848" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2240" name="TileData" x="2192" y="992" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2241" name="TileData" x="2192" y="976" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2242" name="TileData" x="2192" y="960" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2243" name="TileData" x="2192" y="944" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2244" name="TileData" x="2144" y="416" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2245" name="TileData" x="2112" y="432" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2246" name="TileData" x="1168" y="496" width="16" height="16">
+   <properties>
+    <property name="NPCBarrier" value="t"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2247" name="TileData" x="1184" y="496" width="16" height="16">
+   <properties>
+    <property name="NPCBarrier" value="t"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2248" name="TileData" x="1152" y="416" width="16" height="16">
+   <properties>
+    <property name="NPCBarrier" value="t"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2249" name="TileData" x="1168" y="416" width="16" height="16">
+   <properties>
+    <property name="NPCBarrier" value="t"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2250" name="TileData" x="1184" y="416" width="16" height="16">
+   <properties>
+    <property name="NPCBarrier" value="t"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2251" name="TileData" x="1168" y="480" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2252" name="TileData" x="1152" y="480" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2253" name="TileData" x="1184" y="480" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2254" name="TileData" x="1168" y="400" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2255" name="TileData" x="1152" y="400" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2256" name="TileData" x="1184" y="400" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2257" name="TileData" x="944" y="752" width="16" height="16">
+   <properties>
+    <property name="NPCBarrier" value="t"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2258" name="TileData" x="1248" y="464" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2259" name="TileData" x="1248" y="448" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2260" name="TileData" x="208" y="656" width="16" height="16">
+   <properties>
+    <property name="NPCBarrier" value="t"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2261" name="TileData" x="208" y="672" width="16" height="16">
+   <properties>
+    <property name="NPCBarrier" value="t"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2262" name="TileData" x="1136" y="752" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2263" name="TileData" x="1152" y="752" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2264" name="TileData" x="1168" y="752" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2265" name="TileData" x="1184" y="752" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2266" name="TileData" x="1264" y="192" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2267" name="TileData" x="1280" y="192" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2268" name="TileData" x="704" y="832" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2269" name="TileData" x="720" y="832" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2270" name="TileData" x="720" y="848" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2271" name="TileData" x="704" y="848" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2272" name="TileData" x="704" y="864" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2273" name="TileData" x="720" y="864" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2274" name="TileData" x="720" y="880" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2275" name="TileData" x="704" y="880" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="Total"/>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2276" name="TileData" x="1904" y="416" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2277" name="TileData" x="1888" y="416" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2278" name="TileData" x="1872" y="416" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2279" name="TileData" x="1872" y="432" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2280" name="TileData" x="1888" y="432" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2281" name="TileData" x="1904" y="432" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2282" name="TileData" x="960" y="592" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2283" name="TileData" x="976" y="592" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2284" name="TileData" x="992" y="592" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2285" name="TileData" x="992" y="608" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2286" name="TileData" x="1008" y="608" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2287" name="TileData" x="1024" y="608" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2288" name="TileData" x="1040" y="608" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2289" name="TileData" x="1056" y="608" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2290" name="TileData" x="1072" y="608" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2291" name="TileData" x="1088" y="608" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2292" name="TileData" x="1088" y="592" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2293" name="TileData" x="1104" y="592" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2294" name="TileData" x="1120" y="592" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2295" name="TileData" x="1136" y="592" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2296" name="TileData" x="1152" y="592" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2297" name="TileData" x="1168" y="592" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2298" name="TileData" x="1184" y="592" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2299" name="TileData" x="1104" y="272" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2300" name="TileData" x="1104" y="288" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2301" name="TileData" x="1088" y="288" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2302" name="TileData" x="1088" y="304" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2303" name="TileData" x="1088" y="320" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2304" name="TileData" x="1088" y="336" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2305" name="TileData" x="1088" y="352" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2306" name="TileData" x="1104" y="352" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2307" name="TileData" x="1120" y="352" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2308" name="TileData" x="1120" y="368" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2309" name="TileData" x="1136" y="368" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2310" name="TileData" x="1136" y="384" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2311" name="TileData" x="1216" y="720" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2312" name="TileData" x="1232" y="720" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2313" name="TileData" x="1248" y="720" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2314" name="TileData" x="1264" y="720" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2315" name="TileData" x="1280" y="720" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2316" name="TileData" x="1296" y="720" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2317" name="TileData" x="1296" y="736" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2318" name="TileData" x="1312" y="736" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2319" name="TileData" x="1328" y="736" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2320" name="TileData" x="1328" y="752" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2321" name="TileData" x="1344" y="752" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2322" name="TileData" x="1344" y="768" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="2323" name="TileData" x="1360" y="768" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

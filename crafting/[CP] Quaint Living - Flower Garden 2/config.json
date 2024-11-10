@@ -1,3 +1,5 @@
 {
-  "SeasonalVariant": "true"
+  "SeasonalVariant": "true",
+  "AllSeedsAvailableY2": "false",
+  "AutoLearnRecipes": "false"
 }

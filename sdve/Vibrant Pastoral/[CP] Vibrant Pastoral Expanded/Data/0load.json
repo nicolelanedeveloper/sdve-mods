@@ -1,0 +1,49 @@
+{
+	"Changes": [
+        //Maps
+            {
+                "Action": "Load",
+                "Target": "Maps/spring_SVE_Tilesheet2, Maps/summer_SVE_Tilesheet2, Maps/fall_SVE_Tilesheet2, Maps/winter_SVE_Tilesheet2, Maps/fall_ValleyBackdrop, Maps/spring_ValleyBackdrop, Maps/summer_ValleyBackdrop, Maps/winter_ValleyBackdrop, Maps/IridiumQuarry, Maps/fall_ShearwaterBridgeRenovated, Maps/spring_ShearwaterBridgeRenovated, Maps/summer_ShearwaterBridgeRenovated, Maps/winter_ShearwaterBridgeRenovated, Maps/fall_z_extras, Maps/spring_z_extras, Maps/summer_z_extras, Maps/winter_z_extras, Maps/ZCCC_FoodCourt_Tilesheet, Maps/ZCCC_Stage_Tilesheet, Maps/z_CastleVillage, Maps/z_SVEbuildingShadow, Maps/z_winter_SVEbuildingShadow",
+                "FromFile": "assets/{{Target}}.png",
+                "Priority": "Medium"
+            },
+            //Lighthouse
+            {
+                "Action": "Load",
+                "Target": "Maps/Lighthouse",
+                "FromFile": "assets/{{Target}}.png",
+                "Priority": "Medium",
+                "When": { "Buildings |contains=lighthouse": true }
+            },
+            //Morris' House
+            {
+                "Action": "Load",
+                "Target": "Maps/fall_MorrisModernHouse, Maps/spring_MorrisModernHouse, Maps/summer_MorrisModernHouse, Maps/winter_MorrisModernHouse",
+                "FromFile": "assets/{{Target}}.png",
+                "Priority": "Medium",
+                "When": { "Buildings |contains=morris": true }
+            },
+            //z_Waterfalls
+            {
+                "Action": "Load",
+                "Target": "Maps/fall_z_Waterfalls, Maps/spring_z_Waterfalls, Maps/summer_z_Waterfalls, Maps/winter_z_Waterfalls",
+                "FromFile": "assets/{{Target}}.png",
+                "Priority": "Medium",
+                "When": { "HasMod |contains=Neopffe.BetterWater": false }
+            },
+        //Mods
+            {
+                "Action": "Load",
+                "Target": "Mods/FlashShifter.StardewValleyExpandedCP/CrimsonBadlands, Mods/FlashShifter.StardewValleyExpandedCP/FableReef, Mods/FlashShifter.StardewValleyExpandedCP/fall_GrampletonSuburbs, Mods/FlashShifter.StardewValleyExpandedCP/spring_GrampletonSuburbs, Mods/FlashShifter.StardewValleyExpandedCP/summer_GrampletonSuburbs, Mods/FlashShifter.StardewValleyExpandedCP/winter_GrampletonSuburbs, Mods/FlashShifter.StardewValleyExpandedCP/fall_Highlands, Mods/FlashShifter.StardewValleyExpandedCP/spring_Highlands, Mods/FlashShifter.StardewValleyExpandedCP/summer_Highlands, Mods/FlashShifter.StardewValleyExpandedCP/winter_Highlands",
+                "FromFile": "assets/Mods/{{TargetWithoutPath}}.png",
+                "Priority": "Medium"
+            },
+            //Big Craftables
+            {
+                "Action": "Load",
+                "Target": "Mods/FlashShifter.StardewValleyExpandedCP/Big Bush L, Mods/FlashShifter.StardewValleyExpandedCP/Big Bush R, Mods/FlashShifter.StardewValleyExpandedCP/Coal Box, Mods/FlashShifter.StardewValleyExpandedCP/Fancy Wood Lamp-post, Mods/FlashShifter.StardewValleyExpandedCP/Jagged Boulder L, Mods/FlashShifter.StardewValleyExpandedCP/Jagged Boulder R, Mods/FlashShifter.StardewValleyExpandedCP/Large Wooden Barrel L, Mods/FlashShifter.StardewValleyExpandedCP/Large Wooden Barrel R, Mods/FlashShifter.StardewValleyExpandedCP/Log Pile, Mods/FlashShifter.StardewValleyExpandedCP/Moving Box, Mods/FlashShifter.StardewValleyExpandedCP/Small Barrel, Mods/FlashShifter.StardewValleyExpandedCP/Small Opened Barrel, Mods/FlashShifter.StardewValleyExpandedCP/Smooth Boulder L, Mods/FlashShifter.StardewValleyExpandedCP/Smooth Boulder R, Mods/FlashShifter.StardewValleyExpandedCP/Tied Log Pile, Mods/FlashShifter.StardewValleyExpandedCP/Tree Stump, Mods/FlashShifter.StardewValleyExpandedCP/Trimmed Berry Bush L, Mods/FlashShifter.StardewValleyExpandedCP/Trimmed Berry Bush R, Mods/FlashShifter.StardewValleyExpandedCP/Trimmed Bush L, Mods/FlashShifter.StardewValleyExpandedCP/Trimmed Bush R, Mods/FlashShifter.StardewValleyExpandedCP/Wild Berry Bush L, Mods/FlashShifter.StardewValleyExpandedCP/Wild Berry Bush R, Mods/FlashShifter.StardewValleyExpandedCP/Wild Bush L, Mods/FlashShifter.StardewValleyExpandedCP/Wild Bush R, Mods/FlashShifter.StardewValleyExpandedCP/Wood Barrel, Mods/FlashShifter.StardewValleyExpandedCP/Wood Crate",
+                "FromFile": "assets/Mods/craftables/{{TargetWithoutPath}}.png",
+                "Priority": "Medium"
+            }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+	"Changes": [
+        //Objects
+		{
+            "Action": "Load",
+            "Target": "Mods/FlashShifter.StardewValleyExpandedCP/Hedge Fence, Mods/FlashShifter.StardewValleyExpandedCP/Small Hardwood Fence",
+            "FromFile": "assets/Mods/fences/{{TargetWithoutPath}}.png",
+            "Priority": "Medium",
+			"When": { "brokenSVEupdate": false }
+        },
+        //Hedge Fence
+        {
+            "LogName": "Hedge Fence",
+            "Action": "EditImage",
+            "Target": "Mods/FlashShifter.StardewValleyExpandedCP/Hedge Fence Tilesheet",
+            "FromFile": "assets/Mods/fences/{{SeasonOverride}}_{{TargetWithoutPath}}.png",
+			"Update": "OnLocationChange",
+			"PatchMode": "Replace"
+        },
+        //Small Hardwood Fence
+        {
+            "LogName": "Small Hardwood Fence",
+            "Action": "EditImage",
+            "Target": "Mods/FlashShifter.StardewValleyExpandedCP/Small Hardwood Fence Tilesheet",
+            "FromFile": "assets/Mods/fences/{{SeasonOverride}}_{{TargetWithoutPath}}.png",
+			"Update": "OnLocationChange",
+			"PatchMode": "Replace"
+        },
+            //SnOverlay
+            {
+                "LogName": "Snow Small Hardwood Fence",
+                "Action": "EditImage",
+                "Target": "Mods/FlashShifter.StardewValleyExpandedCP/Small Hardwood Fence Tilesheet",
+                "FromFile": "assets/Mods/fences/{{TargetWithoutPath}}_snow.png",
+                "Update": "OnLocationChange",
+                "PatchMode": "Overlay",
+                "When": {
+                    "VibrantPastoral.C/SnOverlay": true,
+                    "SeasonOverride": "winter",
+                    "LocationName |contains=Custom_ForbiddenMaze, Custom_CrimsonBadlands, Custom_CastleVillageOutpost, Custom_DesertRailway, Custom_IridiumQuarry, Custom_TreasureCave, Custom_GaldoranVoid": false
+                }
+		}
+    ]
+}
