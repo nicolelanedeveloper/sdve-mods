@@ -1,16 +1,16 @@
 {
-  "Name": "Isla Reimagined",
-  "Author": "AEscraed",
+  "Name": "Isla Reimagined Redux",
+  "Author": "MarsCBG",
   "Description": "All-in-one replacer for Isla, Kelpie, Elysa and Soraya sprites and portraits.",
-  "Version": "3.4.0",
-  "UniqueID": "AEscraed.IslaReimagined",
-  "UpdateKeys": [ "Nexus: 8720" ],
+  "Version": "1.3.0",
+  "UniqueID": "MarsCBG.IslaReimaginedRedux",
+  "UpdateKeys": [ "Nexus: 24656" ],
   "ContentPackFor": {
 		"UniqueID": "Pathoschild.ContentPatcher"
   },
   "Dependencies": [
    {
 		"UniqueID": "PaperNautilus.Isla"
-   }
+   },
   ]
 }
