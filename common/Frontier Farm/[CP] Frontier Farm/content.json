@@ -1549,7 +1549,7 @@
 		"InstantlyUnlockDesertShortcut": false
       },
       "Entries": {
-        "1337439/t 1800 2600/H": "continue/118 26/farmer 118 26 2 Dwarf 118 27 0/skippable/pause 1000/speak Dwarf \"{{i18n:DwarfTunnel.11}}\"/pause 500/emote farmer 32/pause 350/end dialogue Dwarf \"{{i18n:DwarfTunnel.12}}\"",
+        "1337439/t 600 2600/H": "continue/118 26/farmer 118 26 2 Dwarf 118 27 0/skippable/pause 1000/speak Dwarf \"{{i18n:DwarfTunnel.11}}\"/pause 500/emote farmer 32/pause 350/end dialogue Dwarf \"{{i18n:DwarfTunnel.12}}\"",
       },
     },
     //Event #4 - Calico Desert Shortcut - Bomb Explosions

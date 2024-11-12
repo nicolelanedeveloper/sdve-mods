@@ -17292,16 +17292,15 @@
               "Loot": [
                 766,
                 766,
-                766,
-                "Void Pebble"
+                766
               ]
             }
           }
         ],
         "UniqueAreaID": "Highlands Night Spawns",
         "MapName": "Custom_Highlands",
-        "MinimumSpawnsPerDay": 200,
-        "MaximumSpawnsPerDay": 200,
+        "MinimumSpawnsPerDay": 80,
+        "MaximumSpawnsPerDay": 80,
         "IncludeTerrainTypes": [
           "All"
         ],
@@ -17348,7 +17347,7 @@
           "StartTime": 2000,
           "EndTime": 2600,
           "MinimumTimeBetweenSpawns": 20,
-          "MaximumSimultaneousSpawns": 30,
+          "MaximumSimultaneousSpawns": 15,
           "OnlySpawnIfAPlayerIsPresent": true,
           "SpawnSound": ""
         },
@@ -17397,16 +17396,15 @@
               "Loot": [
                 766,
                 766,
-                766,
-                "Void Pebble"
+                766
               ]
             }
           }
         ],
         "UniqueAreaID": "Highlands Night Spawns - Low Memory",
         "MapName": "Custom_Highlands",
-        "MinimumSpawnsPerDay": 70,
-        "MaximumSpawnsPerDay": 70,
+        "MinimumSpawnsPerDay": 50,
+        "MaximumSpawnsPerDay": 50,
         "IncludeTerrainTypes": [
           "All"
         ],
@@ -17510,8 +17508,8 @@
         ],
         "UniqueAreaID": "Highlands Night Spawns - shadow mobs",
         "MapName": "Custom_Highlands",
-        "MinimumSpawnsPerDay": 120,
-        "MaximumSpawnsPerDay": 120,
+        "MinimumSpawnsPerDay": 80,
+        "MaximumSpawnsPerDay": 80,
         "IncludeTerrainTypes": [
           "All"
         ],
@@ -17555,10 +17553,10 @@
         ],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 1800,
+          "StartTime": 2000,
           "EndTime": 2600,
           "MinimumTimeBetweenSpawns": 10,
-          "MaximumSimultaneousSpawns": 30,
+          "MaximumSimultaneousSpawns": 10,
           "OnlySpawnIfAPlayerIsPresent": true,
           "SpawnSound": "shadowpeep"
         },
@@ -17616,8 +17614,8 @@
         ],
         "UniqueAreaID": "Highlands Night Spawns - shadow mobs - low memory",
         "MapName": "Custom_Highlands",
-        "MinimumSpawnsPerDay": 40,
-        "MaximumSpawnsPerDay": 40,
+        "MinimumSpawnsPerDay": 30,
+        "MaximumSpawnsPerDay": 30,
         "IncludeTerrainTypes": [
           "All"
         ],
@@ -17661,7 +17659,7 @@
         ],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 1800,
+          "StartTime": 2000,
           "EndTime": 2600,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 7,
@@ -17722,8 +17720,8 @@
         ],
         "UniqueAreaID": "Highlands Night Spawns - shadow mobs - betrayed",
         "MapName": "Custom_Highlands",
-        "MinimumSpawnsPerDay": 160,
-        "MaximumSpawnsPerDay": 160,
+        "MinimumSpawnsPerDay": 120,
+        "MaximumSpawnsPerDay": 120,
         "IncludeTerrainTypes": [
           "All"
         ],
@@ -17767,7 +17765,7 @@
         ],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 1800,
+          "StartTime": 2000,
           "EndTime": 2600,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 30,
@@ -17829,8 +17827,8 @@
         ],
         "UniqueAreaID": "Highlands Night Spawns - shadow mobs - betrayed - low memory",
         "MapName": "Custom_Highlands",
-        "MinimumSpawnsPerDay": 50,
-        "MaximumSpawnsPerDay": 50,
+        "MinimumSpawnsPerDay": 40,
+        "MaximumSpawnsPerDay": 40,
         "IncludeTerrainTypes": [
           "All"
         ],
@@ -17877,7 +17875,7 @@
           "StartTime": 1800,
           "EndTime": 2600,
           "MinimumTimeBetweenSpawns": 10,
-          "MaximumSimultaneousSpawns": 6,
+          "MaximumSimultaneousSpawns": 4,
           "OnlySpawnIfAPlayerIsPresent": true,
           "SpawnSound": "shadowpeep"
         },
@@ -22332,8 +22330,8 @@
         ],
         "UniqueAreaID": "Highlands Cavern Shadow Monster Spawns",
         "MapName": "Custom_HighlandsCavern",
-        "MinimumSpawnsPerDay": 70,
-        "MaximumSpawnsPerDay": 70,
+        "MinimumSpawnsPerDay": 120,
+        "MaximumSpawnsPerDay": 120,
         "IncludeTerrainTypes": [],
         "ExcludeTerrainTypes": [],
         "IncludeCoordinates": [
@@ -22347,7 +22345,7 @@
         "StrictTileChecking": "High",
         "SpawnTiming": {
           "StartTime": 600,
-          "EndTime": 2600,
+          "EndTime": 2500,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 5,
           "OnlySpawnIfAPlayerIsPresent": true,
@@ -22413,8 +22411,8 @@
         ],
         "UniqueAreaID": "Highlands Cavern Shadow Monster Spawns - Aggro",
         "MapName": "Custom_HighlandsCavern",
-        "MinimumSpawnsPerDay": 20,
-        "MaximumSpawnsPerDay": 20,
+        "MinimumSpawnsPerDay": 30,
+        "MaximumSpawnsPerDay": 30,
         "IncludeTerrainTypes": [],
         "ExcludeTerrainTypes": [],
         "IncludeCoordinates": [
@@ -22428,7 +22426,7 @@
         "StrictTileChecking": "High",
         "SpawnTiming": {
           "StartTime": 600,
-          "EndTime": 2600,
+          "EndTime": 2500,
           "MinimumTimeBetweenSpawns": 20,
           "MaximumSimultaneousSpawns": 2,
           "OnlySpawnIfAPlayerIsPresent": true,
@@ -22494,8 +22492,8 @@
         ],
         "UniqueAreaID": "Highlands Cavern Shadow Monster Spawns - betrayed",
         "MapName": "Custom_HighlandsCavern",
-        "MinimumSpawnsPerDay": 50,
-        "MaximumSpawnsPerDay": 50,
+        "MinimumSpawnsPerDay": 70,
+        "MaximumSpawnsPerDay": 70,
         "IncludeTerrainTypes": [],
         "ExcludeTerrainTypes": [],
         "IncludeCoordinates": [
@@ -22509,7 +22507,7 @@
         "StrictTileChecking": "High",
         "SpawnTiming": {
           "StartTime": 600,
-          "EndTime": 2600,
+          "EndTime": 2500,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 4,
           "OnlySpawnIfAPlayerIsPresent": true,
@@ -22591,7 +22589,7 @@
         "StrictTileChecking": "High",
         "SpawnTiming": {
           "StartTime": 600,
-          "EndTime": 2600,
+          "EndTime": 2500,
           "MinimumTimeBetweenSpawns": 20,
           "MaximumSimultaneousSpawns": 2,
           "OnlySpawnIfAPlayerIsPresent": true,
@@ -22658,8 +22656,8 @@
         ],
         "UniqueAreaID": "Highlands Cavern Shadow Monster Spawns - Challenging",
         "MapName": "Custom_HighlandsCavern",
-        "MinimumSpawnsPerDay": 160,
-        "MaximumSpawnsPerDay": 160,
+        "MinimumSpawnsPerDay": 180,
+        "MaximumSpawnsPerDay": 180,
         "IncludeTerrainTypes": [],
         "ExcludeTerrainTypes": [],
         "IncludeCoordinates": [
@@ -22673,7 +22671,7 @@
         "StrictTileChecking": "High",
         "SpawnTiming": {
           "StartTime": 600,
-          "EndTime": 2600,
+          "EndTime": 2500,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 10,
           "OnlySpawnIfAPlayerIsPresent": true,
@@ -22739,8 +22737,8 @@
         ],
         "UniqueAreaID": "Highlands Cavern Shadow Monster Spawns - Aggro - Challenging",
         "MapName": "Custom_HighlandsCavern",
-        "MinimumSpawnsPerDay": 40,
-        "MaximumSpawnsPerDay": 40,
+        "MinimumSpawnsPerDay": 45,
+        "MaximumSpawnsPerDay": 45,
         "IncludeTerrainTypes": [],
         "ExcludeTerrainTypes": [],
         "IncludeCoordinates": [
@@ -22754,7 +22752,7 @@
         "StrictTileChecking": "High",
         "SpawnTiming": {
           "StartTime": 600,
-          "EndTime": 2600,
+          "EndTime": 2500,
           "MinimumTimeBetweenSpawns": 20,
           "MaximumSimultaneousSpawns": 4,
           "OnlySpawnIfAPlayerIsPresent": true,
@@ -23670,8 +23668,8 @@
         ],
         "UniqueAreaID": "Highlands Cavern Bat Spawns",
         "MapName": "Custom_HighlandsCavern",
-        "MinimumSpawnsPerDay": 25,
-        "MaximumSpawnsPerDay": 25,
+        "MinimumSpawnsPerDay": 40,
+        "MaximumSpawnsPerDay": 40,
         "IncludeTerrainTypes": [],
         "ExcludeTerrainTypes": [],
         "IncludeCoordinates": [
@@ -23683,8 +23681,8 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "None",
         "SpawnTiming": {
-          "StartTime": 600,
-          "EndTime": 2600,
+          "StartTime": 700,
+          "EndTime": 2400,
           "MinimumTimeBetweenSpawns": 20,
           "MaximumSimultaneousSpawns": 1,
           "OnlySpawnIfAPlayerIsPresent": true,
@@ -23730,8 +23728,8 @@
         ],
         "UniqueAreaID": "Highlands Cavern Bat Spawns - Challenging",
         "MapName": "Custom_HighlandsCavern",
-        "MinimumSpawnsPerDay": 35,
-        "MaximumSpawnsPerDay": 50,
+        "MinimumSpawnsPerDay": 50,
+        "MaximumSpawnsPerDay": 60,
         "IncludeTerrainTypes": [],
         "ExcludeTerrainTypes": [],
         "IncludeCoordinates": [
@@ -23743,8 +23741,8 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "None",
         "SpawnTiming": {
-          "StartTime": 600,
-          "EndTime": 2600,
+          "StartTime": 700,
+          "EndTime": 2400,
           "MinimumTimeBetweenSpawns": 20,
           "MaximumSimultaneousSpawns": 2,
           "OnlySpawnIfAPlayerIsPresent": true,
@@ -26383,6 +26381,7 @@
               "DodgeChance": 5,
               "Sprite": "Characters/Monsters/BullyRex",
               "InstantKillImmunity": true,
+              "StunImmunity": true,
               "Loot": [
                 "Golden Key",
                 "Ornate Treasure Chest",
@@ -26444,6 +26443,7 @@
               "DodgeChance": 5,
               "Sprite": "Characters/Monsters/BullyRex",
               "InstantKillImmunity": true,
+              "StunImmunity": true,
               "Loot": [
                 "Ornate Treasure Chest",
                 166,
@@ -26581,8 +26581,8 @@
               "DodgeChance": 30,
               "SeesPlayersAtSpawn": true,
               "Segments": 7,
-              "StunImmunity": true,
-              "InstantKillImmunity": true,
+              "StunImmunity": false,
+              "InstantKillImmunity": false,
               "Loot": [
                 166,
                 769,

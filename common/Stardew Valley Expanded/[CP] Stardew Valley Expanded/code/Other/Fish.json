@@ -2351,13 +2351,12 @@
             },
          },
       },
-	  /*
 	  {  //Wolf Snapper
          "Action": "EditData",
          "Target": "Data/FishPondData",
          "Entries": {
             "FlashShifter.StardewValleyExpandedCP_Wolf_Snapper": {
-               "ID": "LegendaryFish",
+               "ID": "FlashShifter.StardewValleyExpandedCP_Wolf_Snapper",
                "RequiredTags": [
                   "item_wolf_snapper",
                ],
@@ -2365,7 +2364,7 @@
                "ProducedItems": [
                   {
                      "RequiredPopulation": 0,
-                     "Chance": 0.99,
+                     "Chance": 0.8,
                      "ItemID": 812,
                      "MinQuantity": 1,
                      "MaxQuantity": 1
@@ -2375,7 +2374,29 @@
             },
          },
       },
-	  */
+	  {  //Turretfish
+         "Action": "EditData",
+         "Target": "Data/FishPondData",
+         "Entries": {
+            "FlashShifter.StardewValleyExpandedCP_Turretfish": {
+               "ID": "FlashShifter.StardewValleyExpandedCP_Turretfish",
+               "RequiredTags": [
+                  "item_turretfish",
+               ],
+               "SpawnTime": -1,
+               "ProducedItems": [
+                  {
+                     "RequiredPopulation": 0,
+                     "Chance": 0.6,
+                     "ItemID": 812,
+                     "MinQuantity": 1,
+                     "MaxQuantity": 1
+                  }
+               ],
+               "PopulationGates": null
+            },
+         },
+      },
       {
          "Action": "EditData",
          "Target": "Mods/shekurika.VisibleFish/LocationData",
