@@ -1,7 +1,7 @@
 {
-  "Name": "Vibrant Pastoral C#",
+  "Name": "Vibrant Pastoral",
   "Author": "Semisu",
-  "Version": "1.0.0-c",
+  "Version": "2.0.2",
   "Description": "Registered Tokens for Vibrant Pastoral Redrawn and dependant mods.\nConfig changes outside the main menu may require saving/reloading.",
   "UniqueID": "VibrantPastoral.C",
   "EntryDll": "VibrantPastoral.dll",

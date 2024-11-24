@@ -5300,7 +5300,7 @@
         "UniqueAreaID": "Forest forage area 3",
         "MapName": "Forest",
         "MinimumSpawnsPerDay": 0,
-        "MaximumSpawnsPerDay": 3,
+        "MaximumSpawnsPerDay": 2,
         "IncludeTerrainTypes": [
           "Grass",
           "Diggable"
@@ -5356,7 +5356,7 @@
         "UniqueAreaID": "Desert forage spawns",
         "MapName": "Desert",
         "MinimumSpawnsPerDay": 2,
-        "MaximumSpawnsPerDay": 6,
+        "MaximumSpawnsPerDay": 5,
         "IncludeTerrainTypes": [],
         "ExcludeTerrainTypes": [],
         "IncludeCoordinates": [
@@ -5982,7 +5982,7 @@
         "UniqueAreaID": "Mountain forage area 2",
         "MapName": "Mountain",
         "MinimumSpawnsPerDay": 0,
-        "MaximumSpawnsPerDay": 3,
+        "MaximumSpawnsPerDay": 2,
         "IncludeTerrainTypes": [
           "Grass",
           "Diggable"
@@ -6025,7 +6025,7 @@
         "UniqueAreaID": "RailRoad forage area 1",
         "MapName": "RailRoad",
         "MinimumSpawnsPerDay": 1,
-        "MaximumSpawnsPerDay": 3,
+        "MaximumSpawnsPerDay": 2,
         "IncludeTerrainTypes": [
           "Grass",
           "Diggable"
@@ -6074,7 +6074,9 @@
         "ExcludeTerrainTypes": [],
         "IncludeCoordinates": [],
         "ExcludeCoordinates": [
-          "56,58;0,47"
+          "45,46;11,28",
+          "56,50;10,48",
+          "10,53;0,50"
         ],
         "StrictTileChecking": "High",
         "SpawnTiming": {
@@ -6509,7 +6511,7 @@
         "UniqueAreaID": "Lucky Four Leaf Clover Forest West spawns",
         "MapName": "Custom_ForestWest",
         "MinimumSpawnsPerDay": 0,
-        "MaximumSpawnsPerDay": 2,
+        "MaximumSpawnsPerDay": 1,
         "IncludeTerrainTypes": [],
         "ExcludeTerrainTypes": [],
         "IncludeCoordinates": [
@@ -6549,8 +6551,8 @@
         "WinterItemIndex": [],
         "UniqueAreaID": "Mushroom Colony Forest West spawns",
         "MapName": "Custom_ForestWest",
-        "MinimumSpawnsPerDay": 8,
-        "MaximumSpawnsPerDay": 16,
+        "MinimumSpawnsPerDay": 6,
+        "MaximumSpawnsPerDay": 12,
         "IncludeTerrainTypes": [],
         "ExcludeTerrainTypes": [],
         "IncludeCoordinates": [
@@ -6610,8 +6612,8 @@
         ],
         "UniqueAreaID": "Forest West forage area 1",
         "MapName": "Custom_ForestWest",
-        "MinimumSpawnsPerDay": 10,
-        "MaximumSpawnsPerDay": 18,
+        "MinimumSpawnsPerDay": 8,
+        "MaximumSpawnsPerDay": 14,
         "IncludeTerrainTypes": [],
         "ExcludeTerrainTypes": [],
         "IncludeCoordinates": [
@@ -6674,8 +6676,8 @@
         ],
         "UniqueAreaID": "Forest West forage area 2",
         "MapName": "Custom_ForestWest",
-        "MinimumSpawnsPerDay": 2,
-        "MaximumSpawnsPerDay": 5,
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 3,
         "IncludeTerrainTypes": [],
         "ExcludeTerrainTypes": [],
         "IncludeCoordinates": [
@@ -6876,7 +6878,7 @@
         "UniqueAreaID": "Forest West forage area 6",
         "MapName": "Custom_ForestWest",
         "MinimumSpawnsPerDay": 1,
-        "MaximumSpawnsPerDay": 4,
+        "MaximumSpawnsPerDay": 3,
         "IncludeTerrainTypes": [],
         "ExcludeTerrainTypes": [],
         "IncludeCoordinates": [
@@ -7014,7 +7016,7 @@
         ],
         "UniqueAreaID": "Forest West forage area 9",
         "MapName": "Custom_ForestWest",
-        "MinimumSpawnsPerDay": 3,
+        "MinimumSpawnsPerDay": 1,
         "MaximumSpawnsPerDay": 3,
         "IncludeTerrainTypes": [],
         "ExcludeTerrainTypes": [],
@@ -12040,7 +12042,7 @@
               "SpawnWeight": 1,
               "SeesPlayersAtSpawn": false,
               "HP": 180,
-              "Damage": 35,
+              "Damage": 31,
               "DodgeChance": 0,
               "ExtraLoot": true,
               "Loot": [
@@ -12180,7 +12182,7 @@
               "SpawnWeight": 1,
               "SeesPlayersAtSpawn": false,
               "HP": 220,
-              "Damage": 37,
+              "Damage": 33,
               "DodgeChance": 0,
               "ExtraLoot": true,
               "Loot": [
@@ -12322,7 +12324,7 @@
               "SpawnWeight": 1,
               "SeesPlayersAtSpawn": false,
               "HP": 200,
-              "Damage": 35,
+              "Damage": 33,
               "DodgeChance": 0,
               "ExtraLoot": true,
               "Loot": [
@@ -26754,7 +26756,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "None",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 20,
           "MaximumSimultaneousSpawns": 8,
@@ -26875,7 +26877,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 10,
@@ -26940,7 +26942,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 6,
@@ -27006,7 +27008,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 8,
@@ -27091,7 +27093,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "None",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 20,
           "MaximumSimultaneousSpawns": 5,
@@ -27212,7 +27214,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 6,
@@ -27277,7 +27279,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 3,
@@ -27343,7 +27345,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 3,
@@ -27428,7 +27430,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "None",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 20,
           "MaximumSimultaneousSpawns": 8,
@@ -27549,7 +27551,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 11,
@@ -27614,7 +27616,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 3,
@@ -27680,7 +27682,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 12,
@@ -27765,7 +27767,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "None",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 20,
           "MaximumSimultaneousSpawns": 8,
@@ -27886,7 +27888,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 12,
@@ -27951,7 +27953,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 5,
@@ -28017,7 +28019,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 5,
@@ -28102,7 +28104,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "None",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 20,
           "MaximumSimultaneousSpawns": 5,
@@ -28225,7 +28227,7 @@
         ],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 8,
@@ -28292,7 +28294,7 @@
         ],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 4,
@@ -28360,7 +28362,7 @@
         ],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 4,
@@ -28445,7 +28447,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "None",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 20,
           "MaximumSimultaneousSpawns": 12,
@@ -28577,7 +28579,7 @@
         ],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 20,
@@ -28645,7 +28647,7 @@
         ],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 10,
@@ -28714,7 +28716,7 @@
         ],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 20,
@@ -28796,7 +28798,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "None",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 20,
           "MaximumSimultaneousSpawns": 14,
@@ -28919,7 +28921,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 14,
@@ -28986,7 +28988,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 10,
@@ -29054,7 +29056,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 10,
@@ -29139,7 +29141,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "None",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 20,
           "MaximumSimultaneousSpawns": 7,
@@ -29260,7 +29262,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 9,
@@ -29325,7 +29327,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 6,
@@ -29391,7 +29393,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 12,
@@ -29475,7 +29477,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "None",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 20,
           "MaximumSimultaneousSpawns": 7,
@@ -29521,7 +29523,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "None",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 20,
           "MaximumSimultaneousSpawns": 5,
@@ -29642,7 +29644,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 13,
@@ -29707,7 +29709,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 5,
@@ -29773,7 +29775,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 12,
@@ -29859,7 +29861,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "None",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 20,
           "MaximumSimultaneousSpawns": 8,
@@ -29988,7 +29990,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 22,
@@ -30053,7 +30055,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 13,
@@ -30119,7 +30121,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 16,
@@ -30204,7 +30206,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "None",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 20,
           "MaximumSimultaneousSpawns": 5,
@@ -30333,7 +30335,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 11,
@@ -30398,7 +30400,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 6,
@@ -30464,7 +30466,7 @@
         "ExcludeCoordinates": [],
         "StrictTileChecking": "High",
         "SpawnTiming": {
-          "StartTime": 2200,
+          "StartTime": 2100,
           "EndTime": 2550,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 15,

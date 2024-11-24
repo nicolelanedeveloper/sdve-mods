@@ -25,6 +25,10 @@
       "AllowValues": "true, false",
       "Default": "false"
     },
+	"RemoveTreeHidingBackyardMouseStatue": {
+      "AllowValues": "true, false",
+      "Default": "false"
+    },
 	"SmallerBackyardFence": {
       "AllowValues": "true, false",
       "Default": "false"
@@ -747,7 +751,7 @@
     //Configurations
     
 
-	//RemoveStonePathways
+	//Remove Stone Pathways
 	{
       "Action": "EditMap",
       "Target": "Maps/Farm_FrontierFarm",
@@ -763,6 +767,22 @@
         "FarmType": "FrontierFarm",
 		"RemoveStonePathways": true,
 		"SandboxLayout": false
+      }
+    },
+	//Remove Tree Hiding Backyard Mouse Statue
+	{
+      "Action": "EditMap",
+      "Target": "Maps/Farm_FrontierFarm",
+      "FromFile": "assets/MapPatches/FrontierFarm_RemoveTreeHidingBackyardMouseStatue.tmx",
+      "ToArea": {
+        "X": 105,
+        "Y": 10,
+        "Width": 4,
+        "Height": 8
+      },
+      "When": {
+        "FarmType": "FrontierFarm",
+		"RemoveTreeHidingBackyardMouseStatue": true
       }
     },
 	//Removes Picnic Table

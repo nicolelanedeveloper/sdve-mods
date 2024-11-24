@@ -199,17 +199,16 @@
 				"Priority": "Early",
 				"When": { "VibrantPastoral.C/GreenFall": true }
 			},
-			// {
-			// 	"LogName": "Outdoors Tilesheet 2 Shadows",
-			// 	"Action": "EditImage",
-			// 	"Target": "Maps/fall_outdoorsTileSheet2",
-			// 	"FromFile": "assets/Patches/{{Target}}_green.png",
-			// 	"PatchMode": "Replace",
-			// 	"Priority": "Early",
-			// 	"FromArea": { "X": 0, "Y": 816, "Width": 112, "Height": 80 },
-			// 	"ToArea": { "X": 0, "Y": 816, "Width": 112, "Height": 80 },
-			// 	"When": { "VibrantPastoral.C/GreenFall": true }
-			// },
+			{
+				"LogName": "Outdoors Tilesheet 2 Bookseller Green",
+				"Action": "EditImage",
+				"Target": "Maps/fall_outdoorsTileSheet2",
+				"FromFile": "assets/{{Target}}.png",
+				"PatchMode": "Replace",
+				"Priority": "Early",
+				"FromArea": { "X": 112, "Y": 224, "Width": 33, "Height": 16 },
+				"ToArea": { "X": 112, "Y": 208, "Width": 33, "Height": 16 }
+			},
 			//Water
 			{
 				"LogName": "Outdoors Tilesheet 2 Water",
