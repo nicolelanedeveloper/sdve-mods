@@ -10483,8 +10483,8 @@
         ],
         "UniqueAreaID": "Junimo Woods Junimo Noises",
         "MapName": "Custom_JunimoWoods",
-        "MinimumSpawnsPerDay": 35,
-        "MaximumSpawnsPerDay": 35,
+        "MinimumSpawnsPerDay": 50,
+        "MaximumSpawnsPerDay": 50,
         "IncludeTerrainTypes": [
           "Any"
         ],
@@ -10496,7 +10496,55 @@
         "StrictTileChecking": "High",
         "SpawnTiming": {
           "StartTime": 600,
-          "EndTime": 2200,
+          "EndTime": 2600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": 1,
+          "OnlySpawnIfAPlayerIsPresent": true,
+          "SpawnSound": "junimoMeep1"
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": [
+          30
+        ],
+        "SummerItemIndex": [
+          30
+        ],
+        "FallItemIndex": [
+          30
+        ],
+        "WinterItemIndex": [
+          30
+        ],
+        "UniqueAreaID": "Sprite Spring Junimo Noises",
+        "MapName": "Custom_SpriteSpring2",
+        "MinimumSpawnsPerDay": 50,
+        "MaximumSpawnsPerDay": 50,
+        "IncludeTerrainTypes": [
+          "Any"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "8,7;0,0"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 2600,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": 1,
           "OnlySpawnIfAPlayerIsPresent": true,
@@ -14505,6 +14553,66 @@
             "Settings": {
               "SpawnWeight": 1,
               "HP": 2000,
+              "Damage": 105,
+              "DodgeChance": 10,
+              "ExtraLoot": false,
+              "Loot": [
+                "Void Pebble",
+                "Void Delight",
+                769,
+                769,
+                768
+              ],
+              "Sprite": "Characters/Monsters/CorruptMummy"
+            }
+          }
+        ],
+        "UniqueAreaID": "Crimson Badlands Mummy Cave Guards - Void Delight",
+        "MapName": "Custom_CrimsonBadlands",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "9,138;5,136",
+          "14,141;14,141",
+          "24,135;24,135",
+          "8,143;8,143",
+          "8,153;8,151"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": 15,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [
+            "RANDOM 0.5"
+          ],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Mummy",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 2000,
               "Damage": 100,
               "DodgeChance": 10,
               "ExtraLoot": false,
@@ -14545,6 +14653,62 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Mummy",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 2000,
+              "Damage": 100,
+              "DodgeChance": 10,
+              "ExtraLoot": false,
+              "Loot": [
+                "Void Pebble",
+                "Void Delight",
+                769,
+                769,
+                768
+              ],
+              "Sprite": "Characters/Monsters/CorruptMummy"
+            }
+          }
+        ],
+        "UniqueAreaID": "Crimson Badlands Corrupt Mummy Guard - Void Delight",
+        "MapName": "Custom_CrimsonBadlands",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "20,144;20,144"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": 15,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [
+            "RANDOM 0.4"
+          ],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -15082,6 +15246,66 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [],
+          "CPConditions": {
+            "HasFlag |contains=SVE_LowMemoryBadlands": "true",
+            "HasFlag |contains=SVE_ChallengingBadlands": "false"
+          },
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Serpent",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 2000,
+              "Damage": 75,
+              "DodgeChance": 20,
+              "SeesPlayersAtSpawn": true,
+              "Loot": [
+                "Void Pebble",
+                "Void Salmon Sushi",
+                769,
+                769,
+                769,
+                226
+              ],
+              "Sprite": "Characters/Monsters/CorruptSerpent"
+            }
+          }
+        ],
+        "UniqueAreaID": "Corrupt Serpent Timed Spawns - Low Memory - Void Salmon Sushi",
+        "MapName": "Custom_CrimsonBadlands",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "0,155;0,100"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "None",
+        "SpawnTiming": {
+          "StartTime": 830,
+          "EndTime": 2500,
+          "MinimumTimeBetweenSpawns": 100,
+          "MaximumSimultaneousSpawns": 1,
+          "OnlySpawnIfAPlayerIsPresent": true,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [
+            "RANDOM 0.4"
+          ],
           "CPConditions": {
             "HasFlag |contains=SVE_LowMemoryBadlands": "true",
             "HasFlag |contains=SVE_ChallengingBadlands": "false"
@@ -16837,6 +17061,65 @@
               "HP": 2000,
               "Damage": 75,
               "DodgeChance": 20,
+              "SeesPlayersAtSpawn": true,
+              "Loot": [
+                "Void Pebble",
+                "Void Salmon Sushi",
+                769,
+                769,
+                769,
+                226
+              ],
+              "Sprite": "Characters/Monsters/CorruptSerpent"
+            }
+          }
+        ],
+        "UniqueAreaID": "Corrupt Serpent Timed Spawns - Void Salmon Sushi",
+        "MapName": "Custom_CrimsonBadlands",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "0,155;0,100"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "None",
+        "SpawnTiming": {
+          "StartTime": 830,
+          "EndTime": 2500,
+          "MinimumTimeBetweenSpawns": 120,
+          "MaximumSimultaneousSpawns": 1,
+          "OnlySpawnIfAPlayerIsPresent": true,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [
+            "RANDOM 0.4"
+          ],
+          "CPConditions": {
+            "HasFlag |contains=SVE_LowMemoryBadlands": "false"
+          },
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Serpent",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 2000,
+              "Damage": 75,
+              "DodgeChance": 20,
               "SeesPlayersAtSpawn": false,
               "Loot": [
                 "Void Pebble",
@@ -16932,6 +17215,66 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [],
+          "CPConditions": {
+            "HasFlag |contains=SVE_ChallengingBadlands": "true",
+            "HasFlag |contains=SVE_LowMemoryBadlands": "false"
+          },
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Serpent",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 2000,
+              "Damage": 75,
+              "DodgeChance": 20,
+              "SeesPlayersAtSpawn": true,
+              "Loot": [
+                "Void Pebble",
+                "Void Salmon Sushi",
+                769,
+                769,
+                769,
+                226
+              ],
+              "Sprite": "Characters/Monsters/CorruptSerpent"
+            }
+          }
+        ],
+        "UniqueAreaID": "Corrupt Serpent Timed Spawns - Challenging - Void Salmon Sushi",
+        "MapName": "Custom_CrimsonBadlands",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "0,155;0,100"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "None",
+        "SpawnTiming": {
+          "StartTime": 830,
+          "EndTime": 2500,
+          "MinimumTimeBetweenSpawns": 110,
+          "MaximumSimultaneousSpawns": 1,
+          "OnlySpawnIfAPlayerIsPresent": true,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [
+            "RANDOM 0.33"
+          ],
           "CPConditions": {
             "HasFlag |contains=SVE_ChallengingBadlands": "true",
             "HasFlag |contains=SVE_LowMemoryBadlands": "false"
@@ -17166,6 +17509,62 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Mummy",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 2000,
+              "Damage": 110,
+              "DodgeChance": 15,
+              "ExtraLoot": false,
+              "Loot": [
+                "Void Pebble",
+                "Void Delight",
+                769,
+                769,
+                768
+              ],
+              "Sprite": "Characters/Monsters/CorruptMummy"
+            }
+          }
+        ],
+        "UniqueAreaID": "Corrupt Mummy's at iridium quarry - Void Delight",
+        "MapName": "Custom_IridiumQuarry",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "56,39;0,0"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": 16,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [
+            "RANDOM .70"
+          ],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null

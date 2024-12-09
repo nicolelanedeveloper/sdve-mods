@@ -816,7 +816,7 @@
                     "ExcludeFromRandomSale": true,
                     "Buffs": [
                         {
-                            "Duration": 1600,
+                            "Duration": 5143,
                             "CustomAttributes": {
                                 "FarmingLevel": 0,
                                 "FishingLevel": 0,
@@ -824,7 +824,7 @@
                                 "LuckLevel": 0,
                                 "ForagingLevel": 0,
                                 "MaxStamina": 0,
-                                "MagneticRadius": 800,
+                                "MagneticRadius": 999,
                                 "Speed": 0,
                                 "Defense": 0,
                                 "Attack": 0

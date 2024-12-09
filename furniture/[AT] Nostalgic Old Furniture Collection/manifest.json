@@ -1,0 +1,13 @@
+﻿{
+  "Name": "[AT] Nostalgic Old Furniture Collection",
+  "Author": "Stardust",
+  "Version": "1.3.1",
+  "Description": "Find some cozy and lovely furniture by Paint Bucket:)",
+  "UniqueID": "AT.Nostalgic.Old.Furniture.Collection",
+  "UpdateKeys": [],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "7.2.4"
+  }
+}

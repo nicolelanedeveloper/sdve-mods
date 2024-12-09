@@ -243,45 +243,6 @@
 					"Texture": "Mods/PC.QL.FlowerGarden2/Recipes",
 					"SpriteIndex": 3
 				},
-				"QL_FlowerCookies": {
-					"Name": "QL_FlowerCookies",
-					"Displayname": "{{i18n:FlowerCookies.name}}",
-					"Description": "{{i18n:FlowerCookies.description}}",
-					"Type": "Cooking",
-					"Category": -7,
-					"Price": 320,
-					"Edibility": 45,
-					"Buff": {
-						"BuffId": null,
-						"IconTexture": null,
-						"IconSpriteIndex": 0,
-						"Duration": 360,
-						"IsDebuff": false,
-						"GlowColor": null,
-						"CustomAttributes": {
-							"FarmingLevel": 0,
-							"FishingLevel": 0,
-							"MiningLevel": 0,
-							"LuckLevel": 1,
-							"ForagingLevel": 0,
-							"MaxStamina": 0,
-							"MagneticRadius": 0,
-							"Speed": 0,
-							"Defense": 0,
-							"Attack": 0
-						}
-					},
-					"ContextTags": [
-						"food_item",
-						"color_sand",
-						"food_dessert",
-						"food_sweet",
-						"food_bakery",
-						"food_dessert_pretty"
-					],
-					"Texture": "Mods\\PC.QL.Recipes\\Objects",
-					"SpriteIndex": 4
-				},
 				"QL_GardeniaBlancmange": {
 					"Name": "QL_GardeniaBlancmange",
 					"Displayname": "{{i18n:GardeniaBlancmange.name}}",
@@ -436,26 +397,6 @@
 					],
 					"Texture": "Mods/PC.QL.FlowerGarden2/Recipes",
 					"SpriteIndex": 9
-				},
-				"QL_LilacCake": {
-					"Name": "QL_LilacCake",
-					"Displayname": "{{i18n:LilacCake.name}}",
-					"Description": "{{i18n:LilacCake.description}}",
-					"Type": "Cooking",
-					"Category": -7,
-					"Price": 400,
-					"Edibility": 58,
-					"ContextTags": [
-						"food_item",
-						"color_sand",
-						"food_sweet",
-						"food_bakery",
-						"food_pastry",
-						"food_cake",
-						"food_cake_pretty"
-					],
-					"Texture": "Mods/PC.QL.FlowerGarden2/Recipes",
-					"SpriteIndex": 10
 				},
 				"QL_LilacIceCream": {
 					"Name": "QL_LilacIceCream",
@@ -632,6 +573,74 @@
 					"Texture": "Mods/PC.QL.FlowerGarden2/Recipes",
 					"SpriteIndex": 15
 				},
+			}
+		},
+		{
+		
+			"LogName": "QL Recipe - QL Artisan Goods",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {"ArtisanGoodsRecipes": true},
+			"Entries": {
+				"QL_FlowerCookies": {
+					"Name": "QL_FlowerCookies",
+					"Displayname": "{{i18n:FlowerCookies.name}}",
+					"Description": "{{i18n:FlowerCookies.description}}",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 320,
+					"Edibility": 45,
+					"Buff": {
+						"BuffId": null,
+						"IconTexture": null,
+						"IconSpriteIndex": 0,
+						"Duration": 360,
+						"IsDebuff": false,
+						"GlowColor": null,
+						"CustomAttributes": {
+							"FarmingLevel": 0,
+							"FishingLevel": 0,
+							"MiningLevel": 0,
+							"LuckLevel": 1,
+							"ForagingLevel": 0,
+							"MaxStamina": 0,
+							"MagneticRadius": 0,
+							"Speed": 0,
+							"Defense": 0,
+							"Attack": 0
+						}
+					},
+					"ContextTags": [
+						"food_item",
+						"color_sand",
+						"food_dessert",
+						"food_sweet",
+						"food_bakery",
+						"food_dessert_pretty"
+					],
+					"Texture": "Mods/PC.QL.FlowerGarden2/Recipes",
+					"SpriteIndex": 4
+				},
+				"QL_LilacCake": {
+					"Name": "QL_LilacCake",
+					"Displayname": "{{i18n:LilacCake.name}}",
+					"Description": "{{i18n:LilacCake.description}}",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 400,
+					"Edibility": 58,
+					"ContextTags": [
+						"food_item",
+						"color_sand",
+						"food_sweet",
+						"food_bakery",
+						"food_pastry",
+						"food_cake",
+						"food_cake_pretty"
+					],
+					"Texture": "Mods/PC.QL.FlowerGarden2/Recipes",
+					"SpriteIndex": 10
+				},
 				"QL_RoseTorte": {
 					"Name": "QL_RoseTorte",
 					"Displayname": "{{i18n:RoseTorte.name}}",
@@ -652,8 +661,7 @@
 					"SpriteIndex": 16
 				},
 			}
-		},
-				
+		},					
         {
               "LogName":"QL - Flower Garden 2 Recipes",
               "Action": "EditData",
@@ -668,23 +676,32 @@
 "QL_BloomRolls": "246 1 -5 1 QL_Lilac 2/2 4/QL_BloomRolls/f Leah 4/{{i18n:BloomRolls.name}}",
 "QL_BlossomTart": "246 1 -5 1 QL_Pansy 5/1 8/QL_BlossomTart/s Foraging 4/{{i18n:BlossomTart.name}}",
 "QL_CoconutDrink": "88 1 QL_Hibiscus 1/3 3/QL_CoconutDrink/s Foraging 2/{{i18n:CoconutDrink.name}}", 
-"QL_FlowerCookies": "246 1 245 1 QL_CandiedFlowers 3/1 1/QL_FlowerCookies/f Evelyn 6/{{i18n:FlowerCookies.name}}", 
 "QL_GardeniaBlancmange": "186 2 245 1 152 1 QL_Gardenia 1/22 3/QL_GardeniaBlancmange/f Evelyn 8/{{i18n:GardeniaBlancmange.name}}",
 "QL_JasmineGreenJelly": "-6 1 152 2 QL_Jasmine 5 815 1/6 4/QL_JasmineGreenJelly/f Leah 6/{{i18n:JasmineGreenJelly.name}}",
 "QL_JasmineTea": "815 1 245 1 QL_Jasmine 3/1 1/QL_JasmineTea/f Caroline 4/{{i18n:JasmineTea.name}}", 
 "QL_LavenderScones": "246 1 245 1 -5 1 QL_Lavender 3/20 1/QL_LavenderScones/f Penny 4/{{i18n:LavenderScones.name}}", 
 "QL_LavenderMilk": "186 1 QL_Lavender 2 340 1/22 3/QL_LavenderMilk/f Caroline 6/{{i18n:LavenderMilk.name}}",
-"QL_LilacCake": "246 1 245 1 -5 1 QL_LilacExtract 1 QL_Lilac 1/20 1/QL_LilacCake/f Maru 6/{{i18n:LilacCake.name}}", 
 "QL_LilacIceCream": "-6 1 -5 1 245 1 QL_Lilac 1/2 4/QL_LilacIceCream/f Demetrius 6/{{i18n:LilacIceCream.name}}",
 "QL_MelonMarbles": "254 1 400 1 QL_Hibiscus 1/1 1/QL_MelonMarbles/f Gus 4/{{i18n:MelonMarbles.name}}", 
 "QL_PrettyCrepes": "246 1 -5 1 QL_Pansy 3/20 1/QL_PansyCrepes/s Foraging 6/{{i18n:PansyCrepes.name}}", 
 "QL_PotatoSoup": "192 2 QL_Lavender 1 248 1 20 1/1 1/QL_PotatoSoup/s Farming 6/{{i18n:PotatoSoup.name}}",
 "QL_RainbowSalad": "QL_Pansy 3 246 1 417 1 419 1/20 1/QL_RainbowSalad/s Farming 8/{{i18n:RainbowSalad.name}}", 
-"QL_RoseTorte": "246 1 245 1 442 1 QL_RoseExtract 1 QL_Rose 1/22 3/QL_RoseTorte/f Evelyn 10/{{i18n:RoseTorte.name}}",
+
  
               }
       },
-						
+        {
+              "LogName":"QL - QL Artisan Goods Recipes",
+              "Action": "EditData",
+              "Target": "Data/CookingRecipes",
+			  "When": {"ArtisanGoodsRecipes": true},
+              "Entries": {
+
+"QL_LilacCake": "246 1 245 1 -5 1 QL_LilacExtract 1 QL_Lilac 1/20 1/QL_LilacCake/f Maru 6/{{i18n:LilacCake.name}}",
+"QL_RoseTorte": "246 1 245 1 442 1 QL_RoseExtract 1 QL_Rose 1/22 3/QL_RoseTorte/f Evelyn 10/{{i18n:RoseTorte.name}}",
+"QL_FlowerCookies": "246 1 245 1 QL_CandiedFlowers 3/1 1/QL_FlowerCookies/f Evelyn 6/{{i18n:FlowerCookies.name}}", 
+			}
+		},
         {
               "LogName":"QL - Recipes Mail",
               "Action": "EditData",

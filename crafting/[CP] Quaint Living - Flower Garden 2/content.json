@@ -17,6 +17,11 @@
 			"Default":"true",
 			"Description":"Allow recipes to be automatically learned from the start of the game. Turn off if you want the recipes to be sent via letters by NPCs like vanilla recipes behavior."
 			},
+		"ArtisanGoodsRecipes": {
+			"AllowValues":"true, false",
+			"Default":"false",
+			"Description":"Requires Quaint Living - Artisan Goods. Toggling this option on will unlock additional recipes."
+			},
 		},
 	"Changes": [
 	{
